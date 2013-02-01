@@ -29,14 +29,29 @@ $app['debug']=true;
 require_once __DIR__ . "/../includes/database.php";
 
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
-        'twig.path' => __DIR__ . '/../views/',
-    ));
+    'twig.path' => __DIR__ . '/../views/',
+));
 $app->get("/", function (Silex\Application $app) use ($navigation) {
     return $app['twig']->render('index.html.twig', array(
         'nav' => $navigation,
         'active' => 'Home'
     ));
 });
+
+$app->get("/badges", function (Silex\Application $app) use ($navigation) {
+    return $app['twig']->render('badges.html.twig', array(
+        'nav' => $navigation,
+        'active' => 'Home'
+    ));
+});
+
+$app->get("/banners", function (Silex\Application $app) use ($navigation) {
+    return $app['twig']->render('banners.html.twig', array(
+        'nav' => $navigation,
+        'active' => 'Home'
+    ));
+});
+
 $app->get("/register", function (Silex\Application $app) use ($navigation) {
     return $app['twig']->render('register.html.twig', array(
         'nav' => $navigation,
