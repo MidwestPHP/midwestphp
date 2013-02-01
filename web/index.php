@@ -24,21 +24,22 @@ $navigation = array(
 
 $app = new Silex\Application();
 
-require_once __DIR__ . "/database.php";
+$app['debug']=true;
+
+require_once __DIR__ . "/../includes/database.php";
 
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
-        'twig.path' => __DIR__ . '/../views',
+        'twig.path' => __DIR__ . '/../views/',
     ));
-
 $app->get("/", function (Silex\Application $app) use ($navigation) {
-    return $app['twig']->render('index.html.twig.twig', array(
-        'navigation' => $navigation,
+    return $app['twig']->render('index.html.twig', array(
+        'nav' => $navigation,
         'active' => 'Home'
     ));
 });
 $app->get("/register", function (Silex\Application $app) use ($navigation) {
     return $app['twig']->render('register.html.twig', array(
-        'navigation' => $navigation,
+        'nav' => $navigation,
         'active' => 'Register'
     ));
 });
@@ -49,7 +50,7 @@ $app->get("/sessions", function (Silex\Application $app) use ($navigation) {
     $sessions = $app['dbs']['mysql_read']->fetchAll($sqlStatement);
 
     return $app['twig']->render('sessions.html.twig', array(
-        'navigation' => $navigation,
+        'nav' => $navigation,
         'active' => 'Home',
         'sessions' => $sessions
     ));
@@ -61,7 +62,7 @@ $app->get("/speakers", function (Silex\Application $app) use ($navigation) {
     $speakers = $app['dbs']['mysql_read']->fetchAll($sql);
 
     return $app['twig']->render('speakers.html.twig', array(
-        'navigation' => $navigation,
+        'nav' => $navigation,
         'active' => 'Home',
         'speakers' => $speakers
     ));
@@ -69,29 +70,31 @@ $app->get("/speakers", function (Silex\Application $app) use ($navigation) {
 $app->get("/sponsorList", function (Silex\Application $app) use ($navigation) {
 
     return $app['twig']->render('sponsor_list.html.twig', array(
-        'navigation' => $navigation,
+        'nav' => $navigation,
         'active' => 'Sponsors'
     ));
 });
 $app->get("/sponsorCall", function (Silex\Application $app) use ($navigation) {
 
     return $app['twig']->render('sponsor_call.html.twig', array(
-        'navigation' => $navigation,
+        'nav' => $navigation,
         'active' => 'Sponsors'
     ));
 });
 $app->get("/venue", function (Silex\Application $app) use ($navigation) {
 
     return $app['twig']->render('venue.html.twig', array(
-        'navigation' => $navigation,
+        'nav' => $navigation,
         'active' => 'Venue'
     ));
 });
 $app->get("/contact", function (Silex\Application $app) use ($navigation) {
 
     return $app['twig']->render('contact.html.twig', array(
-        'navigation' => $navigation,
+        'nav' => $navigation,
         'active' => 'Contact'
     ));
 });
+
+
 $app->run();

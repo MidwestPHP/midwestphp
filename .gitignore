@@ -1,5 +1,6 @@
 .idea/*
 .settings/*
+vendor/*
 composer.phar
 composer.lock
 
