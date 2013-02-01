@@ -1,0 +1,45 @@
+body {
+	color: #444;
+}
+
+#wrapper {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	background: #fff;
+}
+
+.show-grid {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+.teaser {
+	color: #666;
+}
+
+.dates {
+	color: #069;
+}
+
+.center-text {
+	text-align:center;
+}
+
+@media (max-width: 767px){
+	.show-grid [class*="span"] {
+		margin-bottom: 5px;
+	}
+}
+
+@media (min-width: 768px){
+	body {
+		background: #333;
+	}
+}
+@media (min-width: 1024px){
+	#wrapper {			
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+}
