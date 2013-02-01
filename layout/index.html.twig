@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link href="css/bootstrap (2).css" rel="stylesheet">
-    <link href="css/midwestphp.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../css/bootstrap (2).css" rel="stylesheet">
+    <link href="../css/midwestphp.css" rel="stylesheet">
+    <link href="../css/bootstrap-responsive.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -38,28 +38,30 @@
                             <span class="icon-bar"></span>
                         </a>
                         <div class="nav-collapse collapse">
+                            {% block nav %}
                             <ul class="nav">
                                 <li class="active">
                                     <a href="/">Home</a>
                                 </li>
                                 <li>
-                                    <a href="/index.php?module=default&amp;controller=default&amp;view=register">Register</a>
+                                    <a href="/web/index.php?module=default&amp;controller=default&amp;view=register">Register</a>
                                 </li>
                                 <li>
-                                    <a href="/index.php?module=default&amp;controller=sessions&amp;view=default">Sessions</a>
+                                    <a href="/web/index.php?module=default&amp;controller=sessions&amp;view=default">Sessions</a>
                                 </li>
                                 <li>
-                                    <a href="/index.php?module=default&amp;controller=speaker&amp;view=list">Speakers</a>
+                                    <a href="/web/index.php?module=default&amp;controller=speaker&amp;view=list">Speakers</a>
                                 </li>
                                 <li>
-                                    <a href="/index.php?module=default&amp;controller=sponsor&amp;view=default">Call for Sponsors</a></li>
+                                    <a href="/web/index.php?module=default&amp;controller=sponsor&amp;view=default">Call for Sponsors</a></li>
                                 <li>
                                     <a href="http://www.cce.umn.edu/Continuing-Education-and-Conference-Center/index.html"
                                        target="_blank">Venue</a></li>
                                 <li>
-                                    <a href="/index.php?module=default&amp;controller=default&amp;view=contact">Contact</a>
+                                    <a href="/web/index.php?module=default&amp;controller=default&amp;view=contact">Contact</a>
                                 </li>
                             </ul>
+                            {% endblock %}
                         </div>
                     </div>
                 </div>
@@ -70,6 +72,16 @@
 <div class="container-fluid">
     <div class="row-fluid">
         <div class="span8">
+
+            <div class="share">
+                <span class="st_email_large" displaytext="Email" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;" class="stButton"><span class="stLarge" style="background-image: url(http://w.sharethis.com/images/email_32.png);"></span><img src="http://w.sharethis.com/images/check-big.png" style="position: absolute; top: -7px; right: -7px; width: 19px; height: 19px; max-width: 19px; max-height: 19px; display: none;"></span></span>
+                <span class="st_twitter_large" displaytext="Tweet" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;" class="stButton"><span class="stLarge" style="background-image: url(http://w.sharethis.com/images/twitter_32.png);"></span><img src="http://w.sharethis.com/images/check-big.png" style="position: absolute; top: -7px; right: -7px; width: 19px; height: 19px; max-width: 19px; max-height: 19px; display: none;"></span></span>
+                <span class="st_linkedin_large" displaytext="LinkedIn" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;" class="stButton"><span class="stLarge" style="background-image: url(http://w.sharethis.com/images/linkedin_32.png);"></span><img src="http://w.sharethis.com/images/check-big.png" style="position: absolute; top: -7px; right: -7px; width: 19px; height: 19px; max-width: 19px; max-height: 19px; display: none;"></span></span>
+                <span class="st_facebook_large" displaytext="Facebook" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;" class="stButton"><span class="stLarge" style="background-image: url(http://w.sharethis.com/images/facebook_32.png);"></span><img src="http://w.sharethis.com/images/check-big.png" style="position: absolute; top: -7px; right: -7px; width: 19px; height: 19px; max-width: 19px; max-height: 19px; display: none;"></span></span>
+                <span class="st_sharethis_large" displaytext="ShareThis" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;" class="stButton"><span class="stLarge" style="background-image: url(http://w.sharethis.com/images/sharethis_32.png);"></span><img src="http://w.sharethis.com/images/check-big.png" style="position: absolute; top: -7px; right: -7px; width: 19px; height: 19px; max-width: 19px; max-height: 19px; display: none;"></span></span>
+            </div>
+
+            {% block content %}
             <h3>Welcome</h3>
             <h4>Speaker Lineup Announced!</h4>
 
@@ -120,11 +132,11 @@
 
             <p>With 40 sessions on 6 different tracks you're sure to find exactly what you're looking for. But don't
                 just take our word for it, check out the <a
-                        href="/index.php?module=default&amp;controller=sessions&amp;view=default">session lineup</a>!</p>
+                        href="/web/index.php?module=default&amp;controller=sessions&amp;view=default">session lineup</a>!</p>
 
             <h3>Unbelievable Price!</h3>
 
-            <p>Get your <a href="/index.php?module=default&amp;controller=default&amp;view=register">all-access conference
+            <p>Get your <a href="/web/index.php?module=default&amp;controller=default&amp;view=register">all-access conference
                 ticket</a> for just <b>$199</b>!</p>
 
             <p>The conference will take place at the Univesity of Minnesota Continuing Education and Conference
@@ -132,6 +144,7 @@
                 skill levels, as well as a full breakfast and lunch each day, and tons of goodies and prizes!
 
             </p>
+            {% endblock %}
         </div>
         <!--/span-->
         <div class="span4">
@@ -147,7 +160,7 @@
 
                 <div class="row-fluid show-grid">
                     <div class="span4">
-                        <a href="http://truenorthphp.ca/" target="_blank"><img src="img/sponsors/truenorth.png"
+                        <a href="http://truenorthphp.ca/" target="_blank"><img src="../img/sponsors/truenorth.png"
                                                                                alt=""></a>
                     </div>
                     <div class="span4">
@@ -156,7 +169,7 @@
                     </div>
                     <div class="span4">
                         <a href="http://engineyard.com/" target="_blank"><img
-                                src="img/sponsors/Engine-Yard-Logo.png" alt=""></a>
+                                src="../img/sponsors/Engine-Yard-Logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="row-fluid show-grid">
@@ -188,10 +201,10 @@
                 <hr>
                 <div class="row-fluid">
                     <div class="span6">
-                        <a href="/index.php?module=default&amp;controller=sponsor&amp;view=default">Get Listed Here</a>
+                        <a href="/web/index.php?module=default&amp;controller=sponsor&amp;view=default">Get Listed Here</a>
                     </div>
                     <div class="span6">
-                        <a href="/index.php?module=default&amp;controller=sponsor&amp;view=list">View All Sponsors</a>
+                        <a href="/web/index.php?module=default&amp;controller=sponsor&amp;view=list">View All Sponsors</a>
                     </div>
                 </div>
             </div>
@@ -215,7 +228,7 @@
                     <img src="http://www.midwestphp.org/badges/attendee.png" alt="" style="width: 100px">
                 </div>
                 <h4 class="dates">show your pride</h4>
-                Add a MidwestPHP <a href="/index.php?module=default&amp;controller=default&amp;view=badges">badge</a> to
+                Add a MidwestPHP <a href="/web/index.php?module=default&amp;controller=default&amp;view=badges">badge</a> to
                 your site or blog
             </div>
 
@@ -226,8 +239,8 @@
                     Join our <a href="http://www.eventbrite.com/affiliate-register?eid=4524171920&amp;affid=21499456"
                                 target="_blank">affiliate program</a> today.</p>
 
-                <p>Conference <a href="/index.php?module=default&amp;controller=default&amp;view=banners">Banners</a> / <a
-                        href="/index.php?module=default&amp;controller=default&amp;view=badges">Badges</a>.</p>
+                <p>Conference <a href="/web/index.php?module=default&amp;controller=default&amp;view=banners">Banners</a> / <a
+                        href="/web/index.php?module=default&amp;controller=default&amp;view=badges">Badges</a>.</p>
             </div>
         </div>
     </div>
@@ -237,7 +250,7 @@
     </footer>
 </div>
 </div>
-<script src="js/jquery-1.9.0.min.js"></script>
-<script src="js/bootstrap.js"></script>
+<script src="../js/jquery-1.9.0.min.js"></script>
+<script src="../js/bootstrap.js"></script>
 </body>
 </html>

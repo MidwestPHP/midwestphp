@@ -1,0 +1,13 @@
+{% extends "../layout/index.html.twig.twig" %}
+
+{% block nav %}
+    <ul class="nav">
+        {% for item in nav %}
+            {% if item.title == active %}
+                <li class="active"><a href="{{ item.link }}">{{ item.title }}</a></li>
+            {% else %}
+                <li><a href="{{ item.link }}">{{ item.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endblock %}

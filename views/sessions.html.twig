@@ -1,0 +1,22 @@
+{% extends "../layout/index.html.twig.twig" %}
+
+{% block nav %}
+    <ul class="nav">
+        {% for item in nav %}
+            {% if item.title == active %}
+                <li class="active"><a href="{{ item.link }}">{{ item.title }}</a></li>
+            {% else %}
+                <li><a href="{{ item.link }}">{{ item.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endblock %}
+
+{% block content %}
+     <h3>Sessions</h3>
+
+
+
+    <p><i>Disclaimer: While we will do everything we can to ensure all sessions as described, sessions and speakers are
+        subject to change based on speaker availability and company obligations. </i></p>
+{% endblock %}

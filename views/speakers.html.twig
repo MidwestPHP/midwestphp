@@ -1,0 +1,79 @@
+{% extends "../layout/index.html.twig.twig" %}
+
+{% block nav %}
+    <ul class="nav">
+        {% for item in nav %}
+            {% if item.title == active %}
+                <li class="active"><a href="{{ item.link }}">{{ item.title }}</a></li>
+            {% else %}
+                <li><a href="{{ item.link }}">{{ item.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endblock %}
+
+{% block content %}
+    <h3>Who's Coming to Town</h3>
+
+    <p>We are pleased to announce the speaker line up for this year's conference, with speakers coming from around the
+        world and from top companies such as</p>
+
+    <div class="center-text">
+        <div class="row-fluid">
+            <div class="span4">
+                <img src="http://www.midwestphp.org/companies/facebook.jpg" style="height: 50px" alt="">
+            </div>
+            <div class="span4">
+                <img src="http://www.midwestphp.org/companies/oracle.jpg" style="height: 50px" alt="">
+            </div>
+            <div class="span4">
+                <img src="http://www.midwestphp.org/companies/paypal.jpg" style="height: 50px" alt="">
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span4">
+                <img src="http://www.midwestphp.org/companies/10gen.jpg" style="height: 50px" alt="">
+            </div>
+            <div class="span4">
+                <img src="http://www.midwestphp.org/companies/zend.jpg" style="height: 50px" alt="">
+            </div>
+            <div class="span4">
+                <img src="http://www.midwestphp.org/companies/nbc.jpg" style="height: 50px" alt="">
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span4">
+                <img src="http://www.midwestphp.org/companies/gsn.jpg" style="height: 50px" alt="">
+            </div>
+            <div class="span4">
+                <img src="http://www.midwestphp.org/companies/engineyard.png" style="height: 50px" alt="">
+            </div>
+            <div class="span4">
+                <img src="http://www.midwestphp.org/sponsors/serverGrove.png" style="height: 50px" alt="">
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <img src="http://www.midwestphp.org/companies/akiban.png" style="height: 50px" alt="">
+            </div>
+        </div>
+    </div>
+
+    <p>USA &bull; Belgium &bull; Canada &bull; England &bull; Ireland &bull; Spain &bull; The Netherlands</p>
+
+    {% set float = "left" %}
+    {% for item in speakers %}
+        {% if float === "left" %}
+            <img src="/imgs/speakers/{{ item.image }}}.jpg" width="150" height="150"
+                 style="margin-top: 25px; padding: 0 15px 15px 15px ;float: left;">
+            {% set float = "right" %}
+        {% else %}
+            <img src="/imgs/speakers/{{ item.image }}}.jpg" width="150" height="150"
+                 style="margin-top: 25px; padding: 0 15px 15px 15px ;float: right;">
+            {% set float = "left" %}
+        {% endif %}
+        <h3 style="margin-bottom: 10px; font-family: 'Yanone Kaffeesatz, sans-serif'; font-size: 30px;">{{ item.name }}</h3>
+
+        <p style="text-align: justify">{{ item.bio }}}</p>
+    {% endfor %}
+{% endblock %}
