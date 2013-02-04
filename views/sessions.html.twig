@@ -15,7 +15,17 @@
 {% block content %}
      <h3>Sessions</h3>
 
-
+    {% for item in sessions %}
+    <a id="{{ item.title|replace({' ': "_"}) }}">
+    <div class="row-fluid">
+        <div class="span12">
+            {{ item.title }} - <a href="/speakers#{{ item.fname }}_{{ item.lname }}">{{ item.fname }} {{ item.lname }}</a>
+            <div class="row-fluid">
+                {{ item.summary }}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
 
     <p><i>Disclaimer: While we will do everything we can to ensure all sessions as described, sessions and speakers are
         subject to change based on speaker availability and company obligations. </i></p>
