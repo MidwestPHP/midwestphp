@@ -73,7 +73,7 @@ $app->get("/sessions", function (Silex\Application $app) use ($navigation) {
 
 $app->get("/speakers", function (Silex\Application $app) use ($navigation) {
 
-    $sql = "SELECT id, title, fname, lname, bio FROM c4p WHERE status = 'accepted' GROUP BY fname, lname ORDER BY fname, last ASC";
+    $sql = "SELECT id, title, fname, lname, bio FROM c4p WHERE status = 'accepted' GROUP BY fname, lname ORDER BY fname, lname ASC";
 
     $speakers = $app['dbs']['mysql_read']->fetchAll($sql);
 
