@@ -17,10 +17,10 @@
      <h3>Sessions</h3>
 
     {% for item in sessions %}
-    <a id="{{ item.title|replace({' ': "_"}) }}">
+    <a id="{{ item.title|replace({' ': "_"}) }}"></a>
     <div class="row-fluid">
         <div class="span12">
-            {{ item.title }} - <a href="/speakers#{{ item.fname }}_{{ item.lname }}">{{ item.fname }} {{ item.lname }}</a>
+            <b>{{ item.title }}</b> - <a href="/speakers#{{ item.fname }}_{{ item.lname }}">{{ item.fname }} {{ item.lname }}</a>
             <div class="row-fluid">
                 {{ item.summary }}
             </div>
