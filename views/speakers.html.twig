@@ -1,6 +1,6 @@
 {% extends "/../layout/index.html.twig" %}
 
-{% block title %}Speakers | {% endblock %}
+{% block title %}Speakers - {% endblock %}
 
 {% block nav %}
     <ul class="nav">
@@ -64,7 +64,6 @@
     <p>USA &bull; Belgium &bull; Canada &bull; England &bull; Ireland &bull; Spain &bull; The Netherlands</p>
 
     {% set float = "left" %}
-    {% set previousSpeaker = "" %}
     {% for item in speakers %}
         <a id="{{ item.fname }}_{{ item.lname }}"></a>
         <img src="/imgs/speakers/{{ item.fname }}{{ item.lname}}.jpg" width="150" height="150"
