@@ -66,7 +66,7 @@ $app->get("/sessions", function (Silex\Application $app) use ($navigation) {
 
     return $app['twig']->render('sessions.html.twig', array(
         'nav' => $navigation,
-        'active' => 'Home',
+        'active' => 'Sessions',
         'sessions' => $sessions
     ));
 });
@@ -79,7 +79,7 @@ $app->get("/speakers", function (Silex\Application $app) use ($navigation) {
 
     return $app['twig']->render('speakers.html.twig', array(
         'nav' => $navigation,
-        'active' => 'Home',
+        'active' => 'Speakers',
         'speakers' => $speakers
     ));
 });
