@@ -38,7 +38,7 @@ $app->get("/", function (Silex\Application $app) use ($navigation) {
     ));
 });
 
-$app->get("/badges", function (Silex\Application $app) use ($navigation) {
+$app->get("/badge", function (Silex\Application $app) use ($navigation) {
     return $app['twig']->render('badges.html.twig', array(
         'nav' => $navigation,
         'active' => 'Home'
