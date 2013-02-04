@@ -60,7 +60,7 @@ $app->get("/register", function (Silex\Application $app) use ($navigation) {
 });
 $app->get("/sessions", function (Silex\Application $app) use ($navigation) {
 
-    $sqlStatement = "SELECT * from something";
+    $sqlStatement = "SELECT id, fname, lname, summary FROM c4p WHERE status = 'accepted' ORDER BY track, title ASC";
 
     $sessions = $app['dbs']['mysql_read']->fetchAll($sqlStatement);
 
@@ -70,9 +70,23 @@ $app->get("/sessions", function (Silex\Application $app) use ($navigation) {
         'sessions' => $sessions
     ));
 });
+
+$app->get("/sessions/{id}", function (Silex\Application $app, $id) use ($navigation) {
+
+    $sqlStatement = "SELECT * FROM c4p WHERE status = 'accepted' ORDER BY track, title ASC";
+
+    $sessions = $app['dbs']['mysql_read']->fetchAll($sqlStatement);
+
+    return $app['twig']->render('sessions.html.twig', array(
+        'nav' => $navigation,
+        'active' => 'Home',
+        'sessions' => $sessions
+    ));
+});
+
 $app->get("/speakers", function (Silex\Application $app) use ($navigation) {
 
-    $sql = "SELECT * from something";
+    $sql = "SELECT fname, lname, bio FROM c4p WHERE status = 'accepted' GROUP BY fname, lname ORDER BY fname, last ASC";
 
     $speakers = $app['dbs']['mysql_read']->fetchAll($sql);
 
