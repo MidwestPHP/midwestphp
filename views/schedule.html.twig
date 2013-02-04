@@ -1,5 +1,7 @@
 {% extends "/../layout/index.html.twig" %}
 
+{% block title %}Sessions schedule - {% endblock %}
+
 {% block nav %}
     <ul class="nav">
         {% for item in nav %}
@@ -10,4 +12,71 @@
             {% endif %}
         {% endfor %}
     </ul>
+{% endblock %}
+
+
+{% block content %}
+<table>
+    <thead>
+		<tr>
+			<td scope="col"></td>
+			<th scope="col">Room 1</th>
+			<th scope="col">Room 2</th>
+			<th scope="col">Room 3</th>
+			<th scope="col">Room 4</th>
+		</tr>
+	</thead>
+  <tbody>
+    <tr class="vcard">
+			<th scope="row" class="n" data-title="time"><b>9:00 am</b></th>
+			<td data-title="Ballroom" colspan="4">Opening Keynote (Learning how to learn) - Joel Clermont</td>
+		</tr>
+		<tr class="vcard">
+			<th scope="row" class="n" data-title="time">10:00 am</th>
+			<td data-title="Room 1">TBD</td>
+			<td data-title="Room 2">TBD</td>
+			<td data-title="Room 3">TBD</td>
+			<td data-title="Room 4">TBD</td>
+		</tr>
+		<tr class="vcard">
+			<th scope="row" class="n" data-title="time">11:00 am</th>
+			<td data-title="Room 1">TBD</td>
+			<td data-title="Room 2">TBD</td>
+			<td data-title="Room 3">TBD</td>
+			<td data-title="Room 4">TBD</td>
+		</tr>
+		<tr class="vcard">
+			<th scope="row" class="n" data-title="time">12:00 pm</th>
+			<td data-title="Room 1" colspan="4">Lunch break</td>
+		</tr>
+		<tr class="vcard">
+			<th scope="row" class="n" data-title="time">1:00 pm</th>
+			<td data-title="Room 1">TBD</td>
+			<td data-title="Room 2">TBD</td>
+			<td data-title="Room 3">TBD</td>
+			<td data-title="Room 4">TBD</td>
+		</tr>
+		<tr class="vcard">
+			<th scope="row" class="n" data-title="time">2:00 pm</th>
+			<td data-title="Room 1">TBD</td>
+			<td data-title="Room 2">TBD</td>
+			<td data-title="Room 3">TBD</td>
+			<td data-title="Room 4">TBD</td>
+		</tr>
+		<tr class="vcard">
+			<th scope="row" class="n" data-title="time">3:00 pm</th>
+			<td data-title="Room 1">TBD</td>
+			<td data-title="Room 2">TBD</td>
+			<td data-title="Room 3">TBD</td>
+			<td data-title="Room 4">TBD</td>
+		</tr>
+		<tr class="vcard">
+			<th scope="row" class="n" data-title="time">4:00 pm</th>
+			<td data-title="Room 1">TBD</td>
+			<td data-title="Room 2">TBD</td>
+			<td data-title="Room 3">TBD</td>
+			<td data-title="Room 4">TBD</td>
+		</tr>
+	</tbody>
+</table>
 {% endblock %}
