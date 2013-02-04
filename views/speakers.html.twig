@@ -68,12 +68,13 @@
         <a id="{{ item.fname }}_{{ item.lname }}"></a>
         <img src="/imgs/speakers/{{ item.fname }}{{ item.lname}}.jpg" width="150" height="150"
              style="margin-top: 25px; padding: 0 15px 15px 15px ;float: {{ float }};">
-        {% if float === "left" %}
+        {% if float == "left" %}
             {% set float = "right" %}
         {% else %}
             {% set float = "left" %}
         {% endif %}
         <h3 style="margin-bottom: 10px; font-family: 'Yanone Kaffeesatz, sans-serif'; font-size: 30px;">{{ item.fname }} {{ item.lname }}</h3>
         <p style="text-align: justify">{{ item.bio }}}</p>
+        <div class="clearfix"></div>
     {% endfor %}
 {% endblock %}
