@@ -60,7 +60,7 @@ $app->get("/register", function (Silex\Application $app) use ($navigation) {
 });
 $app->get("/sessions", function (Silex\Application $app) use ($navigation) {
 
-    $sqlStatement = "SELECT id, fname, lname, summary FROM c4p WHERE status = 'accepted' ORDER BY track, title ASC";
+    $sqlStatement = "SELECT id, title, fname, lname, summary FROM c4p WHERE status = 'accepted' ORDER BY track, title ASC";
 
     $sessions = $app['dbs']['mysql_read']->fetchAll($sqlStatement);
 
