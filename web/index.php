@@ -58,6 +58,7 @@ $app->get("/register", function (Silex\Application $app) use ($navigation) {
         'active' => 'Register'
     ));
 });
+
 $app->get("/sessions", function (Silex\Application $app) use ($navigation) {
 
     $sqlStatement = "SELECT id, title, fname, lname, summary FROM c4p WHERE status = 'accepted' ORDER BY track, title ASC";
@@ -68,6 +69,14 @@ $app->get("/sessions", function (Silex\Application $app) use ($navigation) {
         'nav' => $navigation,
         'active' => 'Sessions',
         'sessions' => $sessions
+    ));
+});
+
+$app->get("/schedule", function (Silex\Application $app) use ($navigation) {
+
+    return $app['twig']->render('schedule.html.twig', array(
+        'nav' => $navigation,
+        'active' => 'Sessions'
     ));
 });
 
@@ -83,6 +92,7 @@ $app->get("/speakers", function (Silex\Application $app) use ($navigation) {
         'speakers' => $speakers
     ));
 });
+
 $app->get("/sponsorList", function (Silex\Application $app) use ($navigation) {
 
     return $app['twig']->render('sponsor_list.html.twig', array(
@@ -90,6 +100,7 @@ $app->get("/sponsorList", function (Silex\Application $app) use ($navigation) {
         'active' => 'Sponsors'
     ));
 });
+
 $app->get("/sponsorCall", function (Silex\Application $app) use ($navigation) {
 
     return $app['twig']->render('sponsor_call.html.twig', array(
@@ -97,6 +108,7 @@ $app->get("/sponsorCall", function (Silex\Application $app) use ($navigation) {
         'active' => 'Sponsors'
     ));
 });
+
 $app->get("/venue", function (Silex\Application $app) use ($navigation) {
 
     return $app['twig']->render('venue.html.twig', array(
@@ -104,6 +116,7 @@ $app->get("/venue", function (Silex\Application $app) use ($navigation) {
         'active' => 'Venue'
     ));
 });
+
 $app->get("/contact", function (Silex\Application $app) use ($navigation) {
 
     return $app['twig']->render('contact.html.twig', array(
