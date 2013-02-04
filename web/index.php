@@ -71,22 +71,9 @@ $app->get("/sessions", function (Silex\Application $app) use ($navigation) {
     ));
 });
 
-$app->get("/sessions/{id}", function (Silex\Application $app, $id) use ($navigation) {
-
-    $sqlStatement = "SELECT * FROM c4p WHERE status = 'accepted' ORDER BY track, title ASC";
-
-    $sessions = $app['dbs']['mysql_read']->fetchAll($sqlStatement);
-
-    return $app['twig']->render('sessions.html.twig', array(
-        'nav' => $navigation,
-        'active' => 'Home',
-        'sessions' => $sessions
-    ));
-});
-
 $app->get("/speakers", function (Silex\Application $app) use ($navigation) {
 
-    $sql = "SELECT id, title, fname, lname, bio FROM c4p WHERE status = 'accepted' ORDER BY fname, last ASC";
+    $sql = "SELECT id, title, fname, lname, bio FROM c4p WHERE status = 'accepted' GROUP BY fname, lname ORDER BY fname, last ASC";
 
     $speakers = $app['dbs']['mysql_read']->fetchAll($sql);
 
