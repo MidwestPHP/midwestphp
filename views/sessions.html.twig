@@ -18,7 +18,7 @@
 
     {% for item in sessions %}
     <a id="{{ item.title|replace({' ': "_"}) }}"></a>
-    <div class="row-fluid">
+    <div class="row-fluid show-grid">
         <div class="span12">
             <b>{{ item.title }}</b> - <a href="/speakers#{{ item.fname }}_{{ item.lname }}">{{ item.fname }} {{ item.lname }}</a>
             <div class="row-fluid">
