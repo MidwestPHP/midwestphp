@@ -1,8 +1,13 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: jsundquist
- * Date: 1/31/13
- * Time: 6:54 PM
- * To change this template use File | Settings | File Templates.
- */
+$app->register(new Silex\Provider\DoctrineServiceProvider(), array(
+    'dbs.options' => array(
+        'mysql_read' => array(
+            'driver'    => 'pdo_mysql',
+            'host'      => 'localhost',
+            'dbname'    => 'phpfreeze_callforpapers',
+            'user'      => 'phpfreeze',
+            'password'  => 'timbuk22',
+            'charset'   => 'utf8'
+        )
+    )
+));
