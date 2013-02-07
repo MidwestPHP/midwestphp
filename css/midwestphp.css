@@ -26,6 +26,10 @@ body {
 	text-align:center;
 }
 
+.tableCellCenter {
+    text-align:left;
+}
+
 @media (max-width: 767px){
 	.show-grid [class*="span"] {
 		margin-bottom: 5px;
@@ -36,12 +40,18 @@ body {
 	body {
 		background: #333;
 	}
+    .tableCellCenter {
+        text-align:center;
+    }
 }
 @media (min-width: 1024px){
 	#wrapper {			
 		max-width: 1024px;
 		margin: 0 auto;
 	}
+    .tableCellCenter {
+        text-align:center;
+    }
 }
 
 table {

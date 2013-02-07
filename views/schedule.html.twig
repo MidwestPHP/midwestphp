@@ -16,71 +16,102 @@
 
 
 {% block content %}
+<h3>Day 1</h3>
 <div class="row-fluid">
-<div class="span12">
-<table>
-    <thead>
-		<tr>
-			<td scope="col"></td>
-			<th scope="col">Room 1</th>
-			<th scope="col">Room 2</th>
-			<th scope="col">Room 3</th>
-			<th scope="col">Room 4</th>
-		</tr>
-	</thead>
-  <tbody>
-    <tr class="vcard">
-			<th scope="row" class="n" data-title="time"><b>9:00 am</b></th>
-			<td data-title="Ballroom" colspan="4">Opening Keynote (Learning how to learn) - Joel Clermont</td>
-		</tr>
-		<tr class="vcard">
-			<th scope="row" class="n" data-title="time">10:00 am</th>
-			<td data-title="Room 1">TBD</td>
-			<td data-title="Room 2">TBD</td>
-			<td data-title="Room 3">TBD</td>
-			<td data-title="Room 4">TBD</td>
-		</tr>
-		<tr class="vcard">
-			<th scope="row" class="n" data-title="time">11:00 am</th>
-			<td data-title="Room 1">TBD</td>
-			<td data-title="Room 2">TBD</td>
-			<td data-title="Room 3">TBD</td>
-			<td data-title="Room 4">TBD</td>
-		</tr>
-		<tr class="vcard">
-			<th scope="row" class="n" data-title="time">12:00 pm</th>
-			<td data-title="Room 1" colspan="4">Lunch break</td>
-		</tr>
-		<tr class="vcard">
-			<th scope="row" class="n" data-title="time">1:00 pm</th>
-			<td data-title="Room 1">TBD</td>
-			<td data-title="Room 2">TBD</td>
-			<td data-title="Room 3">TBD</td>
-			<td data-title="Room 4">TBD</td>
-		</tr>
-		<tr class="vcard">
-			<th scope="row" class="n" data-title="time">2:00 pm</th>
-			<td data-title="Room 1">TBD</td>
-			<td data-title="Room 2">TBD</td>
-			<td data-title="Room 3">TBD</td>
-			<td data-title="Room 4">TBD</td>
-		</tr>
-		<tr class="vcard">
-			<th scope="row" class="n" data-title="time">3:00 pm</th>
-			<td data-title="Room 1">TBD</td>
-			<td data-title="Room 2">TBD</td>
-			<td data-title="Room 3">TBD</td>
-			<td data-title="Room 4">TBD</td>
-		</tr>
-		<tr class="vcard">
-			<th scope="row" class="n" data-title="time">4:00 pm</th>
-			<td data-title="Room 1">TBD</td>
-			<td data-title="Room 2">TBD</td>
-			<td data-title="Room 3">TBD</td>
-			<td data-title="Room 4">TBD</td>
-		</tr>
-	</tbody>
-</table>
+    <div class="span12">
+        <table class="table table-striped table-condensed">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Room 1</th>
+                    <th scope="col">Room 2</th>
+                    <th scope="col">Room 3</th>
+                    <th scope="col">Room 4</th>
+                </tr>
+            </thead>
+          <tbody>
+                <tr class="vcard">
+                    <th scope="row" class="n" data-title="time" nowrap><b>8:00 am</b></th>
+                    <td data-title="Ballroom" colspan="4" class="tableCellCenter ">Registration</td>
+                </tr>
+                <tr class="vcard">
+                    <th scope="row" class="n" data-title="time" nowrap><b>9:00 am</b></th>
+                    <td data-title="Ballroom" colspan="4" class="tableCellCenter"> Keynote </td>
+                </tr>
+                {% set count = 0 %}
+                {% set hour = 10 %}
+                {% for session in sessions %}
+                 {% if count == 0 %}
+                <tr class="vcard">
+                    <th scope="row" class="n" data-title="time" nowrap>{{ hour > 12 ? hour - 12 : hour }}:00 {{ hour < 12 ? 'am' : 'pm' }}</th>
+                    <td data-title="Room {{ count + 1 }}"><a href="/sessions/{{ session.title|replace({' ' : '_'}) }}">{{session.title}}</a> (<a href="/speakers#{{ session.fname }}_{{ session.lname }}">{{ session.fname }} {{ session.lname }}</a>) <!-- ({{session.name}}) --></td>
+                {% else %}
+                    <td data-title="Room {{ count + 1 }}"><a href="/sessions/{{ session.title|replace({' ' : '_'}) }}">{{session.title}}</a> (<a href="/speakers#{{ session.fname }}_{{ session.lname }}">{{ session.fname }} {{ session.lname }}</a>) <!--({{session.name}})--></td>
+                {% endif %}
+                {% set count  = count + 1 %}
+                {% if count == 4 %}
+                    {% set hour = hour + 1 %}
+                    {% if hour == 12 %}
+                </tr>
+                <tr class="vcard">
+                    <th scope="row" class="n" data-title="time" nowrap>{{ hour }}:00 pm</th>
+                    <td data-title="Cafeteria" colspan="4" class="tableCellCenter ">Lunch</td>
+                    {% set hour = hour + 1 %}
+                    {% endif %}
+                    {% set count = 0 %}
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
 </div>
+
+<h3>Day 2</h3>
+<div class="row-fluid">
+    <div class="span12">
+        <table class="table table-striped table-condensed">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Room 1</th>
+                    <th scope="col">Room 2</th>
+                    <th scope="col">Room 3</th>
+                    <th scope="col">Room 4</th>
+                </tr>
+            </thead>
+          <tbody>
+                <tr class="vcard">
+                    <th scope="row" class="n" data-title="time" nowrap><b>9:00 am</b></th>
+                    <td data-title="Ballroom" colspan="4" class="tableCellCenter "> Keynote </td>
+                </tr>
+                {% set count = 0 %}
+                {% set hour = 10 %}
+                {% for session in day2 %}
+                 {% if count == 0 %}
+                <tr class="vcard">
+                    <th scope="row" class="n" data-title="time" nowrap>{{ hour > 12 ? hour - 12 : hour }}:00 {{ hour < 12 ? 'am' : 'pm' }}</th>
+                    <td data-title="Room {{ count + 1 }}"><a href="/sessions/{{ session.title|replace({' ' : '_'}) }}">{{session.title}}</a> (<a href="/speakers#{{ session.fname }}_{{ session.lname }}">{{ session.fname }} {{ session.lname }}</a>) <!-- ({{session.name}}) --></td>
+                {% else %}
+                    <td data-title="Room {{ count + 1 }}"><a href="/sessions/{{ session.title|replace({' ' : '_'}) }}">{{session.title}}</a> (<a href="/speakers#{{ session.fname }}_{{ session.lname }}">{{ session.fname }} {{ session.lname }}</a>) <!--({{session.name}})--></td>
+                {% endif %}
+                {% set count  = count + 1 %}
+                {% if count == 4 %}
+                    {% set hour = hour + 1 %}
+                    {% if hour == 12 %}
+                </tr>
+                <tr class="vcard">
+                    <th scope="row" class="n" data-title="time" nowrap>{{ hour }}:00 pm</th>
+                    <td data-title="Cafeteria" colspan="4" class="tableCellCenter ">Lunch</td>
+                    {% set hour = hour + 1 %}
+                    {% endif %}
+                    {% set count = 0 %}
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
 </div>
+
 {% endblock %}

@@ -1,0 +1,31 @@
+{% extends "/../layout/index.html.twig" %}
+{% block title %}Sessions - {% endblock %}
+
+{% block nav %}
+    <ul class="nav">
+        {% for item in nav %}
+            {% if item.title == active %}
+                <li class="active"><a href="{{ item.link }}">{{ item.title }}</a></li>
+            {% else %}
+                <li><a href="{{ item.link }}">{{ item.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endblock %}
+
+{% block content %}
+     <h3>Sessions</h3>
+
+    <a id="{{ session.title|replace({' ': "_"}) }}"></a>
+    <div class="row-fluid show-grid">
+        <div class="span12">
+            <b>{{ session.title }}</b> - <a href="/speakers#{{ session.fname }}_{{ session.lname }}">{{ session.fname }} {{ session.lname }}</a>
+            <div class="row-fluid">
+                {{ session.summary }}
+            </div>
+        </div>
+    </div>
+
+    <p><i>Disclaimer: While we will do everything we can to ensure all sessions as described, sessions and speakers are
+        subject to change based on speaker availability and company obligations. </i></p>
+{% endblock %}

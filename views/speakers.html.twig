@@ -61,20 +61,20 @@
         </div>
     </div>
 
-    <p>USA &bull; Belgium &bull; Canada &bull; England &bull; Ireland &bull; Spain &bull; The Netherlands</p>
+    <p style="text-align:center">USA &bull; Belgium &bull; Canada &bull; England &bull; Ireland &bull; Spain &bull; The Netherlands</p>
 
     {% set float = "left" %}
     {% for item in speakers %}
         <a id="{{ item.fname }}_{{ item.lname }}"></a>
-        <img src="/speakers/{{ item.fname | lower }}{{ item.lname | lower }}.jpg" width="150" height="150"
-             style="margin-top: 25px; padding: 0 15px 15px 15px ;float: {{ float }};">
+            <!--<img src="/speakers/{{ item.fname | lower }}{{ item.lname | lower }}.jpg" width="150" height="150"
+                style="margin-top: 25px; padding: 0 15px 15px 15px ;float: {{ float }};">-->
         {% if float == "left" %}
             {% set float = "right" %}
         {% else %}
             {% set float = "left" %}
         {% endif %}
         <h3 style="margin-bottom: 10px; font-family: 'Yanone Kaffeesatz, sans-serif'; font-size: 30px;">{{ item.fname }} {{ item.lname }}</h3>
-        <p style="text-align: justify">{{ item.bio }}}</p>
+        <p style="text-align: justify">{{ item.bio }}</p>
         <div class="clearfix"></div>
     {% endfor %}
 {% endblock %}
