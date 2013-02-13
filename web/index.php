@@ -15,7 +15,7 @@ $navigation = array(
     array('title' => 'Home', 'link' => '/'),
     array('title' => 'Register', 'link' => '/register'),
     array('title' => 'Sessions', 'link' => '/sessions'),
-//    array('title' => 'Schedule', 'link' => '/schedule'),
+    array('title' => 'Schedule', 'link' => '/schedule'),
     array('title' => 'Speakers', 'link' => '/speakers'),
     array('title' => 'Sponsors', 'link' => '/sponsorList'),
     array('title' => 'Venue', 'link' => '/venue'),
@@ -96,17 +96,16 @@ $app->get("/sessions/{id}", function (Silex\Application $app, $id) use ($navigat
 
 $app->get("/schedule", function (Silex\Application $app) use ($navigation) {
 
-    $sql = "SELECT c4p.title, c4p.fname, c4p.lname, t.name FROM c4p LEFT JOIN tracks as t on t.trackId = c4p.track WHERE status = 'accepted' and t.name != 'Keynote' ORDER BY track ASC";
+    $sql = "SELECT c4p.title, c4p.fname, c4p.lname, t.name FROM c4p LEFT JOIN tracks as t on t.trackId = c4p.track WHERE status = 'accepted' and t.name <> 'Keynotes' ORDER BY session_order ASC";
 
     $sessions = $app['dbs']['mysql_read']->fetchAll($sql);
-    shuffle($sessions);
 
     $day1 = array_slice($sessions, 0, 20);
     $day2 = array_slice($sessions, 20);
 
     return $app['twig']->render('schedule.html.twig', array(
         'nav' => $navigation,
-        'active' => 'Sessions',
+        'active' => 'Schedule',
         'sessions' => $day1,
         'day2' => $day2,
         'hideRightBar' => true
