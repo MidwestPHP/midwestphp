@@ -45,7 +45,7 @@
                  {% if count == 0 %}
                 <tr class="vcard">
                     <th scope="row" class="n" data-title="Time" nowrap>{{ hour > 12 ? hour - 12 : hour }}:30 {{ hour < 12 ? 'am' : 'pm' }}</th>
-                    <td data-title="Room {{ rooms[count + 1] }}"><a href="/sessions/{{ session.title|replace({' ' : '_'}) }}">{{session.title}}</a> (<a href="/speakers#{{ session.fname }}_{{ session.lname }}">{{ session.fname }} {{ session.lname }}</a>) <!-- ({{session.name}}) --></td>
+                    <td data-title="Room {{ rooms[count + 1] }}"><a href="/sessions/{{ session.title|replace({' ' : '_'})|url_encode() }}">{{session.title}}</a> (<a href="/speakers#{{ session.fname }}_{{ session.lname }}">{{ session.fname }} {{ session.lname }}</a>) <!-- ({{session.name}}) --></td>
                 {% else %}
                     <td data-title="Room {{ rooms[count + 1] }}"><a href="/sessions/{{ session.title|replace({' ' : '_'}) }}">{{session.title}}</a> (<a href="/speakers#{{ session.fname }}_{{ session.lname }}">{{ session.fname }} {{ session.lname }}</a>) <!--({{session.name}})--></td>
                 {% endif %}
@@ -96,7 +96,7 @@
                 {% if count == 0 %}
                 <tr class="vcard">
                     <th scope="row" class="n" data-title="Time" nowrap>{{ hour > 12 ? hour - 12 : hour }}:30 {{ hour < 12 ? 'am' : 'pm' }}</th>
-                    <td data-title="Room {{ rooms[count + 1] }}"><a href="/sessions/{{ session.title|replace({' ' : '_'}) }}">{{session.title}}</a> (<a href="/speakers#{{ session.fname }}_{{ session.lname }}">{{ session.fname }} {{ session.lname }}</a>) <!-- ({{session.name}}) --></td>
+                    <td data-title="Room {{ rooms[count + 1] }}"><a href="/sessions/{{ session.title|replace({' ' : '_'})|url_encode() }}">{{session.title}}</a> (<a href="/speakers#{{ session.fname }}_{{ session.lname }}">{{ session.fname }} {{ session.lname }}</a>) <!-- ({{session.name}}) --></td>
                 {% else %}
                     <td data-title="Room {{ rooms[count + 1] }}"><a href="/sessions/{{ session.title|replace({' ' : '_'}) }}">{{session.title}}</a> (<a href="/speakers#{{ session.fname }}_{{ session.lname }}">{{ session.fname }} {{ session.lname }}</a>) <!--({{session.name}})--></td>
                 {% endif %}
