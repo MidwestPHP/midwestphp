@@ -114,9 +114,6 @@
                 </tr>
                 {% endif %}
                 {% endfor %}
-                {% if count < 4 %}
-                {% set hour = hour + 1 %}
-                {% endif %}
                 <tr>
                     <td data-Time="Time" class="n"><b>{{ hour > 12 ? hour - 12 : hour }}:30 {{ hour < 12 ? 'am' : 'pm' }}</b></td>
                     <td data-title="Room 135" colspan="4" class="tableCellCenter ">Closing, Thank yous, and give aways</td>
