@@ -3,6 +3,7 @@
 vendor/*
 composer.phar
 composer.lock
+includes/database.php
 
 # Compiled source #
 ###################
