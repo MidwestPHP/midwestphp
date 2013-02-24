@@ -199,6 +199,5 @@ function joindInApi($endPoint, $action, array $params = array())
         $errmsg = curl_error($ch);
         $header = curl_getinfo($ch);
         curl_close($ch);
-var_dump(json_decode($content, true)); die();
         return json_decode($content, TRUE);
 }
