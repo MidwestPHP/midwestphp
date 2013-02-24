@@ -1,12 +1,12 @@
 .idea/*
 .settings/*
 vendor/*
+logs/*
 composer.phar
 composer.lock
 includes/database.php
 
-ruckusing.config.php
-
+ruckusing.conf.php
 # Compiled source #
 ###################
 *.com
