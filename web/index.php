@@ -24,7 +24,7 @@ $navigation = array(
 
 $app = new Silex\Application();
 
-//$app['debug']=true;
+$app['debug']=true;
 
 require_once __DIR__ . "/../includes/database.php";
 
@@ -65,6 +65,8 @@ $app->get("/register", function (Silex\Application $app) use ($navigation) {
 });
 
 $app->get("/sessions", function (Silex\Application $app) use ($navigation) {
+
+    joindInApi('events/1090/talks','', array());
 
     $sqlStatement = "SELECT id, title, fname, lname, summary FROM c4p WHERE status = 'accepted' ORDER BY track, title ASC";
 
@@ -164,3 +166,39 @@ $app->get("/contact", function (Silex\Application $app) use ($navigation) {
 
 
 $app->run();
+
+function joindInApi($endPoint, $action, array $params = array())
+{
+        $requestData = array(
+            'request' => array(
+                'action' => array(
+                    'type' => $action,
+                    'data' => $params
+                )
+            )
+        );
+        
+        $options = array(
+            CURLOPT_RETURNTRANSFER => TRUE,     // return web page
+            CURLOPT_HEADER         => FALSE,    // don't return headers
+            CURLOPT_FOLLOWLOCATION => TRUE,     // follow redirects
+            CURLOPT_ENCODING       => '',       // handle all encodings
+            CURLOPT_USERAGENT      => 'DAVE!',  // who am i
+            CURLOPT_AUTOREFERER    => TRUE,     // set referer on redirect
+            CURLOPT_CONNECTTIMEOUT => 120,      // timeout on connect
+            CURLOPT_TIMEOUT        => 120,      // timeout on response
+            CURLOPT_MAXREDIRS      => 10,       // stop after 10 redirects
+            CURLOPT_HTTPHEADER     => array('Content-Type: application/json'),
+            //CURLOPT_POSTFIELDS     => json_encode($requestData)
+        );
+
+        $ch = curl_init('http://api.joind.in/v2.1/' . $endPoint);
+        curl_setopt_array($ch, $options);
+        $content = curl_exec($ch);
+        $err = curl_errno($ch);
+        $errmsg = curl_error($ch);
+        $header = curl_getinfo($ch);
+        curl_close($ch);
+var_dump(json_decode($content, true)); die();
+        return json_decode($content, TRUE);
+}
