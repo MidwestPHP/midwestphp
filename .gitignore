@@ -5,6 +5,8 @@ composer.phar
 composer.lock
 includes/database.php
 
+ruckusing.config.php
+
 # Compiled source #
 ###################
 *.com
