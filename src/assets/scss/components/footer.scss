@@ -1,15 +1,50 @@
+body {
+  position: relative;
+  padding-bottom: 300px;
+  min-height: 100%;
+}
+
+/**
+ * Footer Styles
+ */
+
 footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background: #1b3149;
   color: #5a646e;
-  .row {
+  height: 288px;
+  .mailing-list {
+    height: 225px;
+    display: table;
     width: 100%;
-    max-width: 100%;
-  }
-  a {
-    color: #5a646e;
+    .row {
+      display: table-cell;
+      vertical-align: middle;
+    }
   }
   .bottom-links {
     background: #122232;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 75px;
+    display: table;
+    width: 100%;
+    .row {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    a {
+      color: #c4c7cc;
+      font-weight: bold;
+    }
+    .social-media > li > a {
+      color: #5a646e;
+    }
   }
 }
 
