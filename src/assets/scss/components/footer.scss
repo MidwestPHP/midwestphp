@@ -1,3 +1,15 @@
-1b3149
-122232
-color: 5a646e
+footer {
+  background: #1b3149;
+  color: #5a646e;
+  .row {
+    width: 100%;
+    max-width: 100%;
+  }
+  a {
+    color: #5a646e;
+  }
+  .bottom-links {
+    background: #122232;
+  }
+}
+
