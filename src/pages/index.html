@@ -1,21 +1,28 @@
 ---
 title: Home
 ---
-<div class="demo">
-    <h1>CSS “Always on the bottom” Footer</h1>
+<!-- Hero -->
+{{> hero }}
 
-    <p>I often find myself designing a website where the footer must rest at the bottom of the page, even if the content
-        above it is too short to push it to the bottom of the viewport naturally.</p>
+<!-- Call for papers -->
+<section class="call-for-speakers">
+    <div class="text-center">Interested in speaking at this years' conference? Visit our <a
+            href="https://cfp.midwestphp.org">Call for Papers</a> site.
+    </div>
+</section>
 
-    <p>However, if the content is taller than the user’s viewport, then the footer should disappear from view as it
-        would normally, resting at the bottom of the page (not fixed to the viewport).</p>
+<!-- image collage -->
+<section>
+    <img src="{{root}}/assets/img/image-colloege.png"/>
+</section>
 
-    <p>If you know the height of the footer, then you should set it explicitly, and set the bottom padding of the
-        footer’s parent element to be the same value (or larger if you want some spacing).</p>
+<!-- why attend -->
+{{> toexpect}}
 
-    <p>This is to prevent the footer from overlapping the content above it, since it is being removed from the document
-        flow with <code>position: absolute;</code>.</p>
-</div>
+<!-- venue -->
+{{> venue}}
 
-<div class="footer">This footer will always be positioned at the bottom of the page, but <strong>not fixed</strong>.
-</div>
+<!-- sponsors -->
+{{> sponsors}}
+
+<!-- footer -->
