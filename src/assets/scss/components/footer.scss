@@ -28,7 +28,8 @@ footer {
   .bottom-links {
     /* Contact Code Of Cond: */
     opacity: 0.75;
-    font-family: RobotoCondensed-Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: "Roboto Condensed", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
     color: #FFFFFF;
     letter-spacing: 0;
     /* Copyright © 2016 Mid: */
@@ -44,7 +45,8 @@ footer {
     }
     .social-media > li {
       opacity: 0.29;
-      font-family: Roboto-Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-family: "Roboto", Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-weight: normal;
       color: #5a646e;
     }
   }
