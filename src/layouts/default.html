@@ -1,0 +1,45 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midwest PHP - {{title}}</title>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+</head>
+<body>
+<div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+            <!-- Menu -->
+            <ul class="vertical menu">
+                <li><a href="index.html" class="hide-for-large">Home</a></li>
+                <!--<li><a href="speakers.html">Speakers</a></li>-->
+                <!--<li><a href="schedule.html">Schedule</a></li>-->
+                <!--<li><a href="sessions.html">Sessions</a></li>-->
+                <li><a href="venue.html">Venue</a></li>
+                <li><a href="sponsors.html">Sponsors</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+
+        </div>
+
+        <div class="off-canvas-content" data-off-canvas-content>
+            {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+
+            {{> body}}
+
+            {{> footer}}
+
+            <script src="{{root}}assets/js/app.js"></script>
+        </div>
+    </div>
+</div>
+</body>
+</html>

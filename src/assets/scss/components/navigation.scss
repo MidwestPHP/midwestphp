@@ -1,0 +1,20 @@
+
+.top-bar.expanded {
+  overflow: visible;
+}
+
+.top-bar-section ul {
+  right: 0;
+  position: absolute;
+}
+
+.top-bar {
+  a {
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #CACED4;
+    letter-spacing: 0;
+  }
+}

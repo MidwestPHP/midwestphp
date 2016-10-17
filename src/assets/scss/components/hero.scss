@@ -1,0 +1,83 @@
+@font-face {
+  @import 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:400,700';
+}
+
+.hero {
+  &.venue {
+    background: url("../img/radison.png");
+  }
+
+  background: url('../img/map.png') no-repeat center center;
+  background-size: cover;
+  height: 120vh;
+  max-height: 604px;
+  margin: 0 18px 18px 18px;
+  max-width: 1400px;
+  position: relative;
+
+  .row {
+    //margin-top: 10px;
+  }
+
+  .intro {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+  }
+
+  h1 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  p {
+    font-family: "Roboto", sans-serif;;
+    opacity: 0.5;
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .top-bar, .top-bar ul {
+    background: none;
+  }
+  .top-bar {
+    padding: 0;
+  }
+
+  .top-bar-left {
+    width: 100%;
+  }
+
+  .title-bar {
+    background: none;
+  }
+
+  .menu {
+    margin-top: 20px;
+    > li > a {
+      padding: 0.7rem 0;
+      margin: 0 1rem;
+      color: $white;
+      &.button {
+        padding: 0.7rem 1rem;
+      }
+      &.active {
+        border-bottom: 2px solid #26A9E0;
+      }
+    }
+  }
+}
+
+@include breakpoint(medium down) {
+  .hero {
+    margin: 0;
+    .intro {
+      top: 45%;
+    }
+  }
+}

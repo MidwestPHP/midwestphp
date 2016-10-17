@@ -1,0 +1,35 @@
+<div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="large" data-options="scrolltop: false">
+    <button class="menu-icon" type="button" data-open="offCanvas"></button>
+    <div class="title-bar-title">Menu</div>
+</div>
+
+<div class="top-bar stacked-for-small" id="main-menu" style="">
+    <div class="top-bar-menu-wrapper">
+        <div class="top-bar-left" style="">
+            <div class="row">
+                <div class="columns large-2 large-offset-1 show-for-large">
+                    <a href="index.html"><img src="{{root}}/assets/img/logo.svg" alt="Midwest PHP Logo"></a>
+                </div>
+                <div class="columns large-6 align-center">
+                    <div class="menu-centered">
+                        <ul class="menu vertical large-horizontal">
+                            <li><a href="index.html" class="hide-for-large">Home</a></li>
+                            <li><a href="venue.html" {{#ifpage 'venue'}}class="active"{{/ifpage}}>Venue</a></li>
+                            <li><a href="sponsors.html" {{#ifpage 'sponsors'}}class="active"{{/ifpage}}>Sponsors</a></li>
+                            <li><a href="register.html" {{#ifpage 'register'}}class="active"{{/ifpage}}>Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="columns large-2 end">
+                    <ul class="menu">
+                        <li>
+                            <a href="https://twitter.com/midwestphp" target="_blank" class="button hollow">
+                                <i class="fi-social-twitter"></i> Follow
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

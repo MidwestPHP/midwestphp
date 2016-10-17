@@ -1,0 +1,19 @@
+.what-to-expect {
+  margin-top: 100px;
+  width: 75%;
+  h4 {
+    color: #1B3149;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+  }
+
+  p {
+    color: #727B84;
+    font-family: "Roboto";
+  }
+}
+@include breakpoint(small only) {
+  .what-to-expect {
+    width: 95%;
+  }
+}
