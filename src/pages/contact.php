@@ -7,7 +7,7 @@ if (!isset($_POST)) {
     return;
 }
 
-$post = filter_input_array(INPUT_POST, FILTER_SANITIZE_ENCODED);
+$post = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
 if (!isset($post['email'])) {
     header("location: contact.html");
