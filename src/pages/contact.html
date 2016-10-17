@@ -2,6 +2,41 @@
 title: Contact
 ---
 
-<section class="hero">
-    {{> navigation}}
-</section>
+<div class="registration-page">
+    <div class="background">
+        <div class="mask1">
+            <div class="mask2">
+                {{> navigation }}
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-10 small-centered">
+            <h1>Contact
+                <small>.</small>
+            </h1>
+            <script language="javascript">
+                var sa_email_id = '483-f584b';
+                var sa_sent_text = 'Thank you for contacting us. We will get back to you soon.';
+            </script>
+            <script language="javascript" src="//s1.smartaddon.com/sa_htmlform.js"></script>
+            <div id="sa_contactdiv">
+                <form name=sa_htmlform style="margin:0px" onsubmit="return sa_contactform()">
+                    <label for="name">Name:</label><input type="text" name="name" id="name"/>
+
+                    <label for="email">E-mail Address:<span style="color:#D70000">*</span></label>
+                    <input type="text" name="email" required="true" id="email"/>
+
+                    <label for="subject">Subject:<span style="color:#D70000">*</span></label>
+                    <input type="text" name="subject" required="true" id="subject"/>
+
+                    <label for="message">Message:<span style="color:#D70000">*</span></label>
+                        <textarea name="message" cols="42" rows="9" required="true" id="message"></textarea>
+
+                    <input type="submit" value="Send Message" class="button">
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>

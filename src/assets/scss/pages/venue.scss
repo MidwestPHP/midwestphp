@@ -1,5 +1,211 @@
-.hotel-information, .parking, .other-hotels, .local-attractions {
-  h2, h3, h4, h5, h6 {
+section {
+  margin-bottom: 100px;
+}
+
+@include breakpoint(medium) {
+  .valign-middle {
+    display: table;
+
+    > .columns {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    > .columns, > [class*="column"] + [class*="column"]:last-child {
+      float: none;
+    }
+  }
+}
+
+.hero.venue {
+  h1 {
+    text-align: left;
+    /* SPONSORS. We Are Pro: */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    //font-size: 72px;
+    color: #fff;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    line-height: 1;
+
+    small {
+      color: #26A9E0;
+    }
+  }
+
+  h4 {
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgba(255, 255, 255, .75);
+    letter-spacing: -0.36px;
+  }
+
+  margin-bottom: 100px;
+}
+
+.hero {
+  .where-to-stay {
+    background: #FFFFFF;
+    padding: 50px;
+
+    h3 {
+      font-family: 'Roboto Condensed', Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      color: #444444;
+      letter-spacing: 0;
+    }
+
+    p {
+      text-align: left;
+      font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+      color: #444444;
+    }
+    a {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.hotel-information {
+  text-align: center;
+
+  h4 {
+    font-family: 'Roboto Condensed', Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
     color: #1B3149;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+
+  address, p {
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: #1B3149;
+  }
+
+  a {
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #26A9E0;
+  }
+  @include breakpoint(small only) {
+    address, a, p {
+      display: block;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.parking {
+  .row {
+    background: #26A9E0;
+
+    @include breakpoint(large) {
+      .valign-center {
+        position: relative;
+        top: 50%;
+        > .columns {
+          transform: translateY(50%);
+          -webkit-transform: translateY(50%);
+          -o-transform: translateY(50%);
+          -ms-transform: translateY(50%);
+        }
+      }
+    }
+
+    h4 {
+      font-family: 'Roboto Condensed', Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      color: #FFFFFF;
+      letter-spacing: -0.58px;
+    }
+
+    p {
+      opacity: 0.85;
+      font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      line-height: 25px;
+    }
+  }
+}
+
+.other-hotel-options {
+  h4 {
+    font-family: 'Roboto Condensed', Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #1B3149;
+    letter-spacing: -0.58px;
+  }
+
+  .hotel {
+    h5 {
+      font-family: 'Roboto Condensed', Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      color: #444444;
+      letter-spacing: 0;
+    }
+
+    p, address {
+      color: #5F6871;
+      font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-style: normal;
+    }
+
+    p {
+      font-weight: bold;
+      color: #565656;
+    }
+
+    a {
+      font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      color: #26A9E0;
+    }
+  }
+
+  @include breakpoint(medium down) {
+    .hotel {
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.local-attractions {
+  h4 {
+    font-family: 'Roboto Condensed', Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #1B3149;
+    letter-spacing: -0.58px;
+  }
+
+  .orbit-bullets {
+    button {
+      vertical-align: middle;
+      background: #26A9E0;
+
+      &.is-active {
+        border: 2px solid #26A9E0;
+        background: none;
+        height: 1.5rem;
+        width: 1.5rem;
+      }
+    }
+  }
+
+  .orbit-caption {
+    background: #FFFFFF;
+    width: 304px;
+    color: #444444;
+    font-family: "Roboto Condensed", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 25px;
+
+    p {
+      font-family: "Roboto", Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: .75rem;
+      color: #5F6871;
+      margin-bottom: 0;
+    }
   }
 }

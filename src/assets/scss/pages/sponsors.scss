@@ -1,0 +1,104 @@
+.sponsors-page {
+  .background {
+    background: #D8D8D8;
+    margin-bottom: 100px;
+    .mask1 {
+      background-image: radial-gradient(50% 87%, #344E6E 4%, #1D3149 88%);
+      background-blend-mode: multiply;
+      .mask2 {
+        background-image: radial-gradient(50% 87%, #344E6E 4%, #1D3149 88%);
+        background-blend-mode: normal;
+      }
+    }
+  }
+  .top-bar{
+    background: transparent;
+    ul {
+      background: transparent;
+    }
+  }
+  .top-bar-left {
+    width: 100%;
+  }
+
+  .menu {
+    margin-top: 20px;
+    > li > a {
+      padding: 0.7rem 0;
+      margin: 0 1rem;
+      color: $white;
+      &.button {
+        padding: 0.7rem 1rem;
+      }
+      &.active {
+        border-bottom: 2px solid #26A9E0;
+      }
+    }
+  }
+
+
+  h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    color: #1B3149;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 1;
+    small {
+      color: #26A9E0;
+    }
+  }
+
+  h5 {
+    font-family: "Roboto", sans-serif;
+    color: #727B84;
+    line-height: 1;
+
+    &.level {
+      /* Platinum: */
+      font-family: "Roboto Condensed", sans-serif;
+      font-weight: bold;
+      color: #444444;
+      letter-spacing: 0;
+
+    }
+  }
+
+  .level-container {
+    padding: 30px 0;
+
+    .row {
+      margin: 0 0 20px;
+      .column, .columns {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem;
+      }
+    }
+
+    hr {
+      background-color: #D8D8D8;
+      border-bottom-color: #D8D8D8;
+      margin: 0 0 20px;
+    }
+
+    .logo-container {
+      background: #FFFFFF;
+      border: 1px solid #DDDDDD;
+      padding: 1rem;
+      margin: 0 auto;
+      display: block;
+
+      &.small {
+        padding: 15px;
+      }
+    }
+
+    @include breakpoint(medium down) {
+      .logo-container {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+}

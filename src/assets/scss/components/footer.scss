@@ -1,23 +1,16 @@
-body {
-  position: relative;
-  padding-bottom: 300px;
-  min-height: 100%;
-}
-
 /**
  * Footer Styles
  */
 
 footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
   background: #1b3149;
-  color: #5a646e;
-  height: 288px;
+  font-family: RobotoCondensed-Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: 0;
   .mailing-list {
-    height: 225px;
+    /* Newsletter: */
+    height: 135px;
     display: table;
     width: 100%;
     .row {
@@ -26,23 +19,25 @@ footer {
     }
   }
   .bottom-links {
+    /* Contact Code Of Cond: */
+    opacity: 0.75;
+    font-family: RobotoCondensed-Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    /* Copyright © 2016 Mid: */
+
     background: #122232;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
     height: 75px;
     display: table;
     width: 100%;
-    .row {
-      display: table-cell;
-      vertical-align: middle;
-    }
+    text-wrap: none;
     a {
       color: #c4c7cc;
       font-weight: bold;
     }
-    .social-media > li > a {
+    .social-media > li {
+      opacity: 0.29;
+      font-family: Roboto-Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
       color: #5a646e;
     }
   }

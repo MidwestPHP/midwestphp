@@ -1,6 +1,22 @@
 .venue-container {
   background: #1B3149;
 
+  h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    line-height: 1;
+    small {
+      color: #26A9E0;
+    }
+  }
+
+  p {
+    color: #6D7C8C;
+  }
+
   .venue-image {
     width: 50%;
   }
@@ -18,7 +34,7 @@
       border: 2px solid #26A9E0;
       &.hollow {
         color: $white;
-        font-family: "Roboto Condensed";
+        font-family: "Roboto Condensed", sans-serif;
         font-weight: bold;
       }
     }

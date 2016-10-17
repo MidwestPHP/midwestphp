@@ -2,7 +2,7 @@
 
 @import 'settings';
 @import 'foundation';
-//@import 'motion-ui';
+@import 'motion-ui';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -17,16 +17,16 @@
 //@include foundation-breadcrumbs;
 @include foundation-button-group;
 //@include foundation-callout;
-//@include foundation-close-button;
+@include foundation-close-button;
 @include foundation-menu;
 @include foundation-menu-icon;
 //@include foundation-drilldown-menu;
 //@include foundation-dropdown;
 //@include foundation-dropdown-menu;
-//@include foundation-flex-video;
+@include foundation-flex-video;
 //@include foundation-label;
 //@include foundation-media-object;
-//@include foundation-off-canvas;
+@include foundation-off-canvas;
 @include foundation-orbit;
 //@include foundation-pagination;
 //@include foundation-progress-bar;
@@ -34,7 +34,7 @@
 // @include foundation-meter-element;
 //@include foundation-slider;
 @include foundation-sticky;
-//@include foundation-reveal;
+@include foundation-reveal;
 //@include foundation-switch;
 //@include foundation-table;
 //@include foundation-tabs;
@@ -44,19 +44,21 @@
 @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
-// @include foundation-flex-classes;
+//@include foundation-flex-classes;
 
-//@include motion-ui-transitions;
-//@include motion-ui-animations;
+@include motion-ui-transitions;
+@include motion-ui-animations;
 
 @import "components/foundation-icons";
 
 @import "pages/venue";
+@import "pages/sponsors";
+@import "pages/register";
 
-@import "components/home";
+//@import "components/home";
 @import "components/hero";
 @import "components/call-for-speakers";
-@import "components/what-to-expect";
+//@import "components/what-to-expect";
 @import "components/home-page-venue";
 @import "components/footer";
 @import "components/sponsors";

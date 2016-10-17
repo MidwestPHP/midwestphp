@@ -94,8 +94,8 @@ $grid-row-width: $global-width;
 $grid-column-count: 12;
 $grid-column-gutter: (
   small: 20px,
-  medium: 30px,
-  large: 30px
+  medium: 0,
+  large: 0
 );
 $grid-column-align-edge: true;
 $block-grid-max: 8;
@@ -316,7 +316,7 @@ $dropdownmenu-border: 1px solid $medium-gray;
 // 18. Flex Video
 // --------------
 
-$flexvideo-margin-bottom: rem-calc(16);
+$flexvideo-margin-bottom: rem-calc(0);
 $flexvideo-ratio: 4 by 3;
 $flexvideo-ratio-widescreen: 16 by 9;
 
