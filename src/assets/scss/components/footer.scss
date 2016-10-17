@@ -4,10 +4,17 @@
 
 footer {
   background: #1b3149;
-  font-family: RobotoCondensed-Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Roboto Condensed", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
   font-size: 20px;
-  color: #FFFFFF;
   letter-spacing: 0;
+  label {
+    font-family: "Roboto Condensed", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 20px;
+    letter-spacing: 0;
+  }
   .mailing-list {
     /* Newsletter: */
     height: 135px;
