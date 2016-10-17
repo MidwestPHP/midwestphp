@@ -11,22 +11,22 @@
   background-size: cover;
   height: 120vh;
   max-height: 604px;
-  margin: 18px;
+  margin: 0 18px 18px 18px;
   max-width: 1400px;
   position: relative;
 
   .row {
-    margin-top: 10px;
+    //margin-top: 10px;
   }
 
   .intro {
     position: relative;
-    top: 55%;
+    top: 40%;
     transform: translateY(-50%);
   }
 
   h1 {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
@@ -34,7 +34,7 @@
   }
 
   p {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;;
     opacity: 0.5;
     color: #fff;
     font-weight: 200;
