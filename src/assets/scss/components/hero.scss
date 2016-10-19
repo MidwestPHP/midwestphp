@@ -4,19 +4,15 @@
 
 .hero {
   &.venue {
-    background: url("../img/radison.png");
+    background: url('../img/radisson2.png') no-repeat center center;
+    background-size: cover;
   }
 
-  background: url('../img/map.png') no-repeat center center;
+  background: url('../img/map2.1.png') no-repeat center center;
   background-size: cover;
   height: 120vh;
-  max-height: 90vh;
-  max-width: 100%;
+  max-height: 604px;
   position: relative;
-
-  .row {
-    //margin-top: 10px;
-  }
 
   .intro {
     position: relative;
@@ -43,9 +39,6 @@
 
   .top-bar, .top-bar ul {
     background: none;
-  }
-  .top-bar {
-    padding: 0;
   }
 
   .top-bar-left {

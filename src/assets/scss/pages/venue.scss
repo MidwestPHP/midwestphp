@@ -97,8 +97,8 @@ section {
 }
 
 .parking {
+  background: #26A9E0;
   .row {
-    background: #26A9E0;
     @include breakpoint(large) {
       .valign-center {
         position: relative;
@@ -109,6 +109,12 @@ section {
           -o-transform: translateY(30%);
           -ms-transform: translateY(30%);
         }
+      }
+    }
+
+    @include breakpoint(small only) {
+      :nth-child(2) {
+        padding: 0;
       }
     }
 
