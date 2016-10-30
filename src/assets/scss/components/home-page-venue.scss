@@ -13,10 +13,6 @@
     }
   }
 
-  p {
-    color: #6D7C8C;
-  }
-
   .venue-image {
     width: 50%;
   }
@@ -48,12 +44,3 @@
     }
   }
 }
-
-@include breakpoint(medium only) {
-  .venue-container {
-    .venue-information {
-      //transform: translateY(25%);
-    }
-  }
-}
-
