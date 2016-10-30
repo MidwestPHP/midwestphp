@@ -50,16 +50,15 @@
 @include motion-ui-animations;
 
 @import "components/foundation-icons";
+@import "components/general";
 
 @import "pages/venue";
 @import "pages/sponsors";
 @import "pages/register";
 
-//@import "components/home";
 @import "components/hero";
 @import "components/call-for-speakers";
 @import "components/image-collage";
-//@import "components/what-to-expect";
 @import "components/home-page-venue";
 @import "components/footer";
 @import "components/sponsors";

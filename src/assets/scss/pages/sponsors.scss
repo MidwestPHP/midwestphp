@@ -38,8 +38,6 @@
 
 
   h1 {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: bold;
     color: #1B3149;
     letter-spacing: -1px;
     text-transform: uppercase;
@@ -51,14 +49,11 @@
   }
 
   h5 {
-    font-family: "Roboto", sans-serif;
     color: #727B84;
     line-height: 1;
 
     &.level {
-      /* Platinum: */
       font-family: "Roboto Condensed", sans-serif;
-      font-weight: bold;
       color: #444444;
       letter-spacing: 0;
 
@@ -100,5 +95,4 @@
       }
     }
   }
-
 }

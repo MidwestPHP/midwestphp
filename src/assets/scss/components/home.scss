@@ -7,9 +7,6 @@ section {
   margin: 100px auto 0;
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto Condensed";
-    font-weight: bold;
-    text-transform: uppercase;
     color: $white;
     line-height: 1;
     margin-bottom: 0;
@@ -17,10 +14,5 @@ section {
     > small {
       color: #26A9E0;
     }
-  }
-
-  p {
-    font-family: "Roboto";
-    color: #6D7C8C;
   }
 }
