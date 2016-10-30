@@ -132,6 +132,9 @@ section {
   }
 
   .hotel {
+    &:nth-child(1n+2) {
+      padding-left: 10px;
+    }
     h5 {
       font-weight: bold;
       color: #444444;
@@ -153,6 +156,7 @@ section {
       font-weight: bold;
       color: #26A9E0;
     }
+
   }
 
   @include breakpoint(medium down) {
