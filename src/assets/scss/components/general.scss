@@ -18,3 +18,12 @@ p {
   color: #5F6871;
   font-family: "Roboto", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
+.button {
+  &.hollow {
+    &:hover {
+      border-color: #fefefe;
+      color: #2199e8;
+    }
+  }
+}
