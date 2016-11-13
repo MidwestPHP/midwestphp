@@ -1,0 +1,64 @@
+[
+  {
+    "level": "Platinum",
+    "sponsors": []
+  },
+  {
+    "level": "Gold",
+    "sponsors": []
+  },
+  {
+  "level": "Silver",
+  "sponsors": []
+  },
+  {
+    "level": "Bronze",
+    "sponsors": [
+      {
+        "company": "GitLab",
+        "logo": "assets/img/sponsors/stacked_wm_no_bg.png",
+        "logo-horizontal": "assets/img/sponsors/wm_no_bg.png",
+        "description": "GitLab is the open core code collaboration platform that provides a complete workflow to code, test, and deploy simply and effectively. Downloaded over one million times, GitLab includes Git repository management, code review, issue tracking, wikis and GitLab CI, a continuous integration and deployment tool. Built for the enterprise, GitLab scales effortlessly, handling more than 25,000 users on a single server. It’s the most used on-premise Git solution, providing companies from startups to Fortune 500 enterprises with a faster and more effective development environment.",
+        "website": "https://about.gitlab.com/",
+        "socialmedia": {
+          "twitter": "https://twitter.com/gitlab",
+          "facebook": "https://www.facebook.com/gitlab/"
+        }
+      }
+    ]
+  },
+  {
+    "level": "Lanyard",
+    "sponsors": [
+      {
+        "company": "Inbox Dollars",
+        "logo": "assets/img/sponsors/4color-IBD-with-billy.png",
+        "logo-horizontal": "assets/img/sponsors/4color-IBD-with-billy.png",
+        "description": "InboxDollars is a rewards club that pays members cash for completing activities on their computers, tablets and phones. Along with SendEarnings.com, InboxPounds.co.uk and DailyRewards.com, InboxDollars connects consumers and advertisers in a way that benefits both. They reward members for their everyday activities such as reading emails, taking surveys, watching TV, playing games and signing up for offers.",
+        "website": "http://www.inboxdollars.com/",
+        "socialmedia": {
+          "twitter": "https://twitter.com/InboxDollars",
+          "instagram": "https://www.instagram.com/inboxdollars/",
+          "facebook": "https://www.facebook.com/InboxDollars"
+        }
+      }
+    ]
+  },
+  {
+    "level": "In-kind",
+    "sponsors": [{
+      "company": "stickermule",
+      "logo": "assets/img/sponsors/svgporn-stickermule.png",
+      "logo-horizontal": "assets/img/sponsors/svgporn-stickermule.png",
+      "description": "Sticker Mule is the easiest way to buy custom stickers. We help thousands of people, startups, bloggers, developers and companies order awesome stickers that are printed beautifully and ship fast. We ship for free, provide free online proofs with every order and offer extremely fast turnaround. Sticker Mule aims to be the Internet's favorite sticker printer.",
+      "website": "https://www.stickermule.com/",
+      "socialmedia": {
+        "twitter": "https://twitter.com/stickermule",
+        "instagram": "https://www.instagram.com/stickermule",
+        "youtube": "https://www.youtube.com/user/stickermule",
+        "dribbble": "https://dribbble.com/stickermule",
+        "facebook": "https://www.facebook.com/stickermule"
+      }
+    }]
+  }
+]

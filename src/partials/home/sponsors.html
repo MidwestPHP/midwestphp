@@ -3,17 +3,27 @@
         <div class="small-centered small-10">
             <div class="clearfix">
                 <div class="float-left">
-                    <h3>Our Sponsors<small>.</small></h3>
+                    <h3>Our Sponsors
+                        <small>.</small>
+                    </h3>
                     <p>We are proud to partner with these amazing companies</p>
                 </div>
-
                 <a href="sponsors.html" class="button hollow float-right">All Sponsors</a>
             </div>
-
-            <div class="row small-up-2 medium-up-4 large-up-6 small-collapse">
-                <!--<div class="column">-->
-                    <!--<img src="//placehold.it/300x300" class="thumbnail" alt="">-->
-                <!--</div>-->
+            <div class="row small-up-2 medium-up-4 large-up-6" data-equalizer data-equalize-by-row="true">
+                {{#each sponsors}}
+                {{#each sponsors}}
+                <div class="column" data-equalizer-watch>
+                    <div class="dummy"></div>
+                    <div class="img-container thumbnail">
+                        <div class="centerer"></div>
+                        <a href="sponsors.html#{{../level}}">
+                        <img src="{{this.logo}}" class="logo-container" alt="{{this.company}} logo">
+                        </a>
+                    </div>
+                </div>
+                {{/each}}
+                {{/each}}
             </div>
         </div>
     </div>

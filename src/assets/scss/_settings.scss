@@ -458,7 +458,7 @@ $reveal-padding: $global-padding;
 $reveal-border: 1px solid $medium-gray;
 $reveal-radius: $global-radius;
 $reveal-zindex: 1005;
-$reveal-overlay-background: rgba($black, 0.45);
+$reveal-overlay-background: rgba(#1B3149, 0.83);
 
 // 29. Slider
 // ----------
@@ -525,10 +525,10 @@ $tab-content-padding: 1rem;
 // 33. Thumbnail
 // -------------
 
-$thumbnail-border: solid 4px $white;
-$thumbnail-margin-bottom: $global-margin;
-$thumbnail-shadow: 0 0 0 1px rgba($black, 0.2);
-$thumbnail-shadow-hover: 0 0 6px 1px rgba($primary-color, 0.5);
+$thumbnail-border: none; //solid 4px $white;
+$thumbnail-margin-bottom: 0;//$global-margin;
+$thumbnail-shadow: none; //0 0 0 1px rgba($black, 0.2);
+$thumbnail-shadow-hover: none; //0 0 6px 1px rgba($primary-color, 0.5);
 $thumbnail-transition: box-shadow 200ms ease-out;
 $thumbnail-radius: $global-radius;
 
