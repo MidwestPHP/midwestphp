@@ -11,7 +11,9 @@ title: Sponsors
     </div>
     <div class="row">
         <div class="medium-10 medium-centered end">
-            <h1>Sponsors<small>.</small></h1>
+            <h1>Sponsors
+                <small>.</small>
+            </h1>
             <h5 class="level">We Are Proud To Partner With</h5>
 
             <p>Companies like yours make Midwest PHP possible. We offer a wide range of sponsorship packages to
@@ -22,56 +24,70 @@ title: Sponsors
             <p>If you or your company interested in sponsoring Midwest PHP but are unable to find a package that meets
                 your needs, we would be happy to discuss any ideas you might have.</p>
 
-            <p>Please fill out our <a href="contact.html">contact form</a> for more information on our prospectus or if you
+            <p>Please fill out our <a href="contact.html">contact form</a> for more information on our prospectus or if
+                you
                 would like to sponsor this years conference!</p>
-
+            {{#each sponsors}}
             <div class="level-container">
-                <h5 class="level">Platinum</h5>
+                <a name="{{level}}"></a>
+                <h5 class="level">{{level}}</h5>
                 <hr>
+                {{#ifequal level "Platinum"}}
+                {{#each sponsors}}
                 <div class="row medium-centered">
-                    <!--<div class="large-3 medium-6 columns">-->
-                        <!--<img src="//placehold.it/150x150" class="thumbnail logo-container" alt="">-->
-                    <!--</div>-->
+                    <div class="large-3 medium-6 columns">
+                        <a class="exampleModal1" data-description="{{this.description}}" data-logo="/{{this.logo-horizontal}}"
+                           data-company="{{this.company}}">
+                            <img src="{{this.logo}}" class="thumbnail logo-container" alt="{{this.company}} logo">
+                        </a>
+                    </div>
                 </div>
-            </div>
+                {{/each}}
+                {{else}}
+                {{#each sponsors}}
+                <div class="row">
+                    <div class="large-2 medium-4 small-6 columns">
+                        <a class="exampleModal1" data-description="{{this.description}}" data-logo="/{{this.logo-horizontal}}"
+                           data-company="{{this.company}}" data-website="{{this.website}}"
+                           {{#each this.socialmedia as |value key|}}
+                           data-social-{{key}}="{{value}}"
+                           {{/each}}
+                        >
 
-            <div class="level-container">
-                <h5 class="level">Gold</h5>
-                <hr>
-                <div class="row">
-                    <!--<div class="large-2 medium-4 small-6 columns">-->
-                        <!--<img src="//placehold.it/100x100" class="thumbnail logo-container small" alt="">-->
-                    <!--</div>-->
+                        <img src="{{this.logo}}" class="thumbnail logo-container small" alt="{{this.company}} logo">
+                        </a>
+                    </div>
                 </div>
+                {{/each}}
+                {{/ifequal}}
             </div>
-            <div class="level-container">
-                <h5 class="level">Silver</h5>
-                <hr>
-                <div class="row">
-                    <!--<div class="large-2 medium-4 small-6 columns">-->
-                        <!--<img src="//placehold.it/100x100" class="thumbnail logo-container small" alt="">-->
-                    <!--</div>-->
-                </div>
-            </div>
-            <div class="level-container">
-                <h5 class="level">Bronze</h5>
-                <hr>
-                <div class="row">
-                    <!--<div class="large-2 medium-4 small-6 columns">-->
-                        <!--<img src="//placehold.it/100x100" class="thumbnail logo-container small" alt="">-->
-                    <!--</div>-->
-                </div>
-            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
 
-            <div class="level-container">
-                <h5 class="level">Community</h5>
-                <hr>
-                <div class="row">
-                    <!--<div class="large-2 medium-4 small-6 columns">-->
-                        <!--<img src="//placehold.it/100x100" class="thumbnail logo-container small" alt="">-->
-                    <!--</div>-->
+<div class="reveal" id="exampleModal11" aria-labelledby="exampleModalHeader11" data-reveal>
+    <div class="row">
+        <div class="small-centered small-9 columns">
+            <div class="row logo-row">
+                <div class="small-centered small-10 columns text-center">
+                    <img src="" id="companyLogo" class="thumbnail" alt="company logo" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="small-centered small-10 columns">
+                    <div class="sponsor-social-media text-center"></div>
+                </div>
+            </div>
+            <p id="companyDescription"></p>
+            <div class="row">
+                <div class="small-centered small-10 columns text-center">
+                    <a href="" target="_blank" class="website button">Visit Website</a>
                 </div>
             </div>
         </div>
     </div>
+    <button class="close-button" data-close aria-label="Close Accessible Modal" type="button">
+        <span aria-hidden="true">&times;</span>
+    </button>
 </div>
