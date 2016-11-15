@@ -5,7 +5,17 @@
   },
   {
     "level": "Gold",
-    "sponsors": []
+    "sponsors": [
+      {
+        "company": "Irish Titan",
+        "logo": "assets/img/sponsors/irish-titan-horizontal.jpg",
+        "logo-horizontal": "assets/img/sponsors/irish-titan-horizontal.jpg",
+        "description": "Irish Titan is a full service digital agency delivering ecommerce, complex websites and digital strategy. More importantly, our mindset is one of “Business First. Online Second”, meaning our solutions and processes truly support your business. Our Titans are 100% US based employees who believe in “Partnerships, Not Transactions”",
+        "website": "https://www.irishtitan.com",
+        "socialmedia": {
+        }
+      }
+    ]
   },
   {
   "level": "Silver",
