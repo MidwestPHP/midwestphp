@@ -30,6 +30,9 @@ $(".exampleModal1").on('click', function(e){
                     case "Instagram":
                         socialMedia += buildLink($(this).data(index), "fi-social-instagram");
                         break;
+                    case "Linkedin":
+                        socialMedia += buildLink($(this).data(index), "fi-social-linkedin");
+                        break;
                 }
             }
         }
