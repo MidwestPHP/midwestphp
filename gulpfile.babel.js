@@ -26,7 +26,7 @@ function loadConfig() {
 
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
-    gulp.series(clean, gulp.parallel(pages, sass, javascript, images, fonts, copy), styleGuide));
+    gulp.series(clean, gulp.parallel(pages, sass, javascript, images, fonts, copy)));
 
 // Build the site, run the server, and watch for file changes
 gulp.task('default',
@@ -47,16 +47,52 @@ function copy() {
 
 // Copy page templates into finished HTML files
 function pages() {
+    // speakers();
     panini.refresh();
     return gulp.src('src/pages/**/*.{html,php,hbs,handlebars}')
         .pipe(panini({
             root: 'src/pages/',
             layouts: 'src/layouts/',
             partials: 'src/partials/',
-            data: 'src/data/',
+            data: 'src/data/**/',
             helpers: 'src/helpers/'
         }))
         .pipe(gulp.dest(PATHS.dist));
+}
+
+function speakers() {
+    let ymlFile = fs.readFileSync('src/data/speakers.yml', 'utf8');
+    let yamlData = yaml.load(ymlFile);
+    rmDir('src/data/speakers', false);
+    yamlData.forEach(function (data) {
+        // let buffer = new Buffer(data);
+        fs.open("src/data/speakers/" + data.speaker.replace(" ", "-").toLowerCase() + '.json', 'wx', (err, fd) => {
+            if (err) {
+                if (err.code === "EEXIST") {
+                    console.error('myfile already exists');
+                    return;
+                } else {
+                    throw err;
+                }
+            }
+            fs.write(fd, JSON.stringify(data), function(err) {
+                if (err) throw 'error writing file: ' + err;
+                fs.close(fd, function() {
+                    // console.log('file written');
+                })
+            });
+        });
+    });
+
+    // return gulp.src('src/pages/speakers/*.{html,php,hbs,handlebars}')
+    //     .pipe(panini({
+    //         root: 'src/pages/speakers/',
+    //         layouts: 'src/layouts/',
+    //         partials: 'src/partials/',
+    //         data: 'src/speakers/',
+    //         helpers: 'src/helpers/'
+    //     }))
+    //     .pipe(gulp.dest(PATHS.dist));
 }
 
 // Load updated HTML templates and partials into Panini
@@ -86,7 +122,7 @@ function sass() {
             browsers: COMPATIBILITY
         }))
         // Comment in the pipe below to run UnCSS in production
-        //.pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
+        // .pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
         .pipe($.if(PRODUCTION, $.cssnano()))
         .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
         .pipe(gulp.dest(PATHS.dist + '/assets/css'))
@@ -150,5 +186,22 @@ function watch() {
     gulp.watch('src/assets/js/**/*.js').on('all', gulp.series(javascript, browser.reload));
     gulp.watch('src/assets/img/**/*').on('all', gulp.series(images, browser.reload));
     gulp.watch('src/assets/fonts/**/*').on('all', gulp.series(fonts, browser.reload));
-    gulp.watch('src/styleguide/**').on('all', gulp.series(styleGuide, browser.reload));
+    // gulp.watch('src/styleguide/**').on('all', gulp.series(styleGuide, browser.reload));
 }
+
+let rmDir = function(dirPath, removeSelf) {
+    if (removeSelf === undefined)
+        removeSelf = true;
+    try { var files = fs.readdirSync(dirPath); }
+    catch(e) { return; }
+    if (files.length > 0)
+        for (var i = 0; i < files.length; i++) {
+            var filePath = dirPath + '/' + files[i];
+            if (fs.statSync(filePath).isFile())
+                fs.unlinkSync(filePath);
+            else
+                rmDir(filePath);
+        }
+    if (removeSelf)
+        fs.rmdirSync(dirPath);
+};

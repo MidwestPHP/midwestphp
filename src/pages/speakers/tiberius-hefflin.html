@@ -1,0 +1,57 @@
+---
+title: Speaker - Tiberius Hefflin
+---
+<div class="speakers-page">
+    <div class="background">
+        <div class="mask1">
+            <div class="mask2">
+                {{> navigation }}
+            </div>
+        </div>
+    </div>
+    <section class="speakers">
+        <div class="row">
+            <div class="small-10 small-centered">
+                <div class="row">
+                    <div class="columns large-3">
+                        <img src="{{root}}assets/img/speakers/{{ tiberius-hefflin.photo_path }}">
+                        <div class="speakers-social-media">
+                            <a href="https://twitter.com/{{tiberius-hefflin.twitter}}" target="_blank">
+                                <i class="fi-social-twitter"></i>
+                            </a>
+                            <a href="https://github.com/{{tiberius-hefflin.github}}" target="_blank">
+                                <i class="fi-social-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="columns large-8 end">
+                        <h1>{{tiberius-hefflin.speaker}}<small>.</small></h1>
+                        {{tiberius-hefflin.company}}
+                        {{#markdown}}{{tiberius-hefflin.bio}}{{/markdown}}
+                        <table>
+                            <thead>
+                            <tr>
+                                <th>Talk</th>
+                                <th>Date</th>
+                                <th>Location</th>
+                                <th>Time</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {{#each tiberius-hefflin.sessions}}
+                            <tr>
+                                <td><a href="{{#session-url}}{{this.title}}{{/session-url}}">{{this.title}}</a></td>
+                                <td>{{this.date}}</td>
+
+                                <td>{{this.location}}</td>
+                                <td>{{this.time}}</td>
+                            </tr>
+                            {{/each}}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

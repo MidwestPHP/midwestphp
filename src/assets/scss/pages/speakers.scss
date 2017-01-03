@@ -1,0 +1,149 @@
+.speakers-page {
+  .background {
+    background: #D8D8D8;
+    margin-bottom: 100px;
+    .mask1 {
+      background-image: radial-gradient(50% 87%, #344E6E 4%, #1D3149 88%);
+      background-blend-mode: multiply;
+      .mask2 {
+        background-image: radial-gradient(50% 87%, #344E6E 4%, #1D3149 88%);
+        background-blend-mode: normal;
+      }
+    }
+  }
+  .top-bar {
+    background: transparent;
+    ul {
+      background: transparent;
+    }
+  }
+  .top-bar-left {
+    width: 100%;
+  }
+
+  .menu {
+    margin-top: 20px;
+    > li > a {
+      padding: 0.7rem 0;
+      margin: 0 1rem;
+      color: $white;
+      &.button {
+        padding: 0.7rem 1rem;
+      }
+      &.active {
+        border-bottom: 2px solid #26A9E0;
+      }
+    }
+  }
+
+  .speakers {
+    img {
+      max-width: 200px;
+      max-height: 200px;
+    }
+  }
+  h1{
+    color: #1B3149;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 1;
+    small {
+      color: #26A9E0;
+    }
+  }
+
+  h5 {
+    color: #5F6871;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+  }
+
+  h6 {
+    margin-bottom: 0;
+    line-height: 1;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    color: #5F6871;
+  }
+  h4 {
+    text-transform: uppercase;
+    span.main {
+      font-size: 2rem;
+      font-family: "Roboto Condensed", Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      color: #1B3149;
+    }
+    span.level {
+      position: relative;
+      top: -.5rem;
+      margin-top: .6rem;
+      margin-left: .6rem;
+      color: #fff;
+      font-size: .75rem;
+      padding: .25rem;
+      white-space:nowrap;
+      &.entry {
+        background: #00B0D8;
+      }
+      &.mid {
+        background: #1B75BB;
+      }
+      &.advanced {
+        background: #1B3149;
+      }
+    }
+  }
+  .speakers-social-media > a > i {
+    font-size: 2rem;
+    border: solid thin #696969;
+    padding: 0 5px;
+    margin-right: 5px;
+    &.fi-social-facebook {
+      color: #0e1f56;
+    }
+
+    &.fi-social-instagram {
+      color: #fff;
+      background: linear-gradient( #400080, transparent),
+      linear-gradient( 200deg, #d047d1, #ff0000, #ffff00);
+    }
+
+    &.fi-social-twitter {
+      border: solid thin #1dcaff;
+      color: #1dcaff;
+    }
+    &.fi-social-github {
+      border: solid thin #333;
+      color: #333;
+    }
+
+    &.fi-social-youtube {
+      color: #b31217;
+    }
+
+    &.fi-social-dribbble {
+      color: #ea4c89;
+    }
+    &.fi-social-linkedin {
+      color: #0077B5;
+    }
+  }
+
+  table {
+    border-collapse:separate;
+    border-spacing:0 5px;
+    font-family: "Roboto Condensed", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    > thead > tr {
+      text-transform: uppercase;
+      font-size: .9rem;
+    }
+    > tbody > tr,
+    a {
+      color: #173249;
+      font-size:1rem;
+    }
+  }
+}

@@ -25,7 +25,7 @@
 //@include foundation-dropdown-menu;
 @include foundation-flex-video;
 //@include foundation-label;
-//@include foundation-media-object;
+@include foundation-media-object;
 @include foundation-off-canvas;
 @include foundation-orbit;
 //@include foundation-pagination;
@@ -36,7 +36,7 @@
 @include foundation-sticky;
 @include foundation-reveal;
 //@include foundation-switch;
-//@include foundation-table;
+@include foundation-table;
 //@include foundation-tabs;
 @include foundation-thumbnail;
 @include foundation-title-bar;
@@ -53,8 +53,11 @@
 @import "components/general";
 
 @import "pages/venue";
+@import "pages/speakers";
 @import "pages/sponsors";
 @import "pages/register";
+@import "pages/sessions";
+
 
 @import "components/hero";
 @import "components/call-for-speakers";

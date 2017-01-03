@@ -1,0 +1,36 @@
+---
+title: Speaker
+---
+
+<div class="registration-page">
+    <div class="background">
+        <div class="mask1">
+            <div class="mask2">
+                {{> navigation }}
+            </div>
+        </div>
+    </div>
+</div>
+<section>
+    <div class="row">
+        <div class="small-10 small-centered">
+            <h1>Speakers<small>.</small></h1>
+            <h5 class="level">Learn From These Great Folks</h5>
+
+            <h3>All Speakers</h3>
+            <div class="row small-up-4">
+                {{#each speakers}}
+                {{#each this}}
+                <div class="column">
+                    <img class="thumbnail" src="//placehold.it/200x200" alt="Photo of Uranus.">
+                    <p>
+                        <strong>{{ this.name }}</strong><br />
+                        {{ this.company }}
+                    </p>
+                </div>
+                {{/each}}
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</section>

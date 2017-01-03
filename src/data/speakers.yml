@@ -1,0 +1,155 @@
+- "speaker": Caitlin Bales
+  "bio": Community engineer for Microsoft Graph, nerd, adventurer, and crafter. Midwest born and raised!
+  "twitter": caitlinabales
+  "company": Microsoft
+  "photo_path": mBvuTVar80VE79msRQOmmHShr5v0GaCV1Qg4E1Ad.jpeg
+- "speaker": Mathew Beane
+  "bio": Mathew has been fascinated with building and programming computers since his early days of upgrading an 8086 to an 80386. Working initially in the video game industry building servers and managing server rooms, Mat shifted his focus to PHP programming in early 2000. With over a decade of experience in eCommerce, Mat is now Director of Systems Engineering at Robofirm and a Magento Certified developer , working with enterprise clientele on the Magento eCommerce platform. Mat is also part of the Zend Z-Team contributing to Z-Ray and Zend Server. When he's not programming, you will find Mat spending time with his family, making music, or tinkering in aquaponics.
+  "twitter": aepod
+  "company": Robofirm
+  "photo_path": f2XSZnwSNmy5g4OX6jXvs90VUECSyfRSRWZ4rOpi.png
+- "speaker": Derek Binkley
+  "bio": Derek is the Technical Lead at the National Conference of Bar Examiners, the creator of licensing exams for attorneys. He actively mentors other developers, specializes in Java, PHP, JavaScript, MySQL and Oracle and advocates for developer testing and adoption of agile methods. When not in front of a computer he enjoys spending time with family, traveling and drinking a local craft beer.
+  "twitter": DerekB_WI
+  "company": National Conference of Bar Examiners
+  "photo_path": oYQf0GGrBbrT4ky4Ufjp1wkV4V7DqtAOURS5OJfL.jpeg
+- "speaker": Doris Chen
+  "bio": |
+    Dr. Doris Chen is a Senior Technology Evangelist at Microsoft for the Western region of the United States, specialized in web technologies (mobile web, HTML5, JavaScript, TypeScript and Java).
+    Doris has over 18 years of experience in the software industry working in several open source web tier technologies, Java platform, .NET and distributed computing technologies. She speaks at numerous international conferences and user groups including Oâ€™Reilly OSCON, Fluent, Dev Nexus, HTML5 Dev Conference, WebVisions,  JavaOne, SD Forum, and worldwide User Groups. Doris works very closely to create and foster the open source community around Java, NetBeans, Glassfish, and related technologies. Before joining Microsoft, Doris Chen was a Technology Evangelist at Sun Microsystems.
+    Doris received her Ph.D. from the University of California at Los Angeles (UCLA) in computer engineering, specializing in medical informatics
+  "twitter": doristchen
+  "company": Micorosoft
+  "photo_path": NzL7xwsv4QYYPGlBwaui1dBncbRxZJrtjFkuS1qz.jpeg
+- "speaker": Adam Culp
+  "bio": Adam Culp (@AdamCulp) author of \"Refactoring 101\" and Zend consultant at Rogue Wave Software, is passionate about developing with PHP and contributes to many open source projects. He organizes the SunshinePHP Developer Conference and the South Florida PHP Users Group (SoFloPHP) where he enjoys helping others write good code, implement standards, and refactor efficiently. He is a Zend Certified PHP 5.3 engineer, is a voting member of the PHP-Fig, and holds a seat on the Zend Framework Certification Advisory Board. You can also find him on his Run Geek Radio podcast and GeekyBoy technical blog. When he is not coding or contributing to various developer communities, he can be found hiking around the United States National Parks, teaching judo, or long(ultra) distance running.
+  "twitter": adamculp
+  "company": Zend Technologies
+  "photo_path": Adam.Culp544007c420825.jpg
+- "speaker": Ben Edmunds
+  "bio": CTO of an awesome company you've never heard of by day, hacking on crazy ideas by night. PHP Town Hall podcast co-host. Author of Securing PHP Apps. Conference speaker. Open source advocate. Human.
+  "twitter": benedmunds
+  "company": Mindfulware
+  "photo_path": BPZMDHDUOMU8iTV8D3X89QUTibckQAhGG4Jvcm6R.jpeg
+- "speaker": Joe Ferguson
+  "bio": PHP Developer, MemphisPHP Organizer, HACKmemphis Organizer, Sometimes Conference Organizer, Sometimes Conference Speaker, OSS Supporter, Computer Geek, Husband, Maker, and is owned by cats.
+  "twitter": joepferguson
+  "company": Aol
+  "photo_path": Joe.Ferguson543fd49dc4b91.jpg
+- "speaker": Edward Finkler
+  "bio": |
+    Ed Finkler, also known as [Funkatron](https://twitter.com/funkatron), started making web sites before browsers had frames. He does front-end and server-side work in Python, PHP, and JavaScript. He is the CTO at [Graph Story](http://graphstory.com).
+
+    He served as web lead and security researcher at [The Center for Education and Research in Information Assurance and Security (CERIAS) at Purdue University](http://www.cerias.purdue.edu) for 9 years. Along with Chris Hartjes, Ed is co-host of the [Development Hell podcast](http://devhell.info).
+
+    Ed is also the founder and chairman of [Open Sourcing Mental Illness](https://osmihelp.org), a non-profit 501c3 dedicated to raising awareness and supporting those with mental illness in the tech industry.
+
+    Ed writes at [funkatron.com](http://funkatron.com).
+  "twitter": funkatron
+  "company": Graph Story
+  "photo_path": F0dwRVlTneLbxlgiN5WtIhBf2Yva4KhxNTYkkZ8f.jpeg
+- "speaker": Larry Garfield
+  "bio": |
+    Larry Garfield has been building websites since he was a sophomore in high school, which is longer ago than he'd like to admit.  Larry has been an active Drupal contributor and consultant for over a decade, and led the Drupal 8 Web Services initiative that helped transform Drupal into a modern PHP platform.
+
+    Larry is Director of Runtimes and Integrations at Platform.sh, a leading continuous deployment cloud hosting company.  He is responsible for Platform's container-based products and developer advocacy, with an aim to make hosting major OSS projects with Platform.sh \"stupid easy\".  He is also still a de facto Drupal developer evangelist within the PHP community, as well as the Drupal representative to the Framework Interoperability Group.
+
+    Larry holds a Masterâ€™s degree in Computer Science from DePaul University.  He blogs at both http://platform.sh/ and http://www.garfieldtech.com/.
+  "twitter": Crell
+  "company": Palantir.net
+  "photo_path": Larry.Garfield5466d1920644c.jpg
+- "speaker": Woody Gilk
+  "bio": Woody Gilk is a web developer and architect based in Minnesota. He started programming in 2004 and quickly developed a passion for open source software, leading to the co-founding of the Kohana Framework in 2008. Since then he has travelled the world as a consultant for a wide range of companies and organizations. During the last few years of his career in working with large, distributed development teams he has developed a passion for system architecture and clean coding principles.
+  "twitter": shadowhand
+  "company": When I Work
+  "photo_path": T8BCFSjL4e0DXHG6UjM9V2Kmypk9vIlbNPXHxmso.jpeg
+- "speaker": Michael Heap
+  "bio": |
+    Michael is a fixer, working mainly with with PHP/Go/MySQL and doing bits of server administration on the side, he goes where things need working on.
+
+    Currently, he's a member of the platform team at Datasift, working as part of a team that processes and augments various incoming data sources (including the Facebook firehose) before redistributing it to customers.
+  "twitter": mheap
+  "company": DataSift
+  "photo_path": NTeBL8eY1q6tuRe1CHISlJQLllhQjpZwvdBUGH0O.jpeg
+- "speaker": Tiberius Hefflin
+  "bio": Tibbs recently graduated from the University of West of Scotland with a degree in computer security. She has relocated to Portland, OR, where she evangelizes for privacy and security while doing security assurance work for Portland General Electric. She is passionate about encouraging small children to take the plunge into STEM and about laughing at cats on the internet.
+  "twitter": whatatiberius
+  "company": Portland General Electric
+  "photo_path": z3V2QHh4gCzXs5gHPncmVLxe2ocuQZgKfmW2fYjt.png
+- "speaker": Ben Ilegbodu
+  "bio": Ben is a Christian, a husband and a father of 2 with 10+ years of experience developing user interfaces for the Web. He currently leads and manages Eventbriteâ€™s Frontend Platform team. On the side, Ben also enjoys playing basketball, DIY, watching movies, and blogging ([benmvp.com](http://www.benmvp.com)) / tweeting ([@benmvp](https://twitter.com/benmvp)) about his experiences with new web development technologies.
+  "twitter": benmvp
+  "company": Eventbrite
+  "photo_path": IcqBC3yA1udP54h4HZqs7Sps2rBJJhFcAVQ3WDy4.jpeg
+- "speaker": David McKay
+  "bio": |
+    David McKay is a software and technology professional, born &amp; bred in Glasgow, Scotland.
+
+    As a serial user group organiser, organising Docker Glasgow, DevOps Glasgow and Pair Programming Glasgow, David is always searching for new and creative ways to share knowledge with others.
+
+    Oh, and he quite likes domain-driven design, micro-services and clean code.
+  "twitter": rawkode
+  "company":
+  "photo_path": 5MXnrOgGcso0D1ILYuZbKo7horzXXDVp5LCnvf1m.jpeg
+- "speaker": Evert Pot
+  "bio": Evert is a web developer since Firefox was still called Phoenix. He's [blogging](https://evertpot.com/) about PHP since 2006, a member of CalConnect standards consortium and was behind several start-ups. Evert's current focus is Web API's.
+  "twitter": evertp
+  "company": Turnstyle
+  "photo_path": Mu1ckrquMO4C3VkrizbJhowAJLqCWx7PH2zlZYfg.jpeg
+- "speaker": Sammy Powers
+  "bio": Sammy Kaye Powers has been making things on the web for fifteen years. Sammy spends the bulk of his time in coffee shops cranking out loads of [Facebook apps](https://www.sammykmedia.com/) for ad agencies. He dabbles in PHP internals and is the maintainer of the official [Facebook PHP SDK](https://github.com/facebook/php-graph-sdk). He loves sharing knowledge about Facebook development &amp; PHP at [SammyK.me](https://www.sammyk.me/). He co-organizes the [Chicago PHP user group](http://www.meetup.com/Chicago-PHP-User-Group/) and hosts the [PHP Roundtable](https://www.phproundtable.com/) podcast. He travels all over the States [competing in a dance called West Coast Swing](https://www.dorkyduo.com/). He's also a [volunteer magician](http://www.openheartmagic.org/) performing bedside magic at children's hospitals.
+  "twitter": SammyK
+  "company": SammyK Media
+  "photo_path": oU2N5TW2sn1TB77Ysj27aVyYetSNHF0tirTUYahw.jpeg
+- "speaker": Joseph Purcell
+  "bio": Joseph D. Purcell has been part of the PHP community since 2003. He has a highly diverse technical background with extensive experience in front- and back-end development, system administration, and database administration. He has been responsible for finding and resolving performance bottlenecks in complex highly available systems, using and promoting PHP and web standards and best practices, upgrading and extending legacy PHP platforms, and integration and release management. As a technologist, he is inspired by emerging technologies and the discoveries being made from cross-disciplinary research. He is exercising these many talents at Digital Bridge Solutions in Chicago.
+  "twitter": josephdpurcell
+  "company": Digital Bridge Solutions
+  "photo_path": XDxtQXiwTRfVW6Q6Uzb5Km8c0UCsUkiSay34jCD0.jpeg
+- "speaker": Derick Rethans
+  "bio": |
+    Derick Rethans is a PHP internals expert, author of Xdebug and an OpenStreetMap and mapping enthusiast.
+
+    He has contributed in a number of ways to the PHP project, including the Xdebug debugging tool, and various extensions and additions. He's a frequent lecturer at conferences, the author of php|architect's Guide to Date and Time Programming, and the co-author of PHP 5 Power Programming. He is now working at MongoDB to work on the PHP and HHVM drivers for MongoDB.
+  "twitter": derickr
+  "company": MongoDB
+  "photo_path": Cs7QjCXydzKtH9Ce8LUXBqwMmuQUh9TM31YEIVxf.jpeg
+- "speaker": Joe Shindelar
+  "bio": Joe is the Lead Trainer and Lead Developer for [Drupalize.Me](https://drupalize.me) where he has been building PHP applications, and creating educational materials for Drupal/PHP. Joe has been a frequent participant in Drupal core development since 2006. Joe is a member of the Drupal documentation working group, a frequent public speaker, and enjoys developing technical training materials and distilling hard-to-understand concepts into metaphors and illustrations. Joe also enjoys teaching snowboarding, loves biking, and playing with all the fun new technologies.
+  "twitter": eojthebrave
+  "company": Lullabot
+  "photo_path": Lvs7vm7Ng1165IOBzgENPTGVRqTj6h3y0TqjNcnT.png
+- "speaker": Emily Stamey
+  "bio": Emily is a developer at NC State, supporting the College of Engineering. She learned PHP in 1999 and discovered a whole new world of fun and programming. This started her passion for Open Source! In her free time she enjoys music, legos, making things, playing games, and socializing. She is an active volunteer in the community as an Organizer of TrianglePHP and Girl Develop It. She really enjoys helping people share ideas and learn together, which has led to her speaking at conferences.
+  "twitter": elstamey
+  "company": NC State University
+  "photo_path": 0kI3CvHW1z7gX3omB1jjToJla0aWRRooryxpqseg.jpeg
+- "speaker": Nicolas Steenhout
+  "bio": Nicolas Steenhout is a veteran of, and passionate advocate for, disability rights. An international speaker, trainer and consultant, Nicolas has worked with governments, corporations and small teams in the areas of disability awareness, inclusion, and web &amp; building accessibility. Working with and for thousands of people with disabilities in North America and Australasia has given Nicolas a unique insight into disability-related issues.
+  "twitter": vavroom
+  "company":
+  "photo_path": Nicolas.Steenhout5464165aea5e3.jpg
+- "speaker": Hilary Stohs-Krause
+  "bio": |
+    Like many developers, Hilary Stohs-Krause started out building websites while still a kid ... but, unlike most, hers was dedicated to _Buffy the Vampire Slayer_.
+
+    As an 11-year-old, Hilary didnâ€™t know she could make websites for a living, so in college, she pursued a different passion: journalism. Over the ensuing decade-plus, she wrote, edited, designed, managed and radioâ€™d her way to a position as an award-winning journalist who freelanced for NPR and taught journalists how to incorporate the web into their writing.
+
+    Now, as a full-stack developer for [Ten Forward Consulting](http://tenforward.consulting) in Madison, WI, part of her job is to incorporate writing into our web applications. She spearheaded and now directs Ten Forward's [company blog](http://tenforward.consulting/blog), edits copy for client blogs, and writes and edits content for client sites, in addition to front-end and back-end development and some design.
+
+    She's passionate about increasing inclusivity in tech, and volunteers at youth coding events through various Madison-area organizations, as well as tutoring students at the Madison YWCAâ€™s [web development bootcamp](http://ywebca.org/). She's a primary organizer for the [Madison Women in Tech meetup](http://www.meetup.com/Madison-Women-in-Tech/), which has more than 600 members.
+
+    Hilary has two ragdoll-siamese cats, Gus and Baxter, and once climbed the border fence between the U.S. and Mexico. She like porters and American Pale Ales, mango sherbet and garlic-stuffed olives. Sheâ€™ll read any fantasy or sci-fi she can get her hands on.
+  "twitter": hilarysk
+  "company": Ten Forward Consulting
+  "photo_path": FIq5XzjyvV5sHTwoDg8q8OwtDysKyqMwNydgsDnL.jpeg
+- "speaker": Chris Tankersley
+  "bio": Chris Tankersley is a husband, father, and  PHP developer in Northwest Ohio. He works for InQuest, LLC  on their network security application. He also does contracting work, working with Drupal, Wordpress, Symfony, and many other frameworks. He founded the Northwest Ohio PHP User Group, and works with local developers helping them with programming and server administration.
+  "twitter": dragonmantank
+  "company": Tankersley Web Solutions, LLC
+  "photo_path": Chris.Tankersley543f3f282bce9.jpg
+- "speaker": Heather White
+  "bio": Heather has held various jobs in the past, ranging from teaching elementary school to being a project manager and trainer for the Armyâ€™s medical research program.Â Â She holds a Bachelors of Biology and a Masters in Curriculum Development.Â Â Currently she uses her background in curriculum and teaching to head up the Training Program at php[architect], as well as being their customer service lead and co-chair on their conferences.  Heather is also a self proclaimed geek and enjoys Sci-Fi, Medieval reenactment, and board games.
+  "twitter": cattycreations
+  "company": One for All Events
+  "photo_path": tT7MTcgrLgFJLjDNtmtEiH8xa4lL1uBuaZgDF6Ac.jpeg
