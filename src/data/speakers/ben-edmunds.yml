@@ -1,11 +1,13 @@
-"speaker": Ben Edmunds
-"bio": CTO of an awesome company you've never heard of by day, hacking on crazy ideas by night. PHP Town Hall podcast co-host. Author of Securing PHP Apps. Conference speaker. Open source advocate. Human.
-"twitter": benedmunds
+speaker: Ben Edmunds
+bio: |
+  CTO of an awesome company you've never heard of by day, hacking on crazy ideas by night. PHP Town Hall podcast
+  co-host. Author of Securing PHP Apps. Conference speaker. Open source advocate. Human.
+twitter: benedmunds
 github: benedmunds
-"company": Mindfulware
-"photo_path": BPZMDHDUOMU8iTV8D3X89QUTibckQAhGG4Jvcm6R.jpeg
-"sessions":
+company: Mindfulware
+photo_path: BPZMDHDUOMU8iTV8D3X89QUTibckQAhGG4Jvcm6R.jpeg
+sessions:
  - title: Intro to Laravel 5
-   "date": "TBD"
-   "time": "TBD"
-   "location": "TBD"
+   date: "TBD"
+   time: "TBD"
+   location: "TBD"

@@ -1,12 +1,15 @@
-"speaker": Derick Rethans
-"bio": |
+speaker: Derick Rethans
+bio: |
   Derick Rethans is a PHP internals expert, author of Xdebug and an OpenStreetMap and mapping enthusiast.
 
-  He has contributed in a number of ways to the PHP project, including the Xdebug debugging tool, and various extensions and additions. He's a frequent lecturer at conferences, the author of php|architect's Guide to Date and Time Programming, and the co-author of PHP 5 Power Programming. He is now working at MongoDB to work on the PHP and HHVM drivers for MongoDB.
-"twitter": derickr
-"company": MongoDB
-"photo_path": Cs7QjCXydzKtH9Ce8LUXBqwMmuQUh9TM31YEIVxf.jpeg
-github: ""
+  He has contributed in a number of ways to the PHP project, including the Xdebug debugging tool, and various
+  extensions and additions. He's a frequent lecturer at conferences, the author of php|architect's Guide to Date and
+  Time Programming, and the co-author of PHP 5 Power Programming. He is now working at MongoDB to work on the PHP and
+  HHVM drivers for MongoDB.
+twitter: derickr
+company: MongoDB
+photo_path: Cs7QjCXydzKtH9Ce8LUXBqwMmuQUh9TM31YEIVxf.jpeg
+github: derickr
 sessions:
  - title: "Storing Non-Scalar Data"
    date: "TBD"

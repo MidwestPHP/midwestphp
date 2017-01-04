@@ -1,11 +1,16 @@
-"speaker": Heather White
-"bio": Heather has held various jobs in the past, ranging from teaching elementary school to being a project manager and trainer for the Armyâ€™s medical research program.Â Â She holds a Bachelors of Biology and a Masters in Curriculum Development.Â Â Currently she uses her background in curriculum and teaching to head up the Training Program at php[architect], as well as being their customer service lead and co-chair on their conferences.  Heather is also a self proclaimed geek and enjoys Sci-Fi, Medieval reenactment, and board games.
-"twitter": cattycreations
-"company": One for All Events
-"photo_path": tT7MTcgrLgFJLjDNtmtEiH8xa4lL1uBuaZgDF6Ac.jpeg
+speaker: Heather White
+bio: |
+  Heather has held various jobs in the past, ranging from teaching elementary school to being a project manager and
+  trainer for the Army's medical research program. She holds a Bachelors of Biology and a Masters in Curriculum
+  Development.  Currently she uses her background in curriculum and teaching to head up the Training Program at
+  php[architect], as well as being their customer service lead and co-chair on their conferences.  Heather is also a
+  self proclaimed geek and enjoys Sci-Fi, Medieval reenactment, and board games.
+twitter: cattycreations
+company: One for All Events
+photo_path: tT7MTcgrLgFJLjDNtmtEiH8xa4lL1uBuaZgDF6Ac.jpeg
 github: ""
 sessions:
- - title: ""
+ - title: "Stepping Outside Your Comfort Zone: Learning to Teach"
    date: "TBD"
    time: "TBD"
    location: "TBD"

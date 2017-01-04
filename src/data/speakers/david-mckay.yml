@@ -1,14 +1,15 @@
-"speaker": David McKay
-"bio": |
+speaker: David McKay
+bio: |
   David McKay is a software and technology professional, born &amp; bred in Glasgow, Scotland.
 
-  As a serial user group organiser, organising Docker Glasgow, DevOps Glasgow and Pair Programming Glasgow, David is always searching for new and creative ways to share knowledge with others.
+  As a serial user group organiser, organising Docker Glasgow, DevOps Glasgow and Pair Programming Glasgow, David is
+  always searching for new and creative ways to share knowledge with others.
 
   Oh, and he quite likes domain-driven design, micro-services and clean code.
-"twitter": rawkode
-"company":
-"photo_path": 5MXnrOgGcso0D1ILYuZbKo7horzXXDVp5LCnvf1m.jpeg
-github: ""
+twitter: rawkode
+company:
+photo_path: 5MXnrOgGcso0D1ILYuZbKo7horzXXDVp5LCnvf1m.jpeg
+github: rawkode
 sessions:
  - title: "The Mindful Developer: Being Less Busy &amp; More Productive"
    date: "TBD"

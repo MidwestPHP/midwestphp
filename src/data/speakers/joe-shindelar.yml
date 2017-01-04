@@ -1,11 +1,16 @@
-"speaker": Joe Shindelar
-"bio": Joe is the Lead Trainer and Lead Developer for [Drupalize.Me](https://drupalize.me) where he has been building PHP applications, and creating educational materials for Drupal/PHP. Joe has been a frequent participant in Drupal core development since 2006. Joe is a member of the Drupal documentation working group, a frequent public speaker, and enjoys developing technical training materials and distilling hard-to-understand concepts into metaphors and illustrations. Joe also enjoys teaching snowboarding, loves biking, and playing with all the fun new technologies.
-"twitter": eojthebrave
-"company": Lullabot
-"photo_path": Lvs7vm7Ng1165IOBzgENPTGVRqTj6h3y0TqjNcnT.png
-github: ""
+speaker: Joe Shindelar
+bio: |
+  Joe is the Lead Trainer and Lead Developer for [Drupalize.Me](https://drupalize.me) where he has been building PHP
+  applications, and creating educational materials for Drupal/PHP. Joe has been a frequent participant in Drupal core
+  development since 2006. Joe is a member of the Drupal documentation working group, a frequent public speaker, and
+  enjoys developing technical training materials and distilling hard-to-understand concepts into metaphors and
+  illustrations. Joe also enjoys teaching snowboarding, loves biking, and playing with all the fun new technologies.
+twitter: eojthebrave
+company: Lullabot
+photo_path: Lvs7vm7Ng1165IOBzgENPTGVRqTj6h3y0TqjNcnT.png
+github: eojthebrave
 sessions:
- - title: ""
+ - title: "Altering, Extending, and Enhancing Drupal 8"
    date: "TBD"
    time: "TBD"
    location: "TBD"

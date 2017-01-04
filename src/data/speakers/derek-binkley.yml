@@ -1,8 +1,12 @@
-"speaker": Derek Binkley
-"bio": Derek is the Technical Lead at the National Conference of Bar Examiners, the creator of licensing exams for attorneys. He actively mentors other developers, specializes in Java, PHP, JavaScript, MySQL and Oracle and advocates for developer testing and adoption of agile methods. When not in front of a computer he enjoys spending time with family, traveling and drinking a local craft beer.
-"twitter": DerekB_WI
-"company": National Conference of Bar Examiners
-"photo_path": oYQf0GGrBbrT4ky4Ufjp1wkV4V7DqtAOURS5OJfL.jpeg
+speaker: Derek Binkley
+bio: |
+  Derek is the Technical Lead at the National Conference of Bar Examiners, the creator of licensing exams for
+  attorneys. He actively mentors other developers, specializes in Java, PHP, JavaScript, MySQL and Oracle and
+  advocates for developer testing and adoption of agile methods. When not in front of a computer he enjoys spending
+  time with family, traveling and drinking a local craft beer.
+twitter: DerekB_WI
+company: National Conference of Bar Examiners
+photo_path: oYQf0GGrBbrT4ky4Ufjp1wkV4V7DqtAOURS5OJfL.jpeg
 github: ""
 sessions:
  - title: "Modern JavaScript for PHP Developers"

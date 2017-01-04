@@ -1,14 +1,22 @@
-"speaker": Michael Heap
-"bio": |
-  Michael is a fixer, working mainly with with PHP/Go/MySQL and doing bits of server administration on the side, he goes where things need working on.
+speaker: Michael Heap
+bio: |
+  Michael is a polyglot software engineer, committed to reducing complexity in systems and making them more
+  predictable. Working with a variety of languages and tools, he shares his technical expertise with audiences all
+  around the world at user groups and conferences.
 
-  Currently, he's a member of the platform team at Datasift, working as part of a team that processes and augments various incoming data sources (including the Facebook firehose) before redistributing it to customers.
-"twitter": mheap
-"company": DataSift
-"photo_path": NTeBL8eY1q6tuRe1CHISlJQLllhQjpZwvdBUGH0O.jpeg
-github: ""
+  Day to day, Michael is a fixer. He works on whatever needs an extra pair of hands both at his day job and in open
+  source projects. When not immersed in technology, you'll find him either playing various board games or hiking
+  through the countryside.
+twitter: mheap
+company: Intechrity
+photo_path: NTeBL8eY1q6tuRe1CHISlJQLllhQjpZwvdBUGH0O.jpeg
+github: mheap
 sessions:
- - title: ""
+ - title: "Profiling your PHP application"
+   date: "TBD"
+   time: "TBD"
+   location: "TBD"
+ - title: "WordPress as a 12 Factor app"
    date: "TBD"
    time: "TBD"
    location: "TBD"

@@ -1,9 +1,13 @@
-"speaker": Chris Tankersley
-"bio": Chris Tankersley is a husband, father, and  PHP developer in Northwest Ohio. He works for InQuest, LLC  on their network security application. He also does contracting work, working with Drupal, Wordpress, Symfony, and many other frameworks. He founded the Northwest Ohio PHP User Group, and works with local developers helping them with programming and server administration.
-"twitter": dragonmantank
-"company": Tankersley Web Solutions, LLC
-"photo_path": Chris.Tankersley543f3f282bce9.jpg
-github: ""
+speaker: Chris Tankersley
+bio: |
+  Chris Tankersley is a husband, father, and  PHP developer in Northwest Ohio. He works for InQuest, LLC on their
+  network security application. He also does contracting work, working with Drupal, Wordpress, Symfony, and many other
+  frameworks. He founded the Northwest Ohio PHP User Group, and works with local developers helping them with
+  programming and server administration.
+twitter: dragonmantank
+company: Tankersley Web Solutions, LLC
+photo_path: Chris.Tankersley543f3f282bce9.jpg
+github: dragonmantank
 sessions:
  - title: OOP Is More Than Cars and Dogs
    date: "TBD"
