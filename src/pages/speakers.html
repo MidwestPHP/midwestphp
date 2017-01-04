@@ -20,7 +20,9 @@ title: Speakers
                 <div class="row small-up-1 medium-up-2 large-up-4">
                     {{#each speakers}}
                     <div class="column">
-                        <img class="thumbnail" src="{{root}}/assets/img/speakers/{{ this.photo_path }}" alt="Photo of Uranus.">
+                        <a href="{{#speaker-url}}{{this.speaker}}{{/speaker-url}}">
+                            <img class="thumbnail" src="{{root}}/assets/img/speakers/{{ this.photo_path }}" alt="Photo of Uranus.">
+                        </a>
                         <p>
                             <strong><a href="{{#speaker-url}}{{this.speaker}}{{/speaker-url}}">{{ this.speaker }}</a></strong><br />
                             {{ this.company }}
