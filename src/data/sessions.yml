@@ -290,6 +290,22 @@
     Generators have a unique language property though. They allow us to jump in the middle of any method outside that method. In the third part of the talk we'll show how we can use iterators to improve promise-heavy code and make asynchronous code look and behave as normal code.,
   speaker: Evert Pot
   "photo_path": Mu1ckrquMO4C3VkrizbJhowAJLqCWx7PH2zlZYfg.jpeg
+- title: "Dev Divas: History's Heroines of Computing"
+  level: entry
+  category: other
+  type: regular
+  description: |
+    If you aim for code that's SOLID, rather than SOID, thank Barbara Liskov and Jeannette Wing. Call yourself a
+    "software engineer"? Thank NASA supercoder Margaret Hamilton, who invented the term that once drew chuckles.
+    Ada Lovelace in the 19th century wrote the first computer algorithm and foresaw the potential of
+    symbol-and-rule-based computation. Yet she's often dismissed as a math klutz, the well-meaning but incompetent muse
+    of inventor Charles Babbage.
+
+    These aren't the only women who shaped today's tech-centric world. Throughout the history of computing, women have
+    played pivotal roles. Meet some of the women who shaped the world of tech, and learn their stories. Find out what
+    the landscape looks like today for women in tech, and learn how you can contribute to a brighter future for all.
+  speaker: Vesna Kovach
+  photo_path: 1btgOEKtHR5osTRLSQbQUDbPDO0r4sJWQuyc2V5c.png
 - title: Practical PHP Deployment with Jenkins
   level: entry
   category: continuous delivery
