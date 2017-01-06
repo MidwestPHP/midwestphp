@@ -307,11 +307,12 @@
   level: mid
   category: development
   type: regular
-  description: Nearly every web developer has been exposed to MVC. Recently, the [ADR pattern](http://pmjones.io/adr/)
-  has been articulated as a potentially better way to organize web applications. In this talk we will explore the
-  background of the MVC pattern, the challenges it faces when used for web applications, and the solutions that ADR
-  proposes to address those challenges. We will also explore a small application written in the ADR pattern using the
-  [Equip micro-framework](http://equip.tools).,
+  description: |
+    Nearly every web developer has been exposed to MVC. Recently, the [ADR pattern](http://pmjones.io/adr/)
+    has been articulated as a potentially better way to organize web applications. In this talk we will explore the
+    background of the MVC pattern, the challenges it faces when used for web applications, and the solutions that ADR
+    proposes to address those challenges. We will also explore a small application written in the ADR pattern using the
+    [Equip micro-framework](http://equip.tools).,
   speaker: Woody Gilk
   "photo_path": T8BCFSjL4e0DXHG6UjM9V2Kmypk9vIlbNPXHxmso.jpeg
 - title: OOP Is More Than Cars and Dogs

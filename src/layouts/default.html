@@ -19,10 +19,12 @@
 
             <!-- Menu -->
             <ul class="vertical menu">
-                <li><a href="index.html" class="hide-for-large">Home</a></li>
-                <li><a href="venue.html">Venue</a></li>
-                <li><a href="sponsors.html">Sponsors</a></li>
-                <li><a href="register.html">Register</a></li>
+                <li><a href="{{root}}index.html" class="hide-for-large">Home</a></li>
+                <li><a href="{{root}}speakers.html" {{#ifpage 'speakers'}}class="active"{{/ifpage}}>Speakers</a></li>
+                <li><a href="{{root}}sessions.html" {{#ifpage 'sessions'}}class="active"{{/ifpage}}>Sessions</a></li>
+                <li><a href="{{root}}venue.html" {{#ifpage 'venue'}}class="active"{{/ifpage}}>Venue</a></li>
+                <li><a href="{{root}}sponsors.html" {{#ifpage 'sponsors'}}class="active"{{/ifpage}}>Sponsors</a></li>
+                <li><a href="{{root}}register.html" {{#ifpage 'register'}}class="active"{{/ifpage}}>Register</a></li>
             </ul>
 
         </div>

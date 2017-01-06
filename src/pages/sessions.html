@@ -16,7 +16,8 @@ title: Sessions
                 <h1>Sessions<small>.</small></h1>
                 <h5>Subject to change.</h5>
                 {{#each sessions}}
-                <div id="{{#anchor}}{{this.title}}{{/anchor}}" class="media-object">
+                <div class="row">
+                <div id="{{#anchor}}{{this.title}}{{/anchor}}" class="media-object stack-for-small">
                     <div class="media-object-section">
                         <div class="thumbnail">
                             <img src="{{root}}assets/img/speakers/{{ this.photo_path }}">
@@ -29,6 +30,7 @@ title: Sessions
                         <div class="clearfix"></div>
                         {{#markdown}}{{this.description}}{{/markdown}}
                     </div>
+                </div>
                 </div>
                 {{/each}}
             </div>
