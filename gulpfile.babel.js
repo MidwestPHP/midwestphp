@@ -83,16 +83,6 @@ function speakers() {
             });
         });
     });
-
-    // return gulp.src('src/pages/speakers/*.{html,php,hbs,handlebars}')
-    //     .pipe(panini({
-    //         root: 'src/pages/speakers/',
-    //         layouts: 'src/layouts/',
-    //         partials: 'src/partials/',
-    //         data: 'src/speakers/',
-    //         helpers: 'src/helpers/'
-    //     }))
-    //     .pipe(gulp.dest(PATHS.dist));
 }
 
 // Load updated HTML templates and partials into Panini
