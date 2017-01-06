@@ -234,14 +234,14 @@
     When developers are introduced to Object Oriented Programming, one of the first things that happens is that they are taught that nouns turn into objects, verbs into methods, and Dog is a subclass of Animal. OOP is more than just turning things into classes and objects and showing that both Boats and Cars have motors, and that Dogs and Cats both speak(). Let's look at OOP in real world settings and go beyond cars and dogs, and see how to use Object Oriented Programming properly in PHP. Traits, Composition, Inheritance, none of it is off limits!,
   speaker: Chris Tankersley
   "photo_path": Chris.Tankersley543f3f282bce9.jpg
-- title: Pulling up Your Legacy App by its Bootstraps!
-  level: entry
-  category: development
-  type: regular
-  description: |
-    Your mission, should you choose to accept it, is to support an application built on an older framework. Refactoring isn't an easy option. The code is untested and nowhere near best practices or standards. In this session, we'll talk about strategies for incorporating modern PHP coding practices to add features and functionality and retiring the older code in pieces. We'll review specific examples and code from a real project where we bootstrapped a legacy application that needed a lot of work to be helpful to its users and simpler for developers to maintain . We'll talk about strategies to leave the existing code in place until the new code is ready to replace it in whole or in pieces.
-  speaker: Emily Stamey
-  "photo_path": 0kI3CvHW1z7gX3omB1jjToJla0aWRRooryxpqseg.jpeg
+#- title: Pulling up Your Legacy App by its Bootstraps!
+#  level: entry
+#  category: development
+#  type: regular
+#  description: |
+#    Your mission, should you choose to accept it, is to support an application built on an older framework. Refactoring isn't an easy option. The code is untested and nowhere near best practices or standards. In this session, we'll talk about strategies for incorporating modern PHP coding practices to add features and functionality and retiring the older code in pieces. We'll review specific examples and code from a real project where we bootstrapped a legacy application that needed a lot of work to be helpful to its users and simpler for developers to maintain . We'll talk about strategies to leave the existing code in place until the new code is ready to replace it in whole or in pieces.
+#  speaker: Emily Stamey
+#  "photo_path": 0kI3CvHW1z7gX3omB1jjToJla0aWRRooryxpqseg.jpeg
 - title: Bringing Old Legacy Apps To PHP 7 and Beyond
   level: mid
   category: development
