@@ -1,0 +1,59 @@
+---
+title: Speaker - Eryn O'Neil
+---
+<div class="speakers-page">
+    <div class="background">
+        <div class="mask1">
+            <div class="mask2">
+                {{> navigation }}
+            </div>
+        </div>
+    </div>
+    <section class="speakers">
+        <div class="row">
+            <div class="small-10 small-centered">
+                <div class="row">
+                    <div class="columns large-3">
+                        <img src="{{root}}assets/img/speakers/{{ eryn-oneil.photo_path }}">
+                        <div class="speakers-social-media">
+                            <a href="https://twitter.com/{{eryn-oneil.twitter}}" target="_blank">
+                                <i class="fi-social-twitter"></i>
+                            </a>
+                            {{#if eryn-oneil.github}}
+                            <a href="https://github.com/{{eryn-oneil.github}}" target="_blank">
+                                <i class="fi-social-github"></i>
+                            </a>
+                            {{/if}}
+                        </div>
+                    </div>
+                    <div class="columns large-8 end">
+                        <h1>{{eryn-oneil.speaker}}<small>.</small></h1>
+                        {{eryn-oneil.company}}
+                        {{#markdown}}{{eryn-oneil.bio}}{{/markdown}}
+                        <table>
+                            <thead>
+                            <tr>
+                                <th>Talk</th>
+                                <th>Date</th>
+                                <th>Location</th>
+                                <th>Time</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {{#each eryn-oneil.sessions}}
+                            <tr>
+                                <td><a href="{{#session-url}}{{this.title}}{{/session-url}}">{{this.title}}</a></td>
+                                <td>{{this.date}}</td>
+
+                                <td>{{this.location}}</td>
+                                <td>{{this.time}}</td>
+                            </tr>
+                            {{/each}}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
