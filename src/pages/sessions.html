@@ -20,7 +20,9 @@ title: Sessions
                 <div id="{{#anchor}}{{this.title}}{{/anchor}}" class="media-object stack-for-small">
                     <div class="media-object-section">
                         <div class="thumbnail">
-                            <img src="{{root}}assets/img/speakers/{{ this.photo_path }}">
+                            <a href="{{#speaker-url}}{{this.speaker}}{{/speaker-url}}">
+                                <img src="{{root}}assets/img/speakers/{{ this.photo_path }}">
+                            </a>
                             <p class="text-center"><a href="{{#speaker-url}}{{this.speaker}}{{/speaker-url}}">{{this.speaker}}</a></p>
                         </div>
                     </div>
