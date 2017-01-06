@@ -40,13 +40,27 @@
   category: javascript
   type: regular
   description: |
-    Long gone are the days when you couldn't use JavaScript on a site and make it work for people with disabilities. Many now even use JavaScript to increase accessibility, and not just by throwing in a couple ARIA tags. Considering accessibility when building scripts remains essential! We will look at a few ways to use JavaScript and ensure that accessibility is not only preserved, but even improved.
+    Long gone are the days when you couldn't use JavaScript on a site and make it work for people with disabilities.
+    Many now even use JavaScript to increase accessibility, and not just by throwing in a couple ARIA tags. Considering
+    accessibility when building scripts remains essential! We will look at a few ways to use JavaScript and ensure that 
+    accessibility is not only preserved, but even improved.
 
-    Things have changed. It wasn't so many years ago that some accessibility experts would turn off JavaScript to test a site and deem it inaccessible if they couldn't use the site. Assistive technology, including screenreaders, have come a long way and can interact with JavaScript, if accessibility has been kept in mind. Surveys consistently show that over 97% of screenreader users have JavaScript enabled. Not to mention people with disabilities that don't use screenreader software and also have JavaScript enabled. Planning for (and maintaining) a  solution is not going to make a page accessible.
+    Things have changed. It wasn't so many years ago that some accessibility experts would turn off JavaScript to test 
+    a site and deem it inaccessible if they couldn't use the site. Assistive technology, including screenreaders, have 
+    come a long way and can interact with JavaScript, if accessibility has been kept in mind. Surveys consistently show 
+    that over 97% of screenreader users have JavaScript enabled. Not to mention people with disabilities that don't use 
+    screenreader software and also have JavaScript enabled. Planning for (and maintaining) a  solution is not going to 
+    make a page accessible.
 
-    If you develop websites or web-based applications and use JavaScript, this presentation is for you. People with disabilities account for over a billion people worldwide. That's roughly 15% of the world population who experiences challenges on the web because they can't see the screen, hear media files, use a mouse, concentrate for long periods of time, perceive colors, etc. This, in effect, makes people with disabilities the world's largest minority on the web with $220 Billion in discretionary spending power in the United States alone. Much bigger and influential than any other minority. Considering the needs of this population is only wise.
+    If you develop websites or web-based applications and use JavaScript, this presentation is for you. People with 
+    disabilities account for over a billion people worldwide. That's roughly 15% of the world population who experiences 
+    challenges on the web because they can't see the screen, hear media files, use a mouse, concentrate for long periods 
+    of time, perceive colors, etc. This, in effect, makes people with disabilities the world's largest minority on the 
+    web with $220 Billion in discretionary spending power in the United States alone. Much bigger and influential than 
+    any other minority. Considering the needs of this population is only wise.
 
-    In this presentation, I will talk about some of the issues that can arise from using JavaScript, and how to use it while maintaining accessibility. I will briefly discuss ARIA, but the meat of the presentation will consist of:
+    In this presentation, I will talk about some of the issues that can arise from using JavaScript, and how to use it 
+    while maintaining accessibility. I will briefly discuss ARIA, but the meat of the presentation will consist of:
 
     - Event handlers
     - Pop-up windows
@@ -55,7 +69,8 @@
 
     Takeaway for the audience
 
-    The audience will gain an understanding of the impact of disabilities on using the web, beyond screenreaders, and will see some simple ways to improve the accessibility of common tasks conducted with JavaScript.
+    The audience will gain an understanding of the impact of disabilities on using the web, beyond screenreaders, and 
+    will see some simple ways to improve the accessibility of common tasks conducted with JavaScript.
   speaker: Nicolas Steenhout
   "photo_path": Nicolas.Steenhout5464165aea5e3.jpg
 - title: Modern JavaScript for PHP Developers
@@ -63,7 +78,11 @@
   category: javascript
   type: regular
   description: |
-    Are you scared by JavaScript? Have you used JQuery but struggle with adding interactive features to your web page? This talk will help you understand how to use JavaScript effectively in your existing web pages and PHP applications. Let's explore different ways to write and structure your JavaScript code and introduce the model-view-view model pattern as a complement to the model view controller pattern often used in PHP to create more reusable, understandable, and testable code.,
+    Are you scared by JavaScript? Have you used JQuery but struggle with adding interactive features to your web page? 
+    This talk will help you understand how to use JavaScript effectively in your existing web pages and PHP 
+    applications. Let's explore different ways to write and structure your JavaScript code and introduce the 
+    model-view-view model pattern as a complement to the model view controller pattern often used in PHP to create more 
+    reusable, understandable, and testable code.,
   speaker: Derek Binkley
   "photo_path": oYQf0GGrBbrT4ky4Ufjp1wkV4V7DqtAOURS5OJfL.jpeg
 - title: TypeScript in Action
@@ -71,7 +90,15 @@
   category: javascript
   type: regular
   description: |
-    TypeScript, an open source project, has seen enormous growth over the past year. Today, it is used to build several key frameworks like AngularJS, Ionic etc.  Across the board developers are falling in love with TypeScript as they find it to be the most productive way to work with JavaScript. In this talk, Doris will go through how TypeScript enables you to leverage features from the current and future of JavaScript while increasing the productivity of JavaScript development across the board. As ECMAScript 6 gains popularity and more browsers are implementing the standard, JavaScript developers across the board are beginning to wonder, 'what's next?'  This session will cover some of the latest features of TypeScript, including future ECMAScript proposals, support for Angular, React/JSX and Node, the state of the art type system capabilities, and how it all comes together to make working and creating things in JavaScript more productive and fun with TypeScript.
+    TypeScript, an open source project, has seen enormous growth over the past year. Today, it is used to build several 
+    key frameworks like AngularJS, Ionic etc.  Across the board developers are falling in love with TypeScript as they 
+    find it to be the most productive way to work with JavaScript. In this talk, Doris will go through how TypeScript 
+    enables you to leverage features from the current and future of JavaScript while increasing the productivity of
+    JavaScript development across the board. As ECMAScript 6 gains popularity and more browsers are implementing the
+    standard, JavaScript developers across the board are beginning to wonder, 'what's next?'  This session will cover
+    some of the latest features of TypeScript, including future ECMAScript proposals, support for Angular, React/JSX
+    and Node, the state of the art type system capabilities, and how it all comes together to make working and
+    creating things in JavaScript more productive and fun with TypeScript.
   speaker: Doris Chen
   "photo_path": NzL7xwsv4QYYPGlBwaui1dBncbRxZJrtjFkuS1qz.jpeg
 #Framework
@@ -80,16 +107,23 @@
   category: framework
   type: regular
   description: |
-    A large part of Drupal's appeal lies in its flexibility. The fact that a developer can alter, extend, and enhance almost any aspect of Drupal without having to hack core. Knowing what systems are available for doing so, and how to make use of them is critical for anyone developing with Drupal.
+    A large part of Drupal's appeal lies in its flexibility. The fact that a developer can alter, extend, and enhance
+    almost any aspect of Drupal without having to hack core. Knowing what systems are available for doing so, and how
+    to make use of them is critical for anyone developing with Drupal.
 
-    Drawing from my experience helping to document and explain these new patterns in various formats I hope to answer these questions:
+    Drawing from my experience helping to document and explain these new patterns in various formats I hope to answer
+    these questions:
 
     - What are hooks, plugins, events, and services?
     - What problems do these patterns seek to solve?
     - How do I decide which method to use and when?
     - Looking ahead to the future, how do these patterns affect the code I write today?
 
-    If you're currently writing modules for Drupal 8, porting modules from Drupal 7, or think that you might have to sometime in the future, or even if you're just curious how the module ecosystem fits together behind the scenes  this session contains critical information for you. After attending this session you should have all the background information you need to make informed decisions about how your custom code can, and should, talk to Drupal in order to uphold best practices and write modules that are easy to maintain and play well with others.
+    If you're currently writing modules for Drupal 8, porting modules from Drupal 7, or think that you might have to
+    sometime in the future, or even if you're just curious how the module ecosystem fits together behind the scenes
+    this session contains critical information for you. After attending this session you should have all the background
+    information you need to make informed decisions about how your custom code can, and should, talk to Drupal in order
+    to uphold best practices and write modules that are easy to maintain and play well with others.
   speaker: Joe Shindelar
   "photo_path": Lvs7vm7Ng1165IOBzgENPTGVRqTj6h3y0TqjNcnT.png
 - title: Expressive Microservice Framework Blastoff
@@ -97,9 +131,15 @@
   category: framework
   type: regular
   description: |
-    With PHP frameworks being more decoupled than ever, and with the help of package and dependency managers, large and heavy PHP frameworks are a thing of the past. Modern PHP developers now have a wealth of libraries available specializing at certain tasks, and microservices are fast becoming a preferred way to architect applications. But many don't know how to start, and get thrown in the deep end.
+    With PHP frameworks being more decoupled than ever, and with the help of package and dependency managers, large
+    and heavy PHP frameworks are a thing of the past. Modern PHP developers now have a wealth of libraries available
+    specializing at certain tasks, and microservices are fast becoming a preferred way to architect applications. But
+    many don't know how to start, and get thrown in the deep end.
 
-    This talk will briefly introduce what microservices are, and how to create them using middleware. Then show how to build using the Zend Expressive microframework leveraging components of Zend Framework, and other libraries, to quickly create awesome things without requiring a full stack framework. Resources for reference and continued learning will also be shared.
+    This talk will briefly introduce what microservices are, and how to create them using middleware. Then show how to
+    build using the Zend Expressive microframework leveraging components of Zend Framework, and other libraries, to
+    quickly create awesome things without requiring a full stack framework. Resources for reference and continued
+    learning will also be shared.
   speaker: Adam Culp
   "photo_path": Adam.Culp544007c420825.jpg
 - title: Getting Started with Magento 2
@@ -107,7 +147,10 @@
   category: framework
   type: tutorial
   description: |
-    Magento 2 is a fresh take on a modern eCommerce platform rich in features and community. We will go over common best practices and toolsets, and to introduce popular community resources. Then we will take a dive into setting up a Magento 2 site to illustrate the effort required to get a project off the ground, and to find a better understand of what Magento 2 offers.
+    Magento 2 is a fresh take on a modern eCommerce platform rich in features and community. We will go over common
+    best practices and toolsets, and to introduce popular community resources. Then we will take a dive into setting
+    up a Magento 2 site to illustrate the effort required to get a project off the ground, and to find a better
+    understand of what Magento 2 offers.
 
     In this presentation Mathew Beane will briefly discuss the following topics:
     Best Practices: Keeping core clean, how to modify Magento the right way.
@@ -124,7 +167,10 @@
   description: |
     Learn why this new framework has been taking the PHP world by storm.
 
-    Are you ashamed to admit you're a PHP developer? Have you been using the same old, boring PHP framework for years? Tired of your PHP applications turning into enormous beasts? Maybe you've heard about Laravel but haven't made the effort to dive into it? In this presentation, we'll walk through what makes Laravel an elegant, fun, and exciting framework to make PHP applications that you'll be proud of.,
+    Are you ashamed to admit you're a PHP developer? Have you been using the same old, boring PHP framework for years?
+    Tired of your PHP applications turning into enormous beasts? Maybe you've heard about Laravel but haven't made the
+    effort to dive into it? In this presentation, we'll walk through what makes Laravel an elegant, fun, and exciting
+    framework to make PHP applications that you'll be proud of.,
   speaker: Ben Edmunds
   "photo_path": BPZMDHDUOMU8iTV8D3X89QUTibckQAhGG4Jvcm6R.jpeg
 - title: WordPress as a 12 Factor app
@@ -132,11 +178,15 @@
   category: framework
   type: regular
   description: |
-    Love it or hate it, WordPress is here to stay. Powering over 25% of the web, it's one of the most commonly used projects out there.
+    Love it or hate it, WordPress is here to stay. Powering over 25% of the web, it's one of the most commonly used
+    projects out there.
 
-    WordPress strive to make life easy for their end users first and foremost, but what if I told you that with less than an hour's work you could make it a joy to work with for developers too?
+    WordPress strive to make life easy for their end users first and foremost, but what if I told you that with less
+    than an hour's work you could make it a joy to work with for developers too?
 
-    By following the Twelve Factor App method (http://12factor.net/) we can deploy WordPress in a way that makes it easy to develop for, easy to update and easy to maintain. Come and watch as we take a standard WordPress install and bring it into the future.
+    By following the Twelve Factor App method (http://12factor.net/) we can deploy WordPress in a way that makes it
+    easy to develop for, easy to update and easy to maintain. Come and watch as we take a standard WordPress install
+    and bring it into the future.
   speaker: Michael Heap
   "photo_path": NTeBL8eY1q6tuRe1CHISlJQLllhQjpZwvdBUGH0O.jpeg
 #Security
@@ -145,7 +195,9 @@
   category: security
   type: regular
   description: |
-    One of the biggest complaints from API consumers is that authenticating against third-party services is painful. I'll walk through the OAuth2 protocol as well as a few common ways to authenticate against a service. Then we'll look at how you can integrate these authentication tokens into your application.
+    One of the biggest complaints from API consumers is that authenticating against third-party services is painful.
+    I'll walk through the OAuth2 protocol as well as a few common ways to authenticate against a service. Then we'll
+    look at how you can integrate these authentication tokens into your application.
   speaker: Caitlin Bales
   "photo_path": mBvuTVar80VE79msRQOmmHShr5v0GaCV1Qg4E1Ad.jpeg
 - title: "Security Starts With You: Social Engineering"
@@ -153,7 +205,11 @@
   category: security
   type: regular
   description: |
-    Virus? There's an app for that. Malware? There's an app for that. Social engineering? It's a little more complicated. These techniques, used by hackers to gather information on their target, are hard to combat without education - so why don't we talk about them more often? Aimed at the average user who could be targeted by such an attack, this talk discusses the tools of social engineering, how it can be combated and why so many companies fail in preparing their employees for such an attack.
+    Virus? There's an app for that. Malware? There's an app for that. Social engineering? It's a little more
+    complicated. These techniques, used by hackers to gather information on their target, are hard to combat without
+    education - so why don't we talk about them more often? Aimed at the average user who could be targeted by such
+    an attack, this talk discusses the tools of social engineering, how it can be combated and why so many companies
+    fail in preparing their employees for such an attack.
   speaker: Tiberius Hefflin
   "photo_path": z3V2QHh4gCzXs5gHPncmVLxe2ocuQZgKfmW2fYjt.png
 #Devops
@@ -162,7 +218,12 @@
   category: devops
   type: regular
   description: |
-    DevOps is a large part of a company of any size. In the 9+ years that I have been a professional developer I have always taken an interest in DevOps and have been the \server person\ for most of the teams I have been a part of. I would like to teach others how easy it is to implement modern tools to make their everyday development and development processes better. I will cover a range of topics from \Stop using WAMP/MAMP and start using Vagrant\, \version control isn't renaming files\, \Automate common tasks with shell scripts / command line PHP apps\ and \From Vagrant to Production\.
+    DevOps is a large part of a company of any size. In the 9+ years that I have been a professional developer I have 
+    always taken an interest in DevOps and have been the "server person" for most of the teams I have been a part of. 
+    I would like to teach others how easy it is to implement modern tools to make their everyday development and 
+    development processes better. I will cover a range of topics from "Stop using WAMP/MAMP and start using Vagrant", 
+    "version control isn't renaming files", "Automate common tasks with shell scripts / command line PHP apps" and 
+    "From Vagrant to Production".
   speaker: Joe Ferguson
   "photo_path": Joe.Ferguson543fd49dc4b91.jpg
 - title: Kickass Development Environments with Docker
@@ -170,11 +231,15 @@
   category: devops
   type: regular
   description: |
-    Docker, the hottest technology around at the moment. It swept the Ops world by storm in 2014, became mainstream in 2015, and now it's set to dominate the developer world, in 2016.
+    Docker, the hottest technology around at the moment. It swept the Ops world by storm in 2014, became mainstream
+    in 2015, and now it's set to dominate the developer world, in 2016.
 
-    Docker is a tool that allows you to package your application up into a single-runnable distributable binary - akin to the phar, but in Hulk mode. Docker allows you, a developer, to specify the exact environment your application needs to run, across development; test; staging; and production.
+    Docker is a tool that allows you to package your application up into a single-runnable distributable binary - akin
+    to the phar, but in Hulk mode. Docker allows you, a developer, to specify the exact environment your application
+    needs to run, across development; test; staging; and production.
 
-    In this session I will cover the creation of this utopian distributable and show you how to can compose your entire production infrastructure locally with only a small YAML file and without installing a single thing.
+    In this session I will cover the creation of this utopian distributable and show you how to can compose your
+    entire production infrastructure locally with only a small YAML file and without installing a single thing.
 
     Lets say hello, to Docker.
   speaker: David McKay
@@ -185,7 +250,11 @@
   category: database
   type: regular
   description: |
-    All of us have worked with relational DBs like MySQL or PostgreSQL, but for many use cases they aren't the best option. Graph databases have a simpler, more powerful model for handling complex related data. In this talk we'll work with Neo4j to explore the advantages of graph DBs. Attendees will learn the graph model, how graph DBs let you do things that are practically impossible with SQL, and the best options for integrating one into your application -- new or existing.,
+    All of us have worked with relational DBs like MySQL or PostgreSQL, but for many use cases they aren't the best
+    option. Graph databases have a simpler, more powerful model for handling complex related data. In this talk we'll
+    work with Neo4j to explore the advantages of graph DBs. Attendees will learn the graph model, how graph DBs let
+    you do things that are practically impossible with SQL, and the best options for integrating one into your
+    application -- new or existing.,
   speaker: Edward Finkler
   "photo_path": F0dwRVlTneLbxlgiN5WtIhBf2Yva4KhxNTYkkZ8f.jpeg
 - title: "Grown-up MongoDB: Schema Design"
@@ -193,9 +262,13 @@
   category: database
   type: regular
   description: |
-    Although MongoDB is a non-relational database, it is still very important that you store your data in an optimal way. This presentation make you grow up from just starting with MongoDB, to a seasoned user, by teaching you how to design your data schema according to your application's needs. This requires a different mind set than designing for a relational database.
+    Although MongoDB is a non-relational database, it is still very important that you store your data in an optimal
+    way. This presentation make you grow up from just starting with MongoDB, to a seasoned user, by teaching you how
+    to design your data schema according to your application's needs. This requires a different mind set than designing
+    for a relational database.
 
-    Besides schema design techniques, I will also cover how to pick indexes, different types of indexes, and way to find out why queries are potentially not as fast as they could be.,
+    Besides schema design techniques, I will also cover how to pick indexes, different types of indexes, and way to
+    find out why queries are potentially not as fast as they could be.,
   speaker: Derick Rethans
   "photo_path": Cs7QjCXydzKtH9Ce8LUXBqwMmuQUh9TM31YEIVxf.jpeg
 - title: Storing Non-Scalar Data
@@ -203,9 +276,14 @@
   category: database
   type: regular
   description: |
-    In this presentation we will look at storing complex data in a single field. Many noSQL solutions are created around this (such as Redis' lists, sets and hashes; MongoDB's and CouchDB's records), and many relational database now also support storing complex data in a single field through specific data types (such as PostGreSQL's JSONB or hstore, MySQL's JSON).
+    In this presentation we will look at storing complex data in a single field. Many noSQL solutions are created
+    around this (such as Redis' lists, sets and hashes; MongoDB's and CouchDB's records), and many relational database
+    now also support storing complex data in a single field through specific data types (such as PostGreSQL's JSONB or
+    hstore, MySQL's JSON).
 
-    Each of the different database engines support different things, and handle these data types in different ways. In this session we compare the different approaches to storage, indexing and interactions with these data types in different databases.
+    Each of the different database engines support different things, and handle these data types in different ways. In
+    this session we compare the different approaches to storage, indexing and interactions with these data types in
+    different databases.
   speaker: Derick Rethans
   "photo_path": Cs7QjCXydzKtH9Ce8LUXBqwMmuQUh9TM31YEIVxf.jpeg
 - title: "How to Make Your Website Not Ugly: 10 Simple UX Tenets for Non-Designers"
@@ -213,17 +291,27 @@
   category: uiux
   type: regular
   description: |
-    To craft well-designed websites, you have to know 50 names for â€œblueâ€ and the difference between a font and a typeface. You probably have a degree in illustration or graphic design, or maybe you attended some hip code school in Oakland and call yourself a User Experience Architects
+    To craft well-designed websites, you have to know 50 names for â€œblueâ€ and the difference between a font and a
+    typeface. You probably have a degree in illustration or graphic design, or maybe you attended some hip code school
+    in Oakland and call yourself a User Experience Architects
     Right?
 
-    Nope! In fact, there are numerous small, simple and practical ways to vastly improve the look and usability of a website, no matter how creative you are(n't). In this talk, we'll explore ten of them together, using research and proven solutions to see how the impact as a whole for both clients and users is greater than the sum of its parts. Make your websites more attractive, easier to use and better designed without feeling like you're wasting your time or effort.,
+    Nope! In fact, there are numerous small, simple and practical ways to vastly improve the look and usability of a
+    website, no matter how creative you are(n't). In this talk, we'll explore ten of them together, using research and
+    proven solutions to see how the impact as a whole for both clients and users is greater than the sum of its parts.
+    Make your websites more attractive, easier to use and better designed without feeling like you're wasting your time
+    or effort.,
   speaker: Hilary Stohs-Krause
   "photo_path": FIq5XzjyvV5sHTwoDg8q8OwtDysKyqMwNydgsDnL.jpeg
 - title: "MVC to ADR: Refining How We Think About Web Applications"
   level: mid
   category: development
   type: regular
-  description: Nearly every web developer has been exposed to MVC. Recently, the [ADR pattern](http://pmjones.io/adr/) has been articulated as a potentially better way to organize web applications. In this talk we will explore the background of the MVC pattern, the challenges it faces when used for web applications, and the solutions that ADR proposes to address those challenges. We will also explore a small application written in the ADR pattern using the [Equip micro-framework](http://equip.tools).,
+  description: Nearly every web developer has been exposed to MVC. Recently, the [ADR pattern](http://pmjones.io/adr/)
+  has been articulated as a potentially better way to organize web applications. In this talk we will explore the
+  background of the MVC pattern, the challenges it faces when used for web applications, and the solutions that ADR
+  proposes to address those challenges. We will also explore a small application written in the ADR pattern using the
+  [Equip micro-framework](http://equip.tools).,
   speaker: Woody Gilk
   "photo_path": T8BCFSjL4e0DXHG6UjM9V2Kmypk9vIlbNPXHxmso.jpeg
 - title: OOP Is More Than Cars and Dogs
@@ -231,7 +319,11 @@
   category: development
   type: regular
   description: |
-    When developers are introduced to Object Oriented Programming, one of the first things that happens is that they are taught that nouns turn into objects, verbs into methods, and Dog is a subclass of Animal. OOP is more than just turning things into classes and objects and showing that both Boats and Cars have motors, and that Dogs and Cats both speak(). Let's look at OOP in real world settings and go beyond cars and dogs, and see how to use Object Oriented Programming properly in PHP. Traits, Composition, Inheritance, none of it is off limits!,
+    When developers are introduced to Object Oriented Programming, one of the first things that happens is that they
+    are taught that nouns turn into objects, verbs into methods, and Dog is a subclass of Animal. OOP is more than
+    just turning things into classes and objects and showing that both Boats and Cars have motors, and that Dogs and
+    Cats both speak(). Let's look at OOP in real world settings and go beyond cars and dogs, and see how to use Object
+    Oriented Programming properly in PHP. Traits, Composition, Inheritance, none of it is off limits!,
   speaker: Chris Tankersley
   "photo_path": Chris.Tankersley543f3f282bce9.jpg
 #- title: Pulling up Your Legacy App by its Bootstraps!
@@ -247,9 +339,14 @@
   category: development
   type: regular
   description: |
-    Most developers don't get the luxury of working on a greenfield project using a web framework of their choice. Often times we find ourselves inheriting a legacy codebase written years ago for an end-of-life version of PHP and a now-defunct web framework. The initial temptation might be, \I'll just rewrite all this on x framework\. But hold on there my framework friend, a rewrite is costly and is rarely the correct answer.
+    Most developers don't get the luxury of working on a greenfield project using a web framework of their choice.
+    Often times we find ourselves inheriting a legacy codebase written years ago for an end-of-life version of PHP
+    and a now-defunct web framework. The initial temptation might be, "I'll just rewrite all this on x framework".
+    But hold on there my framework friend, a rewrite is costly and is rarely the correct answer.
 
-    We'll discuss some common pitfalls when getting a legacy codebase ready for PHP 7 and what we can do to make the upgrade path as painless as possible. These incremental changes will keep the business running while improving security, stability and maintainability of the codebase.
+    We'll discuss some common pitfalls when getting a legacy codebase ready for PHP 7 and what we can do to make the
+    upgrade path as painless as possible. These incremental changes will keep the business running while improving
+    security, stability and maintainability of the codebase.
   speaker: Sammy Powers
   "photo_path": oU2N5TW2sn1TB77Ysj27aVyYetSNHF0tirTUYahw.jpeg
 #- title: "Status Change: Now Using Event Sourcing"
@@ -271,9 +368,14 @@
   category: other
   type: regular
   description: |
-    \I don't know C!\, is probably one of the most common excuses that us PHP nerds give for not contributing to PHP source. And top it off with all the overly-publicized drama surrounding the PHP internals mailing list, most user-land PHP developers don't want to touch PHP source with a ten foot pole.
+    "I don't know C!", is probably one of the most common excuses that us PHP nerds give for not contributing to PHP
+    source. And top it off with all the overly-publicized drama surrounding the PHP internals mailing list, most
+    user-land PHP developers don't want to touch PHP source with a ten foot pole.
 
-    In this talk I tell my story of how a plain-old user-land PHP nerd who, \doesn't know C,\ found himself drawn to PHP internals like a bug to a light. I was meet with a lovely helpful community of individuals who mentored me the whole way to making PHP better. This talk will encourage and inspire you to join me on an epic journey to the center of PHP.,
+    In this talk I tell my story of how a plain-old user-land PHP nerd who, "doesn't know C," found himself drawn to
+    PHP internals like a bug to a light. I was meet with a lovely helpful community of individuals who mentored me
+    the whole way to making PHP better. This talk will encourage and inspire you to join me on an epic journey to the
+    center of PHP.,
   speaker: Sammy Powers
   "photo_path": oU2N5TW2sn1TB77Ysj27aVyYetSNHF0tirTUYahw.jpeg
 - title: Promises and Generators
@@ -281,13 +383,19 @@
   category: other
   type: regular
   description: |
-    Many of you have heard of the concept 'Promise'. Some of you may even have used it. The 'Promise' is a useful design pattern when developing applications tha have a strong asynchronous aspect and avoids what's called 'callback hell' or 'callback christmas trees'.
+    Many of you have heard of the concept 'Promise'. Some of you may even have used it. The 'Promise' is a useful
+    design pattern when developing applications tha have a strong asynchronous aspect and avoids what's called
+    'callback hell' or 'callback christmas trees'.
 
-    The promise is a bit hard to wrap your head around though. This talk will explain exactly how a promise works and behaves and how you should interact with it.
+    The promise is a bit hard to wrap your head around though. This talk will explain exactly how a promise works and
+    behaves and how you should interact with it.
 
-    Next, we'll dig into generators. Generators have been added to PHP 5.5 and Ecmascript 6 and makes creating and consuming iterators a lot easier.
+    Next, we'll dig into generators. Generators have been added to PHP 5.5 and Ecmascript 6 and makes creating and
+    consuming iterators a lot easier.
 
-    Generators have a unique language property though. They allow us to jump in the middle of any method outside that method. In the third part of the talk we'll show how we can use iterators to improve promise-heavy code and make asynchronous code look and behave as normal code.,
+    Generators have a unique language property though. They allow us to jump in the middle of any method outside that
+    method. In the third part of the talk we'll show how we can use iterators to improve promise-heavy code and make
+    asynchronous code look and behave as normal code.,
   speaker: Evert Pot
   "photo_path": Mu1ckrquMO4C3VkrizbJhowAJLqCWx7PH2zlZYfg.jpeg
 - title: "Dev Divas: History's Heroines of Computing"
@@ -311,7 +419,11 @@
   category: continuous delivery
   type: regular
   description: |
-    Developers would love to \automate all the things\, but where do we start? What tools exist for automating? And what can actually be automated? If we don't have unit tests can we still benefit from deployment automation? Adam Culp will show how a PHP application pulled from git, complete with unit tests, Composer dependency management, and package creation, can be deployed flawlessly using Jenkins. Then see how \Dev\ and \Ops\ are supported by a system if the application breaks through automated rollbacks.,
+    Developers would love to "automate all the things", but where do we start? What tools exist for automating? And
+    what can actually be automated? If we don't have unit tests can we still benefit from deployment automation? Adam
+    Culp will show how a PHP application pulled from git, complete with unit tests, Composer dependency management,
+    and package creation, can be deployed flawlessly using Jenkins. Then see how "Dev" and "Ops" are supported by a
+    system if the application breaks through automated rollbacks.,
   speaker: Adam Culp
   "photo_path": Adam.Culp544007c420825.jpg
 - title: Principles of Unit Testing
@@ -319,11 +431,17 @@
   category: testing
   type: regular
   description: |
-    The proliferation of testing strategies outside of a broadly agreed set of definitions has caused confusion and a waste of effort by not fully understanding how to apply the fundamentals of unit testing. Let's change that.
+    The proliferation of testing strategies outside of a broadly agreed set of definitions has caused confusion and a
+    waste of effort by not fully understanding how to apply the fundamentals of unit testing. Let's change that.
 
-    In this session, we will cover the five types of test doubles: dummy, fake, stub, spy, and mock, showing code examples of how to use each with PHPUnit and Prophecy. Layered on top of this we will observe the difference between sociable and solitary tests, as coined by Jeffrey Fields. Lastly, we will look at how test smells naturally surface and what strategies can be used to mitigate them, such as Arrange-Act-Assert, object mothers and data builders.
+    In this session, we will cover the five types of test doubles: dummy, fake, stub, spy, and mock, showing code
+    examples of how to use each with PHPUnit and Prophecy. Layered on top of this we will observe the difference
+    between sociable and solitary tests, as coined by Jeffrey Fields. Lastly, we will look at how test smells
+    naturally surface and what strategies can be used to mitigate them, such as Arrange-Act-Assert, object mothers
+    and data builders.
 
-    The key takeaway from this session will be a deep knowledge of unit testing: when to apply one double versus another, when to use solitary vs sociable, and how to mitigate test smells.,
+    The key takeaway from this session will be a deep knowledge of unit testing: when to apply one double versus
+    another, when to use solitary vs sociable, and how to mitigate test smells.,
   speaker: Joseph Purcell
   "photo_path": XDxtQXiwTRfVW6Q6Uzb5Km8c0UCsUkiSay34jCD0.jpeg
 - title: Profiling your PHP application
@@ -331,11 +449,15 @@
   category: testing
   type: regular
   description: |
-    So, you've been through and changed all your double quotes to single quotes but your application still isn't running at the speed of light. What's going on?
+    So, you've been through and changed all your double quotes to single quotes but your application still isn't
+    running at the speed of light. What's going on?
 
-    Making an application scale is generally seen as something that only the most magical of developers can do, but it's easy once you have the correct tools. Fortunately for us, these tools are freely available online!
+    Making an application scale is generally seen as something that only the most magical of developers can do, but
+    it's easy once you have the correct tools. Fortunately for us, these tools are freely available online!
 
-    In this talk, we'll take a look at a few options that we have available to work out what our application is actually doing, help identify bottlenecks and fix them so that we can move on to the more important part of the project: delivering features.,
+    In this talk, we'll take a look at a few options that we have available to work out what our application is
+    actually doing, help identify bottlenecks and fix them so that we can move on to the more important part of the
+    project: delivering features.,
   speaker: Michael Heap
   "photo_path": NTeBL8eY1q6tuRe1CHISlJQLllhQjpZwvdBUGH0O.jpeg
 - title: Software Management Lessons from the 1960s
@@ -343,13 +465,19 @@
   category: other
   type: regular
   description: |
-    \The Mythical Man-month\ is one of the seminal books in the field of software project management.  It was written in 1975, based on experience from the 1960s.  Is it even still relevant?
+    "The Mythical Man-month" is one of the seminal books in the field of software project management.  It was written
+    in 1975, based on experience from the 1960s.  Is it even still relevant?
 
-    Turns out, it is.  Technology may have changed dramatically but people have not.  Managing software projects is about managing people, not bits, and creative people engaged in intellectual endeavors are notoriously hard to predict and manage.  (Just ask my project manager.)
+    Turns out, it is.  Technology may have changed dramatically but people have not.  Managing software projects is
+    about managing people, not bits, and creative people engaged in intellectual endeavors are notoriously hard to
+    predict and manage.  (Just ask my project manager.)
  
-    Fortunately, many of the lessons-learned Brooks' presents are still relevant today.  Some are directly applicable (\adding people to a late project makes it later\) while others are valid with a little interpretation.  Still others fly in the face of conventional wisdom.  What can we learn from that?
+    Fortunately, many of the lessons-learned Brooks' presents are still relevant today.  Some are directly applicable
+    ("adding people to a late project makes it later") while others are valid with a little interpretation.  Still
+    others fly in the face of conventional wisdom.  What can we learn from that?
 
-    This session will present a modern overview of the ideas presented by Brooks and a look at what we can still learn from them even today.  Along the way we'll keep an eye on Open Source, and what lessons we may have forgotten.
+    This session will present a modern overview of the ideas presented by Brooks and a look at what we can still learn
+    from them even today.  Along the way we'll keep an eye on Open Source, and what lessons we may have forgotten.
   speaker: Larry Garfield
   "photo_path": Larry.Garfield5466d1920644c.jpg
 - title: "Stepping Outside Your Comfort Zone: Learning to Teach"
@@ -357,16 +485,29 @@
   category: other
   type: regular
   description: |
-    As a developer, you spend your entire life learning.  But what happens when the tables are turned and you become the teacher?  Do you want to become a conference speaker or a mentor, talk to your local user group, give presentations at work, or become a technical trainer?  As a previous classroom teacher with a Master's Degree in Curriculum Development, I will take you on a journey to understand the various learning styles and how to effectively reach everyone.  We will look at how to present your information, best ways to structure it, and learn ways to reach all students no matter their level.  We will also cover a number of best practices for crafting your presentation decks themselves.  Join me for this exploration into the inner workings of the human mind.
+    As a developer, you spend your entire life learning.  But what happens when the tables are turned and you become
+    the teacher?  Do you want to become a conference speaker or a mentor, talk to your local user group, give
+    presentations at work, or become a technical trainer?  As a previous classroom teacher with a Master's Degree in
+    Curriculum Development, I will take you on a journey to understand the various learning styles and how to
+    effectively reach everyone.  We will look at how to present your information, best ways to structure it, and learn
+    ways to reach all students no matter their level.  We will also cover a number of best practices for crafting your
+    presentation decks themselves.  Join me for this exploration into the inner workings of the human mind.
   speaker: Heather White
   "photo_path": tT7MTcgrLgFJLjDNtmtEiH8xa4lL1uBuaZgDF6Ac.jpeg
-- title: "The Mindful Developer: Being Less Busy &amp; More Productive"
+- title: "The Mindful Developer: Being Less Busy & More Productive"
   level: entry
   category: other
   type: regular
   description: |
-    Being a developer, programmer, analyst, tester, designer, etc â€¦ is hard. We work in an industry that champions the 12+ hour work day; continued learning and open source contributions, but not on the company's dollar. We're continually berated with the idea of the 10x developer and so we must work harder, read more blogs, write more code and buy more books â€¦ but when will it ever end? Will technology ever stand still long enough to let us all catch up? No. You'll always be busy, busy playing catch up in a race you didn't sign up for.
+    Being a developer, programmer, analyst, tester, designer, etc â€¦ is hard. We work in an industry that champions
+    the 12+ hour work day; continued learning and open source contributions, but not on the company's dollar. We're
+    continually berated with the idea of the 10x developer and so we must work harder, read more blogs, write more
+    code and buy more books â€¦ but when will it ever end? Will technology ever stand still long enough to let us all
+    catch up? No. You'll always be busy, busy playing catch up in a race you didn't sign up for.
 
-    Fortunately, there's another way. Instead of being busy, I can help you be more productive. I will walk you through some of the tools and techniques that I use on a daily basis to, not only, maintain and upgrade my skills in the world of ever changing technology, but, and more importantly, to protect my sanity, be more present and remove stress and fear from my life.
+    Fortunately, there's another way. Instead of being busy, I can help you be more productive. I will walk you through
+    some of the tools and techniques that I use on a daily basis to, not only, maintain and upgrade my skills in the
+    world of ever changing technology, but, and more importantly, to protect my sanity, be more present and remove
+    stress and fear from my life.
   speaker: David McKay
   "photo_path": 5MXnrOgGcso0D1ILYuZbKo7horzXXDVp5LCnvf1m.jpeg
