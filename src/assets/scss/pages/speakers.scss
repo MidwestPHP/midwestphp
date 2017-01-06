@@ -37,10 +37,14 @@
   }
 
   .speakers {
-    img {
-      max-width: 200px;
-      max-height: 200px;
-    }
+      img {
+        max-width: 200px;
+        max-height: 200px;
+        &.keynote {
+          max-height: 500px;
+          max-width: 500px;
+        }
+      }
   }
   h1{
     color: #1B3149;
