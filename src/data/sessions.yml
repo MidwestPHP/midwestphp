@@ -33,6 +33,8 @@
     open source to make real friends, real money, and real happiness.
   speaker: Gary Hockin
   photo_path: KUm69fK8UwspVIOk6iuhWcUj99v9ZZNjrL9gUaHp.jpeg
+
+# JAVASCRIPT
 - title: "Accessibility: Don't turn off that JavaScript just yet!"
   level: entry
   category: javascript
@@ -56,6 +58,23 @@
     The audience will gain an understanding of the impact of disabilities on using the web, beyond screenreaders, and will see some simple ways to improve the accessibility of common tasks conducted with JavaScript.
   speaker: Nicolas Steenhout
   "photo_path": Nicolas.Steenhout5464165aea5e3.jpg
+- title: Modern JavaScript for PHP Developers
+  level: entry
+  category: javascript
+  type: regular
+  description: |
+    Are you scared by JavaScript? Have you used JQuery but struggle with adding interactive features to your web page? This talk will help you understand how to use JavaScript effectively in your existing web pages and PHP applications. Let's explore different ways to write and structure your JavaScript code and introduce the model-view-view model pattern as a complement to the model view controller pattern often used in PHP to create more reusable, understandable, and testable code.,
+  speaker: Derek Binkley
+  "photo_path": oYQf0GGrBbrT4ky4Ufjp1wkV4V7DqtAOURS5OJfL.jpeg
+- title: TypeScript in Action
+  level: entry
+  category: javascript
+  type: regular
+  description: |
+    TypeScript, an open source project, has seen enormous growth over the past year. Today, it is used to build several key frameworks like AngularJS, Ionic etc.  Across the board developers are falling in love with TypeScript as they find it to be the most productive way to work with JavaScript. In this talk, Doris will go through how TypeScript enables you to leverage features from the current and future of JavaScript while increasing the productivity of JavaScript development across the board. As ECMAScript 6 gains popularity and more browsers are implementing the standard, JavaScript developers across the board are beginning to wonder, 'what's next?'  This session will cover some of the latest features of TypeScript, including future ECMAScript proposals, support for Angular, React/JSX and Node, the state of the art type system capabilities, and how it all comes together to make working and creating things in JavaScript more productive and fun with TypeScript.
+  speaker: Doris Chen
+  "photo_path": NzL7xwsv4QYYPGlBwaui1dBncbRxZJrtjFkuS1qz.jpeg
+#Framework
 - title: Altering, Extending, and Enhancing Drupal 8
   level: mid
   category: framework
@@ -73,32 +92,6 @@
     If you're currently writing modules for Drupal 8, porting modules from Drupal 7, or think that you might have to sometime in the future, or even if you're just curious how the module ecosystem fits together behind the scenes  this session contains critical information for you. After attending this session you should have all the background information you need to make informed decisions about how your custom code can, and should, talk to Drupal in order to uphold best practices and write modules that are easy to maintain and play well with others.
   speaker: Joe Shindelar
   "photo_path": Lvs7vm7Ng1165IOBzgENPTGVRqTj6h3y0TqjNcnT.png
-- title: Authenticating Against API Services
-  level: mid
-  category: security
-  type: regular
-  description: |
-    One of the biggest complaints from API consumers is that authenticating against third-party services is painful. I'll walk through the OAuth2 protocol as well as a few common ways to authenticate against a service. Then we'll look at how you can integrate these authentication tokens into your application.
-  speaker: Caitlin Bales
-  "photo_path": mBvuTVar80VE79msRQOmmHShr5v0GaCV1Qg4E1Ad.jpeg
-- title: Bringing Old Legacy Apps To PHP 7 and Beyond
-  level: mid
-  category: development
-  type: regular
-  description: |
-    Most developers don't get the luxury of working on a greenfield project using a web framework of their choice. Often times we find ourselves inheriting a legacy codebase written years ago for an end-of-life version of PHP and a now-defunct web framework. The initial temptation might be, \I'll just rewrite all this on x framework\. But hold on there my framework friend, a rewrite is costly and is rarely the correct answer.
-
-    We'll discuss some common pitfalls when getting a legacy codebase ready for PHP 7 and what we can do to make the upgrade path as painless as possible. These incremental changes will keep the business running while improving security, stability and maintainability of the codebase.
-  speaker: Sammy Powers
-  "photo_path": oU2N5TW2sn1TB77Ysj27aVyYetSNHF0tirTUYahw.jpeg
-- title: DevOps For Small Teams
-  level: mid
-  category: devops
-  type: regular
-  description: |
-    DevOps is a large part of a company of any size. In the 9+ years that I have been a professional developer I have always taken an interest in DevOps and have been the \server person\ for most of the teams I have been a part of. I would like to teach others how easy it is to implement modern tools to make their everyday development and development processes better. I will cover a range of topics from \Stop using WAMP/MAMP and start using Vagrant\, \version control isn't renaming files\, \Automate common tasks with shell scripts / command line PHP apps\ and \From Vagrant to Production\.
-  speaker: Joe Ferguson
-  "photo_path": Joe.Ferguson543fd49dc4b91.jpg
 - title: Expressive Microservice Framework Blastoff
   level: entry
   category: framework
@@ -124,6 +117,69 @@
     Setting up a Magento site: Covering the basic design and development choices.
   speaker: Mathew Beane
   "photo_path": f2XSZnwSNmy5g4OX6jXvs90VUECSyfRSRWZ4rOpi.png
+- title: Intro to Laravel 5
+  level: entry
+  category: framework
+  type: regular
+  description: |
+    Learn why this new framework has been taking the PHP world by storm.
+
+    Are you ashamed to admit you're a PHP developer? Have you been using the same old, boring PHP framework for years? Tired of your PHP applications turning into enormous beasts? Maybe you've heard about Laravel but haven't made the effort to dive into it? In this presentation, we'll walk through what makes Laravel an elegant, fun, and exciting framework to make PHP applications that you'll be proud of.,
+  speaker: Ben Edmunds
+  "photo_path": BPZMDHDUOMU8iTV8D3X89QUTibckQAhGG4Jvcm6R.jpeg
+- title: WordPress as a 12 Factor app
+  level: mid
+  category: framework
+  type: regular
+  description: |
+    Love it or hate it, WordPress is here to stay. Powering over 25% of the web, it's one of the most commonly used projects out there.
+
+    WordPress strive to make life easy for their end users first and foremost, but what if I told you that with less than an hour's work you could make it a joy to work with for developers too?
+
+    By following the Twelve Factor App method (http://12factor.net/) we can deploy WordPress in a way that makes it easy to develop for, easy to update and easy to maintain. Come and watch as we take a standard WordPress install and bring it into the future.
+  speaker: Michael Heap
+  "photo_path": NTeBL8eY1q6tuRe1CHISlJQLllhQjpZwvdBUGH0O.jpeg
+#Security
+- title: Authenticating Against API Services
+  level: mid
+  category: security
+  type: regular
+  description: |
+    One of the biggest complaints from API consumers is that authenticating against third-party services is painful. I'll walk through the OAuth2 protocol as well as a few common ways to authenticate against a service. Then we'll look at how you can integrate these authentication tokens into your application.
+  speaker: Caitlin Bales
+  "photo_path": mBvuTVar80VE79msRQOmmHShr5v0GaCV1Qg4E1Ad.jpeg
+- title: "Security Starts With You: Social Engineering"
+  level: entry
+  category: security
+  type: regular
+  description: |
+    Virus? There's an app for that. Malware? There's an app for that. Social engineering? It's a little more complicated. These techniques, used by hackers to gather information on their target, are hard to combat without education - so why don't we talk about them more often? Aimed at the average user who could be targeted by such an attack, this talk discusses the tools of social engineering, how it can be combated and why so many companies fail in preparing their employees for such an attack.
+  speaker: Tiberius Hefflin
+  "photo_path": z3V2QHh4gCzXs5gHPncmVLxe2ocuQZgKfmW2fYjt.png
+#Devops
+- title: DevOps For Small Teams
+  level: mid
+  category: devops
+  type: regular
+  description: |
+    DevOps is a large part of a company of any size. In the 9+ years that I have been a professional developer I have always taken an interest in DevOps and have been the \server person\ for most of the teams I have been a part of. I would like to teach others how easy it is to implement modern tools to make their everyday development and development processes better. I will cover a range of topics from \Stop using WAMP/MAMP and start using Vagrant\, \version control isn't renaming files\, \Automate common tasks with shell scripts / command line PHP apps\ and \From Vagrant to Production\.
+  speaker: Joe Ferguson
+  "photo_path": Joe.Ferguson543fd49dc4b91.jpg
+- title: Kickass Development Environments with Docker
+  level: entry
+  category: devops
+  type: regular
+  description: |
+    Docker, the hottest technology around at the moment. It swept the Ops world by storm in 2014, became mainstream in 2015, and now it's set to dominate the developer world, in 2016.
+
+    Docker is a tool that allows you to package your application up into a single-runnable distributable binary - akin to the phar, but in Hulk mode. Docker allows you, a developer, to specify the exact environment your application needs to run, across development; test; staging; and production.
+
+    In this session I will cover the creation of this utopian distributable and show you how to can compose your entire production infrastructure locally with only a small YAML file and without installing a single thing.
+
+    Lets say hello, to Docker.
+  speaker: David McKay
+  "photo_path": 5MXnrOgGcso0D1ILYuZbKo7horzXXDVp5LCnvf1m.jpeg
+#Database
 - title: Graph Databases Will Change Your Freakin Life,
   level: entry
   category: database
@@ -142,6 +198,16 @@
     Besides schema design techniques, I will also cover how to pick indexes, different types of indexes, and way to find out why queries are potentially not as fast as they could be.,
   speaker: Derick Rethans
   "photo_path": Cs7QjCXydzKtH9Ce8LUXBqwMmuQUh9TM31YEIVxf.jpeg
+- title: Storing Non-Scalar Data
+  level: mid
+  category: database
+  type: regular
+  description: |
+    In this presentation we will look at storing complex data in a single field. Many noSQL solutions are created around this (such as Redis' lists, sets and hashes; MongoDB's and CouchDB's records), and many relational database now also support storing complex data in a single field through specific data types (such as PostGreSQL's JSONB or hstore, MySQL's JSON).
+
+    Each of the different database engines support different things, and handle these data types in different ways. In this session we compare the different approaches to storage, indexing and interactions with these data types in different databases.
+  speaker: Derick Rethans
+  "photo_path": Cs7QjCXydzKtH9Ce8LUXBqwMmuQUh9TM31YEIVxf.jpeg
 - title: "How to Make Your Website Not Ugly: 10 Simple UX Tenets for Non-Designers"
   level: entry
   category: uiux
@@ -153,38 +219,6 @@
     Nope! In fact, there are numerous small, simple and practical ways to vastly improve the look and usability of a website, no matter how creative you are(n't). In this talk, we'll explore ten of them together, using research and proven solutions to see how the impact as a whole for both clients and users is greater than the sum of its parts. Make your websites more attractive, easier to use and better designed without feeling like you're wasting your time or effort.,
   speaker: Hilary Stohs-Krause
   "photo_path": FIq5XzjyvV5sHTwoDg8q8OwtDysKyqMwNydgsDnL.jpeg
-- title: Intro to Laravel 5
-  level: entry
-  category: framework
-  type: regular
-  description: |
-    Learn why this new framework has been taking the PHP world by storm.
-
-    Are you ashamed to admit you're a PHP developer? Have you been using the same old, boring PHP framework for years? Tired of your PHP applications turning into enormous beasts? Maybe you've heard about Laravel but haven't made the effort to dive into it? In this presentation, we'll walk through what makes Laravel an elegant, fun, and exciting framework to make PHP applications that you'll be proud of.,
-  speaker: Ben Edmunds
-  "photo_path": BPZMDHDUOMU8iTV8D3X89QUTibckQAhGG4Jvcm6R.jpeg
-- title: Kickass Development Environments with Docker
-  level: entry
-  category: devops
-  type: regular
-  description: |
-    Docker, the hottest technology around at the moment. It swept the Ops world by storm in 2014, became mainstream in 2015, and now it's set to dominate the developer world, in 2016.
-
-    Docker is a tool that allows you to package your application up into a single-runnable distributable binary - akin to the phar, but in Hulk mode. Docker allows you, a developer, to specify the exact environment your application needs to run, across development; test; staging; and production.
-
-    In this session I will cover the creation of this utopian distributable and show you how to can compose your entire production infrastructure locally with only a small YAML file and without installing a single thing.
-
-    Lets say hello, to Docker.
-  speaker: David McKay
-  "photo_path": 5MXnrOgGcso0D1ILYuZbKo7horzXXDVp5LCnvf1m.jpeg
-- title: Modern JavaScript for PHP Developers
-  level: entry
-  category: javascript
-  type: regular
-  description: |
-    Are you scared by JavaScript? Have you used JQuery but struggle with adding interactive features to your web page? This talk will help you understand how to use JavaScript effectively in your existing web pages and PHP applications. Let's explore different ways to write and structure your JavaScript code and introduce the model-view-view model pattern as a complement to the model view controller pattern often used in PHP to create more reusable, understandable, and testable code.,
-  speaker: Derek Binkley
-  "photo_path": oYQf0GGrBbrT4ky4Ufjp1wkV4V7DqtAOURS5OJfL.jpeg
 - title: "MVC to ADR: Refining How We Think About Web Applications"
   level: mid
   category: development
@@ -192,6 +226,46 @@
   description: Nearly every web developer has been exposed to MVC. Recently, the [ADR pattern](http://pmjones.io/adr/) has been articulated as a potentially better way to organize web applications. In this talk we will explore the background of the MVC pattern, the challenges it faces when used for web applications, and the solutions that ADR proposes to address those challenges. We will also explore a small application written in the ADR pattern using the [Equip micro-framework](http://equip.tools).,
   speaker: Woody Gilk
   "photo_path": T8BCFSjL4e0DXHG6UjM9V2Kmypk9vIlbNPXHxmso.jpeg
+- title: OOP Is More Than Cars and Dogs
+  level: mid
+  category: development
+  type: regular
+  description: |
+    When developers are introduced to Object Oriented Programming, one of the first things that happens is that they are taught that nouns turn into objects, verbs into methods, and Dog is a subclass of Animal. OOP is more than just turning things into classes and objects and showing that both Boats and Cars have motors, and that Dogs and Cats both speak(). Let's look at OOP in real world settings and go beyond cars and dogs, and see how to use Object Oriented Programming properly in PHP. Traits, Composition, Inheritance, none of it is off limits!,
+  speaker: Chris Tankersley
+  "photo_path": Chris.Tankersley543f3f282bce9.jpg
+- title: Pulling up Your Legacy App by its Bootstraps!
+  level: entry
+  category: development
+  type: regular
+  description: |
+    Your mission, should you choose to accept it, is to support an application built on an older framework. Refactoring isn't an easy option. The code is untested and nowhere near best practices or standards. In this session, we'll talk about strategies for incorporating modern PHP coding practices to add features and functionality and retiring the older code in pieces. We'll review specific examples and code from a real project where we bootstrapped a legacy application that needed a lot of work to be helpful to its users and simpler for developers to maintain . We'll talk about strategies to leave the existing code in place until the new code is ready to replace it in whole or in pieces.
+  speaker: Emily Stamey
+  "photo_path": 0kI3CvHW1z7gX3omB1jjToJla0aWRRooryxpqseg.jpeg
+- title: Bringing Old Legacy Apps To PHP 7 and Beyond
+  level: mid
+  category: development
+  type: regular
+  description: |
+    Most developers don't get the luxury of working on a greenfield project using a web framework of their choice. Often times we find ourselves inheriting a legacy codebase written years ago for an end-of-life version of PHP and a now-defunct web framework. The initial temptation might be, \I'll just rewrite all this on x framework\. But hold on there my framework friend, a rewrite is costly and is rarely the correct answer.
+
+    We'll discuss some common pitfalls when getting a legacy codebase ready for PHP 7 and what we can do to make the upgrade path as painless as possible. These incremental changes will keep the business running while improving security, stability and maintainability of the codebase.
+  speaker: Sammy Powers
+  "photo_path": oU2N5TW2sn1TB77Ysj27aVyYetSNHF0tirTUYahw.jpeg
+- title: "Status Change: Now Using Event Sourcing"
+  level: mid
+  category: development
+  type: regular
+  description: |
+    Being flexible to changes in business process makes our jobs easier, and it helps our applications adapt to those changes with minimal code changes.  One of the biggest adaptions in our applications has been the addition of Events to make a note of an Event in the system.  With these Events, we can affect change immediately, or even later.  This is most helpful in our reporting interfaces.  We can build, change, and throw away our reports very easily.  This is much easier than our older reports being generated by large SQL queries.
+
+    Attendees will learn:
+    - idealogical differences between status flags and events
+    - triggering events in your application
+    - handling events to reflect the state of your application data
+    - building reports from events that are easy to change
+  speaker: Emily Stamey
+  "photo_path": 0kI3CvHW1z7gX3omB1jjToJla0aWRRooryxpqseg.jpeg
 - title: My journey to the center of PHP
   level: entry
   category: other
@@ -202,14 +276,20 @@
     In this talk I tell my story of how a plain-old user-land PHP nerd who, \doesn't know C,\ found himself drawn to PHP internals like a bug to a light. I was meet with a lovely helpful community of individuals who mentored me the whole way to making PHP better. This talk will encourage and inspire you to join me on an epic journey to the center of PHP.,
   speaker: Sammy Powers
   "photo_path": oU2N5TW2sn1TB77Ysj27aVyYetSNHF0tirTUYahw.jpeg
-- title: OOP Is More Than Cars and Dogs
-  level: mid
-  category: development
+- title: Promises and Generators
+  level: advanced
+  category: other
   type: regular
   description: |
-    When developers are introduced to Object Oriented Programming, one of the first things that happens is that they are taught that nouns turn into objects, verbs into methods, and Dog is a subclass of Animal. OOP is more than just turning things into classes and objects and showing that both Boats and Cars have motors, and that Dogs and Cats both speak(). Let's look at OOP in real world settings and go beyond cars and dogs, and see how to use Object Oriented Programming properly in PHP. Traits, Composition, Inheritance, none of it is off limits!,
-  speaker: Chris Tankersley
-  "photo_path": Chris.Tankersley543f3f282bce9.jpg
+    Many of you have heard of the concept 'Promise'. Some of you may even have used it. The 'Promise' is a useful design pattern when developing applications tha have a strong asynchronous aspect and avoids what's called 'callback hell' or 'callback christmas trees'.
+
+    The promise is a bit hard to wrap your head around though. This talk will explain exactly how a promise works and behaves and how you should interact with it.
+
+    Next, we'll dig into generators. Generators have been added to PHP 5.5 and Ecmascript 6 and makes creating and consuming iterators a lot easier.
+
+    Generators have a unique language property though. They allow us to jump in the middle of any method outside that method. In the third part of the talk we'll show how we can use iterators to improve promise-heavy code and make asynchronous code look and behave as normal code.,
+  speaker: Evert Pot
+  "photo_path": Mu1ckrquMO4C3VkrizbJhowAJLqCWx7PH2zlZYfg.jpeg
 - title: Practical PHP Deployment with Jenkins
   level: entry
   category: continuous delivery
@@ -242,36 +322,6 @@
     In this talk, we'll take a look at a few options that we have available to work out what our application is actually doing, help identify bottlenecks and fix them so that we can move on to the more important part of the project: delivering features.,
   speaker: Michael Heap
   "photo_path": NTeBL8eY1q6tuRe1CHISlJQLllhQjpZwvdBUGH0O.jpeg
-- title: Promises and Generators
-  level: advanced
-  category: other
-  type: regular
-  description: |
-    Many of you have heard of the concept 'Promise'. Some of you may even have used it. The 'Promise' is a useful design pattern when developing applications tha have a strong asynchronous aspect and avoids what's called 'callback hell' or 'callback christmas trees'.
-
-    The promise is a bit hard to wrap your head around though. This talk will explain exactly how a promise works and behaves and how you should interact with it.
-
-    Next, we'll dig into generators. Generators have been added to PHP 5.5 and Ecmascript 6 and makes creating and consuming iterators a lot easier.
-
-    Generators have a unique language property though. They allow us to jump in the middle of any method outside that method. In the third part of the talk we'll show how we can use iterators to improve promise-heavy code and make asynchronous code look and behave as normal code.,
-  speaker: Evert Pot
-  "photo_path": Mu1ckrquMO4C3VkrizbJhowAJLqCWx7PH2zlZYfg.jpeg
-- title: Pulling up Your Legacy App by its Bootstraps!
-  level: entry
-  category: development
-  type: regular
-  description: |
-    Your mission, should you choose to accept it, is to support an application built on an older framework. Refactoring isn't an easy option. The code is untested and nowhere near best practices or standards. In this session, we'll talk about strategies for incorporating modern PHP coding practices to add features and functionality and retiring the older code in pieces. We'll review specific examples and code from a real project where we bootstrapped a legacy application that needed a lot of work to be helpful to its users and simpler for developers to maintain . We'll talk about strategies to leave the existing code in place until the new code is ready to replace it in whole or in pieces.
-  speaker: Emily Stamey
-  "photo_path": 0kI3CvHW1z7gX3omB1jjToJla0aWRRooryxpqseg.jpeg
-- title: "Security Starts With You: Social Engineering"
-  level: entry
-  category: security
-  type: regular
-  description: |
-    Virus? There's an app for that. Malware? There's an app for that. Social engineering? It's a little more complicated. These techniques, used by hackers to gather information on their target, are hard to combat without education - so why don't we talk about them more often? Aimed at the average user who could be targeted by such an attack, this talk discusses the tools of social engineering, how it can be combated and why so many companies fail in preparing their employees for such an attack.
-  speaker: Tiberius Hefflin
-  "photo_path": z3V2QHh4gCzXs5gHPncmVLxe2ocuQZgKfmW2fYjt.png
 - title: Software Management Lessons from the 1960s
   level: mid
   category: other
@@ -286,20 +336,6 @@
     This session will present a modern overview of the ideas presented by Brooks and a look at what we can still learn from them even today.  Along the way we'll keep an eye on Open Source, and what lessons we may have forgotten.
   speaker: Larry Garfield
   "photo_path": Larry.Garfield5466d1920644c.jpg
-- title: "Status Change: Now Using Event Sourcing"
-  level: mid
-  category: development
-  type: regular
-  description: |
-    Being flexible to changes in business process makes our jobs easier, and it helps our applications adapt to those changes with minimal code changes.  One of the biggest adaptions in our applications has been the addition of Events to make a note of an Event in the system.  With these Events, we can affect change immediately, or even later.  This is most helpful in our reporting interfaces.  We can build, change, and throw away our reports very easily.  This is much easier than our older reports being generated by large SQL queries.
-
-    Attendees will learn:
-    - idealogical differences between status flags and events
-    - triggering events in your application
-    - handling events to reflect the state of your application data
-    - building reports from events that are easy to change
-  speaker: Emily Stamey
-  "photo_path": 0kI3CvHW1z7gX3omB1jjToJla0aWRRooryxpqseg.jpeg
 - title: "Stepping Outside Your Comfort Zone: Learning to Teach"
   level: entry
   category: other
@@ -308,16 +344,6 @@
     As a developer, you spend your entire life learning.  But what happens when the tables are turned and you become the teacher?  Do you want to become a conference speaker or a mentor, talk to your local user group, give presentations at work, or become a technical trainer?  As a previous classroom teacher with a Master's Degree in Curriculum Development, I will take you on a journey to understand the various learning styles and how to effectively reach everyone.  We will look at how to present your information, best ways to structure it, and learn ways to reach all students no matter their level.  We will also cover a number of best practices for crafting your presentation decks themselves.  Join me for this exploration into the inner workings of the human mind.
   speaker: Heather White
   "photo_path": tT7MTcgrLgFJLjDNtmtEiH8xa4lL1uBuaZgDF6Ac.jpeg
-- title: Storing Non-Scalar Data
-  level: mid
-  category: database
-  type: regular
-  description: |
-    In this presentation we will look at storing complex data in a single field. Many noSQL solutions are created around this (such as Redis' lists, sets and hashes; MongoDB's and CouchDB's records), and many relational database now also support storing complex data in a single field through specific data types (such as PostGreSQL's JSONB or hstore, MySQL's JSON).
-
-    Each of the different database engines support different things, and handle these data types in different ways. In this session we compare the different approaches to storage, indexing and interactions with these data types in different databases.
-  speaker: Derick Rethans
-  "photo_path": Cs7QjCXydzKtH9Ce8LUXBqwMmuQUh9TM31YEIVxf.jpeg
 - title: "The Mindful Developer: Being Less Busy &amp; More Productive"
   level: entry
   category: other
@@ -328,23 +354,3 @@
     Fortunately, there's another way. Instead of being busy, I can help you be more productive. I will walk you through some of the tools and techniques that I use on a daily basis to, not only, maintain and upgrade my skills in the world of ever changing technology, but, and more importantly, to protect my sanity, be more present and remove stress and fear from my life.
   speaker: David McKay
   "photo_path": 5MXnrOgGcso0D1ILYuZbKo7horzXXDVp5LCnvf1m.jpeg
-- title: TypeScript in Action
-  level: entry
-  category: javascript
-  type: regular
-  description: |
-    TypeScript, an open source project, has seen enormous growth over the past year. Today, it is used to build several key frameworks like AngularJS, Ionic etc.  Across the board developers are falling in love with TypeScript as they find it to be the most productive way to work with JavaScript. In this talk, Doris will go through how TypeScript enables you to leverage features from the current and future of JavaScript while increasing the productivity of JavaScript development across the board. As ECMAScript 6 gains popularity and more browsers are implementing the standard, JavaScript developers across the board are beginning to wonder, 'what's next?'  This session will cover some of the latest features of TypeScript, including future ECMAScript proposals, support for Angular, React/JSX and Node, the state of the art type system capabilities, and how it all comes together to make working and creating things in JavaScript more productive and fun with TypeScript.
-  speaker: Doris Chen
-  "photo_path": NzL7xwsv4QYYPGlBwaui1dBncbRxZJrtjFkuS1qz.jpeg
-- title: WordPress as a 12 Factor app
-  level: mid
-  category: framework
-  type: regular
-  description: |
-    Love it or hate it, WordPress is here to stay. Powering over 25% of the web, it's one of the most commonly used projects out there.
-
-    WordPress strive to make life easy for their end users first and foremost, but what if I told you that with less than an hour's work you could make it a joy to work with for developers too?
-
-    By following the Twelve Factor App method (http://12factor.net/) we can deploy WordPress in a way that makes it easy to develop for, easy to update and easy to maintain. Come and watch as we take a standard WordPress install and bring it into the future.
-  speaker: Michael Heap
-  "photo_path": NTeBL8eY1q6tuRe1CHISlJQLllhQjpZwvdBUGH0O.jpeg
