@@ -1,154 +1,78 @@
-section {
-  margin-bottom: 100px;
-}
-
-@include breakpoint(medium) {
-  .valign-middle {
-    display: table;
-
-    > .columns {
-      display: table-cell;
-      vertical-align: middle;
-    }
-
-    > .columns, > [class*="column"] + [class*="column"]:last-child {
-      float: none;
-    }
-  }
-}
-
-.hero.venue {
-  h1 {
-    text-align: left;
-    color: #fff;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    line-height: 1;
-
-    small {
-      color: #26A9E0;
-    }
+.venue-page {
+  section {
+    margin-bottom: 100px;
   }
 
-  h4 {
-    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
-    color: rgba(255, 255, 255, .75);
-    letter-spacing: -0.36px;
-  }
+  @include breakpoint(medium) {
+    .valign-middle {
+      display: table;
 
-  margin-bottom: 100px;
-}
+      > .columns {
+        display: table-cell;
+        vertical-align: middle;
+      }
 
-.hero {
-  .where-to-stay {
-    background: #FFFFFF;
-    padding: 50px;
-
-    h3 {
-      color: #444444;
-      letter-spacing: 0;
-    }
-
-    p {
-      text-align: left;
-      color: #444444;
-    }
-    a {
-      text-transform: uppercase;
-    }
-  }
-}
-
-.hotel-information {
-  text-align: center;
-
-  h4 {
-    color: #1B3149;
-    letter-spacing: 0;
-    text-transform: uppercase;
-  }
-
-  address, p {
-    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: normal;
-    color: #1B3149;
-  }
-
-  a {
-    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    color: #26A9E0;
-  }
-  @include breakpoint(small only) {
-    address, a, p {
-      display: block;
-      padding-bottom: 10px;
-    }
-  }
-}
-
-.parking {
-  background: #26A9E0;
-  .row {
-    @include breakpoint(large) {
-      .valign-center {
-        position: relative;
-        top: 30%;
-        > .columns {
-          transform: translateY(30%);
-          -webkit-transform: translateY(30%);
-          -o-transform: translateY(30%);
-          -ms-transform: translateY(30%);
-        }
+      > .columns, > [class*="column"] + [class*="column"]:last-child {
+        float: none;
       }
     }
+  }
 
-    @include breakpoint(small only) {
-      :nth-child(2) {
-        padding: 0;
+  .hero.venue {
+    h1 {
+      text-align: left;
+      color: #fff;
+      letter-spacing: -1px;
+      margin-bottom: 0;
+      line-height: 1;
+
+      small {
+        color: #26A9E0;
       }
     }
 
     h4 {
-      font-weight: bold;
-      color: #FFFFFF;
-      letter-spacing: -0.58px;
+      font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+      color: rgba(255, 255, 255, .75);
+      letter-spacing: -0.36px;
     }
 
-    p {
-      opacity: 0.85;
-      color: #FFFFFF;
-      letter-spacing: 0;
-      line-height: 25px;
-    }
-  }
-}
-
-.other-hotel-options {
-  h4 {
-    font-weight: bold;
-    color: #1B3149;
-    letter-spacing: -0.58px;
+    margin-bottom: 100px;
   }
 
-  .hotel {
-    &:nth-child(1n+2) {
-      padding-left: 10px;
+  .hero {
+    .where-to-stay {
+      background: #FFFFFF;
+      padding: 50px;
+
+      h3 {
+        color: #444444;
+        letter-spacing: 0;
+      }
+
+      p {
+        text-align: left;
+        color: #444444;
+      }
+      a {
+        text-transform: uppercase;
+      }
     }
-    h5 {
-      font-weight: bold;
-      color: #444444;
+  }
+
+  .hotel-information {
+    text-align: center;
+
+    h4 {
+      color: #1B3149;
       letter-spacing: 0;
+      text-transform: uppercase;
     }
 
-    p, address {
-      color: #5F6871;
+    address, p {
       font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-style: normal;
-    }
-
-    p {
-      font-weight: bold;
+      color: #1B3149;
     }
 
     a {
@@ -156,50 +80,128 @@ section {
       font-weight: bold;
       color: #26A9E0;
     }
-
-  }
-
-  @include breakpoint(medium down) {
-    .hotel {
-      padding-bottom: 10px;
-    }
-  }
-}
-
-.local-attractions {
-  h4 {
-    font-weight: bold;
-    color: #1B3149;
-    letter-spacing: -0.58px;
-  }
-
-  .orbit-bullets {
-    button {
-      vertical-align: middle;
-      background: #26A9E0;
-
-      &.is-active {
-        border: 2px solid #26A9E0;
-        background: none;
-        height: 1.5rem;
-        width: 1.5rem;
+    @include breakpoint(small only) {
+      address, a, p {
+        display: block;
+        padding-bottom: 10px;
       }
     }
   }
 
-  .orbit-caption {
-    background: #FFFFFF;
-    width: 304px;
-    color: #444444;
-    font-family: "Roboto Condensed", Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    margin-left: 25px;
+  .parking {
+    background: #26A9E0;
+    .row {
+      @include breakpoint(large) {
+        .valign-center {
+          position: relative;
+          top: 30%;
+          > .columns {
+            transform: translateY(30%);
+            -webkit-transform: translateY(30%);
+            -o-transform: translateY(30%);
+            -ms-transform: translateY(30%);
+          }
+        }
+      }
 
-    p {
-      font-family: "Roboto", Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: .75rem;
-      color: #5F6871;
-      margin-bottom: 0;
+      @include breakpoint(small only) {
+        :nth-child(2) {
+          padding: 0;
+        }
+      }
+
+      h4 {
+        font-weight: bold;
+        color: #FFFFFF;
+        letter-spacing: -0.58px;
+      }
+
+      p {
+        opacity: 0.85;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 25px;
+      }
+    }
+  }
+
+  .other-hotel-options {
+    h4 {
+      font-weight: bold;
+      color: #1B3149;
+      letter-spacing: -0.58px;
+    }
+
+    .hotel {
+      &:nth-child(1n+2) {
+        padding-left: 10px;
+      }
+      h5 {
+        font-weight: bold;
+        color: #444444;
+        letter-spacing: 0;
+      }
+
+      p, address {
+        color: #5F6871;
+        font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-style: normal;
+      }
+
+      p {
+        font-weight: bold;
+      }
+
+      a {
+        font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        color: #26A9E0;
+      }
+
+    }
+
+    @include breakpoint(medium down) {
+      .hotel {
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  .local-attractions {
+    h4 {
+      font-weight: bold;
+      color: #1B3149;
+      letter-spacing: -0.58px;
+    }
+
+    .orbit-bullets {
+      button {
+        vertical-align: middle;
+        background: #26A9E0;
+
+        &.is-active {
+          border: 2px solid #26A9E0;
+          background: none;
+          height: 1.5rem;
+          width: 1.5rem;
+        }
+      }
+    }
+
+    .orbit-caption {
+      background: #FFFFFF;
+      width: 304px;
+      color: #444444;
+      font-family: "Roboto Condensed", Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      margin-left: 25px;
+
+      p {
+        font-family: "Roboto", Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: .75rem;
+        color: #5F6871;
+        margin-bottom: 0;
+      }
     }
   }
 }

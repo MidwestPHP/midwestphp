@@ -1,0 +1,231 @@
+.schedule-page {
+  .background {
+    background: #D8D8D8;
+    margin-bottom: 100px;
+    .mask1 {
+      background-image: radial-gradient(50% 87%, #344E6E 4%, #1D3149 88%);
+      background-blend-mode: multiply;
+      .mask2 {
+        background-image: radial-gradient(50% 87%, #344E6E 4%, #1D3149 88%);
+        background-blend-mode: normal;
+      }
+    }
+  }
+  .top-bar {
+    background: transparent;
+    ul {
+      background: transparent;
+    }
+  }
+  .top-bar-left {
+    width: 100%;
+  }
+
+  .menu {
+    margin-top: 20px;
+    > li > a {
+      padding: 0.7rem 0;
+      margin: 0 1rem;
+      color: $white;
+      &.button {
+        padding: 0.7rem 1rem;
+      }
+      &.active {
+        border-bottom: 2px solid #26A9E0;
+      }
+    }
+  }
+
+  h1{
+    color: #1B3149;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 1;
+    small {
+      color: #26A9E0;
+    }
+  }
+
+  h5 {
+    color: #5F6871;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+  }
+
+  .tabs-content {
+    border: none;
+  }
+
+  .tabs {
+    .tabs-title {
+      &:first-child {
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+      }
+      &:last-child {
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+      }
+    }
+  }
+
+  .tabs-title {
+    border: #979797 solid thin;
+    &.is-active {
+      border: #26A9E0 solid thin;
+      a {
+        color: #fff;
+        background: #26A9E0;
+      }
+    }
+    a {
+      font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 1rem;
+      color: #444444;
+    }
+  }
+
+  .event-block {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.13rem;
+    font-weight: bold;
+    color: #444444;
+    .event {
+      background: #F4F4F4;
+      .details {
+        color: #444444;
+        letter-spacing: 0;
+        font-size: 1.25rem;
+        padding: 1rem;
+      }
+    }
+  }
+  .session-block {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.13rem;
+    font-weight: bold;
+    background: #F4F4F4;
+    color: #444444;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+    .time {
+    }
+    .no-background {
+      background:none;
+    }
+    .session {
+      padding: 10px;
+      .room {
+        opacity: 0.8;
+        font-size: 1rem;
+        letter-spacing: 0;
+        padding: 5px;
+        background: #293B51;
+        color: #FFFFFF;
+      }
+      .details {
+        font-size: 1rem;
+        color: #444444;
+        letter-spacing: 0;
+        padding: 10px;
+        background: #FFFFFF;
+        border: #DDDDDD solid 1px;
+        .speakers {
+          color: #666666;
+          letter-spacing: 0;
+          padding-top: 1rem;
+          font-weight: normal;
+          font-size: .75rem;
+        }
+      }
+    }
+
+    .keynote {
+      padding: 10px;
+      .room {
+        /* ROOM #: */
+        opacity: 0.8;
+        font-size: 16px;
+        letter-spacing: 0;
+        padding: 5px;
+        background: #1B75BB;
+        color: #FFFFFF;
+      }
+      .details {
+        font-size: 1rem;
+        color: #444444;
+        letter-spacing: 0;
+        padding: 10px;
+        background: #FFFFFF;
+        border: #DDDDDD solid 1px;
+
+        .speakers {
+          color: #666666;
+          letter-spacing: 0;
+          padding-top: 1rem;
+          font-weight: normal;
+          font-size: .75rem;
+        }
+      }
+    }
+  }
+
+  .session-block {
+    .vertical-centering {
+      text-align: center;
+      padding: 5% 0;
+    }
+  }
+
+  .event-block {
+    .vertical-centering {
+      text-align: center;
+      padding: 2% 0;
+    }
+  }
+
+  @include breakpoint(medium down) {
+    .tabs {
+      width: 100%;
+    }
+    .tabs-title {
+      width: 50%;
+      text-align: center;
+    }
+
+    .session-block{
+      background: none;
+      .vertical-centering {
+        text-align: left;
+        padding: 0 0.625rem;
+      }
+      .time {
+        border-bottom: solid thin #444444;
+        margin: 0 0 10px 0;
+      }
+      .session,
+      .keynote {
+        padding: 0 0 10px 0;
+      }
+    }
+
+    .event-block {
+      .vertical-centering {
+        text-align: left;
+        padding: 0 0.625rem;
+      }
+      .time {
+        border-bottom: solid thin #444444;
+        margin: 0 0 10px 0;
+      }
+      .event {
+        .details {
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
