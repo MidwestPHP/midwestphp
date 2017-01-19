@@ -11,11 +11,12 @@ company: MongoDB
 photo_path: Cs7QjCXydzKtH9Ce8LUXBqwMmuQUh9TM31YEIVxf.jpeg
 github: derickr
 sessions:
- - title: "Storing Non-Scalar Data"
-   date: "TBD"
-   time: "TBD"
-   location: "TBD"
  - title: "Grown-up MongoDB: Schema Design"
-   date: "TBD"
-   time: "TBD"
-   location: "TBD"
+   date: "Mar 17"
+   time: "10:00 AM"
+   location: "Main Ballroom"
+ - title: "Storing Non-Scalar Data"
+   date: "Mar 18"
+   time: "1:00 PM"
+   location: "Ballroom D"
+

@@ -36,7 +36,7 @@
     }
   }
 
-  h1{
+  h1 {
     color: #1B3149;
     letter-spacing: -1px;
     text-transform: uppercase;
@@ -60,6 +60,19 @@
 
   .tabs {
     .tabs-title {
+      border: #979797 solid thin;
+      &.is-active {
+        border: #26A9E0 solid thin;
+        a {
+          color: #fff;
+          background: #26A9E0;
+        }
+      }
+      a {
+        font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 1rem;
+        color: #444444;
+      }
       &:first-child {
         border-top-left-radius: 3px;
         border-bottom-left-radius: 3px;
@@ -71,27 +84,15 @@
     }
   }
 
-  .tabs-title {
-    border: #979797 solid thin;
-    &.is-active {
-      border: #26A9E0 solid thin;
-      a {
-        color: #fff;
-        background: #26A9E0;
-      }
-    }
-    a {
-      font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 1rem;
-      color: #444444;
-    }
-  }
-
-  .event-block {
+  .event-block,
+  .session-block {
     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.13rem;
     font-weight: bold;
     color: #444444;
+  }
+
+  .event-block {
     .event {
       background: #F4F4F4;
       .details {
@@ -102,22 +103,44 @@
       }
     }
   }
+
+  .keynote,
+  .session {
+    padding: 10px;
+    .details {
+      font-size: 1rem;
+      color: #444444;
+      letter-spacing: 0;
+      padding: 10px;
+      background: #FFFFFF;
+      border: #DDDDDD solid 1px;
+      a {
+        color: #444444;
+        &:hover {
+          color: #26A9E0;
+        }
+      }
+      .speakers {
+        color: #666666;
+        letter-spacing: 0;
+        padding-top: 1rem;
+        font-weight: normal;
+        font-size: .75rem;
+      }
+    }
+  }
+
   .session-block {
-    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1.13rem;
-    font-weight: bold;
     background: #F4F4F4;
-    color: #444444;
     margin-top: 1rem;
     margin-bottom: 1rem;
     letter-spacing: 0;
     .time {
     }
     .no-background {
-      background:none;
+      background: none;
     }
     .session {
-      padding: 10px;
       .room {
         opacity: 0.8;
         font-size: 1rem;
@@ -126,49 +149,16 @@
         background: #293B51;
         color: #FFFFFF;
       }
-      .details {
-        font-size: 1rem;
-        color: #444444;
-        letter-spacing: 0;
-        padding: 10px;
-        background: #FFFFFF;
-        border: #DDDDDD solid 1px;
-        .speakers {
-          color: #666666;
-          letter-spacing: 0;
-          padding-top: 1rem;
-          font-weight: normal;
-          font-size: .75rem;
-        }
-      }
     }
 
     .keynote {
-      padding: 10px;
       .room {
-        /* ROOM #: */
         opacity: 0.8;
         font-size: 16px;
         letter-spacing: 0;
         padding: 5px;
         background: #1B75BB;
         color: #FFFFFF;
-      }
-      .details {
-        font-size: 1rem;
-        color: #444444;
-        letter-spacing: 0;
-        padding: 10px;
-        background: #FFFFFF;
-        border: #DDDDDD solid 1px;
-
-        .speakers {
-          color: #666666;
-          letter-spacing: 0;
-          padding-top: 1rem;
-          font-weight: normal;
-          font-size: .75rem;
-        }
       }
     }
   }
@@ -196,7 +186,7 @@
       text-align: center;
     }
 
-    .session-block{
+    .session-block {
       background: none;
       .vertical-centering {
         text-align: left;
