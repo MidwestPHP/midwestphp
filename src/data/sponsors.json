@@ -23,7 +23,20 @@
   },
   {
   "level": "Silver",
-  "sponsors": []
+  "sponsors": [
+    {
+      "company": "Total Expert, Inc.",
+      "logo": "",
+      "logo-horizontal": "",
+      "description": "",
+      "website": "http://totalexpertinc.com/",
+      "socialmedia": {
+        "twitter": "https://twitter.com/totalexpertinc",
+        "facebook": "https://www.facebook.com/totalexpertinc",
+        "linkedin": "https://www.linkedin.com/company/total-expert"
+      }
+    }
+  ]
   },
   {
     "level": "Bronze",
