@@ -26,8 +26,8 @@
   "sponsors": [
     {
       "company": "Digital Bridge Solutions",
-      "logo": "",
-      "logo-horizontal": "",
+      "logo": "assets/img/sponsors/digital-bridge-solutions.png",
+      "logo-horizontal": "assets/img/sponsors/digital-bridge-solutions.png",
       "description": "Digital Bridge Solutions helps emerging and mid-sized businesses maximize investments in the digital channel. Using open source tools like Drupal and Magento, we energize our clients' online sales and marketing efforts. We work with clients in a variety of industries, and are eager to apply our expertise to your specific online business challenges",
       "website": "http://www.dbridgesolutions.com/",
       "socialmedia": {
