@@ -32,20 +32,28 @@ title: Sponsors
                 <h5 class="level">{{level}}</h5>
                 <hr>
                 {{#ifequal level "Platinum"}}
-                {{#each sponsors}}
                 <div class="row medium-centered">
-                    <div class="large-3 medium-6 columns">
-                        <a class="exampleModal1" data-description="{{this.description}}" data-logo="/{{this.logo-horizontal}}"
-                           data-company="{{this.company}}">
-                            <img src="{{this.logo}}" class="thumbnail logo-container" alt="{{this.company}} logo">
-                        </a>
+                    {{#each sponsors}}
+                    <div class="large-3 medium-6 column {{#if @last}}end{{/if}}">
+                            <a class="exampleModal1" data-description="{{this.description}}" data-logo="/{{this.logo-horizontal}}"
+                               data-company="{{this.company}}" data-website="{{this.website}}"
+                               {{#each this.socialmedia as |value key|}}
+                               data-social-{{key}}="{{value}}"
+                               {{/each}}
+                            >
+                                <img src="{{this.logo}}" class="thumbnail logo-container" alt="{{this.company}} logo">
+                            </a>
+                        </div>
                     </div>
+                    {{/each}}
                 </div>
-                {{/each}}
                 {{else}}
-                {{#each sponsors}}
-                <div class="row">
-                    <div class="large-2 medium-4 small-6 columns">
+                <div class="row" data-equalizer data-equalize-by-row="true">
+                    {{#each sponsors}}
+                    <div class="large-2 medium-4 small-6 column {{#if @last}}end{{/if}}"  data-equalizer-watch>
+                        <div class="dummy"></div>
+                        <div class="img-container thumbnail logo-container">
+                            <div class="centerer"></div>
                         <a class="exampleModal1" data-description="{{this.description}}" data-logo="/{{this.logo-horizontal}}"
                            data-company="{{this.company}}" data-website="{{this.website}}"
                            {{#each this.socialmedia as |value key|}}
@@ -53,11 +61,12 @@ title: Sponsors
                            {{/each}}
                         >
 
-                        <img src="{{this.logo}}" class="thumbnail logo-container small" alt="{{this.company}} logo">
+                        <img src="{{this.logo}}" class="thumbnail" alt="{{this.company}} logo">
                         </a>
+                        </div>
                     </div>
+                    {{/each}}
                 </div>
-                {{/each}}
                 {{/ifequal}}
             </div>
             {{/each}}

@@ -2,17 +2,17 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
+.home {
+  section {
+    margin: 100px auto 0;
 
-section {
-  margin: 100px auto 0;
+    h1, h2, h3, h4, h5, h6 {
+      line-height: 1;
+      margin-bottom: 0;
 
-  h1, h2, h3, h4, h5, h6 {
-    color: $white;
-    line-height: 1;
-    margin-bottom: 0;
-
-    > small {
-      color: #26A9E0;
+      > small {
+        color: #26A9E0;
+      }
     }
   }
 }
