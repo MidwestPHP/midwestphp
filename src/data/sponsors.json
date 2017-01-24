@@ -35,6 +35,20 @@
         "linkedin": "https://www.linkedin.com/company/digital-bridge-solutions",
         "facebook": "https://www.facebook.com/dbridgesolutions/"
       }
+    },
+    {
+      "company": "Total Expert, Inc.",
+      "logo": "assets/img/sponsors/totalexpertinc-corporate-logo.png",
+      "logo-horizontal": "assets/img/sponsors/totalexpertinc-corporate-logo.png",
+      "description": "Total Expert Inc. is a technology company that provides the first fully integrated, enterprise-level software as a service (SaaS) application to the real estate and mortgage industries.",
+      "website": "http://totalexpertinc.com/",
+      "socialmedia": {
+        "twitter": "https://twitter.com/totalexpertinc",
+        "facebook": "https://www.facebook.com/totalexpertinc",
+        "linkedin": "https://www.linkedin.com/company/total-expert",
+        "instagram": "http://instagram.com/totalexpertinc",
+        "youtube": "https://www.youtube.com/user/TotalExpert"
+      }
     }
   ]
   },
