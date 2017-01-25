@@ -10,68 +10,78 @@ title: Sponsors
         </div>
     </div>
     <section>
-    <div class="row">
-        <div class="small-10 small-centered end">
-            <h1>Sponsors<small>.</small></h1>
-            <h5 class="level">We Are Proud To Partner With</h5>
+        <div class="row">
+            <div class="small-10 small-centered end">
+                <h1>Sponsors
+                    <small>.</small>
+                </h1>
+                <h5 class="level">We Are Proud To Partner With</h5>
 
-            <p>Companies like yours make Midwest PHP possible. We offer a wide range of sponsorship packages to
-                provide visibility to your brand during our two days of conference events. Our hope is that you will
-                find a package that is a good fit for your company and that you choose to become a part of our
-                conference and community.</p>
+                <p>Companies like yours make Midwest PHP possible. We offer a wide range of sponsorship packages to
+                    provide visibility to your brand during our two days of conference events. Our hope is that you will
+                    find a package that is a good fit for your company and that you choose to become a part of our
+                    conference and community.</p>
 
-            <p>If you or your company interested in sponsoring Midwest PHP but are unable to find a package that meets
-                your needs, we would be happy to discuss any ideas you might have.</p>
+                <p>If you or your company interested in sponsoring Midwest PHP but are unable to find a package that
+                    meets
+                    your needs, we would be happy to discuss any ideas you might have.</p>
 
-            <p>Please fill out our <a href="contact.html">contact form</a> for more information on our prospectus or if
-                you
-                would like to sponsor this years conference!</p>
-            {{#each sponsors}}
-            <div class="level-container">
-                <a name="{{level}}"></a>
-                <h5 class="level">{{level}}</h5>
-                <hr>
-                {{#ifequal level "Platinum"}}
-                <div class="row medium-centered">
-                    {{#each sponsors}}
-                    <div class="large-3 medium-6 column {{#if @last}}end{{/if}}">
-                            <a class="exampleModal1" data-description="{{this.description}}" data-logo="/{{this.logo-horizontal}}"
-                               data-company="{{this.company}}" data-website="{{this.website}}"
-                               {{#each this.socialmedia as |value key|}}
-                               data-social-{{key}}="{{value}}"
-                               {{/each}}
-                            >
-                                <img src="{{this.logo}}" class="thumbnail logo-container" alt="{{this.company}} logo">
-                            </a>
+                <p>Please fill out our <a href="contact.html">contact form</a> for more information on our prospectus or
+                    if
+                    you
+                    would like to sponsor this years conference!</p>
+                {{#each sponsors}}
+                <div class="level-container">
+                    <a name="{{level}}"></a>
+                    <h5 class="level">{{level}}</h5>
+                    <hr>
+                    {{#ifequal level "Platinum"}}
+                    <div class="row medium-centered" data-equalizer data-equalize-by-row="true">
+                        {{#each sponsors}}
+                        <div class="large-3 medium-6 column" data-equalizer-watch>
+                            <div class="dummy"></div>
+                            <div class="img-container thumbnail logo-container">
+                                <div class="centerer"></div>
+                                <a class="exampleModal1" data-description="{{this.description}}"
+                                   data-logo="/{{this.logo-horizontal}}"
+                                   data-company="{{this.company}}" data-website="{{this.website}}"
+                                   {{#each this.socialmedia as |value key|}}
+                                    data-social-{{key}}="{{value}}"
+                                   {{/each}}
+                                >
+                                <img src="{{this.logo}}" class="thumbnail" alt="{{this.company}} logo">
+                                </a>
+                            </div>
+
                         </div>
+                        {{/each}}
                     </div>
-                    {{/each}}
-                </div>
-                {{else}}
-                <div class="row" data-equalizer data-equalize-by-row="true">
-                    {{#each sponsors}}
-                    <div class="large-2 medium-4 small-6 column {{#if @last}}end{{/if}}"  data-equalizer-watch>
-                        <div class="dummy"></div>
-                        <div class="img-container thumbnail logo-container">
-                            <div class="centerer"></div>
-                        <a class="exampleModal1" data-description="{{this.description}}" data-logo="/{{this.logo-horizontal}}"
-                           data-company="{{this.company}}" data-website="{{this.website}}"
-                           {{#each this.socialmedia as |value key|}}
-                           data-social-{{key}}="{{value}}"
-                           {{/each}}
-                        >
+                    {{else}}
+                    <div class="row" data-equalizer data-equalize-by-row="true">
+                        {{#each sponsors}}
+                        <div class="large-2 medium-4 small-6 column {{#if @last}}end{{/if}}" data-equalizer-watch>
+                            <div class="dummy"></div>
+                            <div class="img-container thumbnail logo-container">
+                                <div class="centerer"></div>
+                                <a class="exampleModal1" data-description="{{this.description}}"
+                                   data-logo="/{{this.logo-horizontal}}"
+                                   data-company="{{this.company}}" data-website="{{this.website}}"
+                                   {{#each this.socialmedia as |value key|}}
+                                   data-social-{{key}}="{{value}}"
+                                   {{/each}}
+                                >
 
-                        <img src="{{this.logo}}" class="thumbnail" alt="{{this.company}} logo">
-                        </a>
+                                <img src="{{this.logo}}" class="thumbnail" alt="{{this.company}} logo">
+                                </a>
+                            </div>
                         </div>
+                        {{/each}}
                     </div>
-                    {{/each}}
+                    {{/ifequal}}
                 </div>
-                {{/ifequal}}
+                {{/each}}
             </div>
-            {{/each}}
         </div>
-    </div>
     </section>
 </div>
 
@@ -80,7 +90,7 @@ title: Sponsors
         <div class="small-centered small-12 columns">
             <div class="row logo-row">
                 <div class="small-centered small-10 columns text-center">
-                    <img src="" id="companyLogo" class="thumbnail" alt="company logo" />
+                    <img src="" id="companyLogo" class="thumbnail" alt="company logo"/>
                 </div>
             </div>
             <div class="row">

@@ -4,7 +4,7 @@ $(".exampleModal1").on('click', function(e){
     e.preventDefault();
 
     $("#companyLogo").attr("src", $(this).data("logo"));
-    $("#companyDescription").text($(this).data("description"));
+    $("#companyDescription").html($(this).data("description"));
 
     var data = $(this).data();
 
@@ -33,6 +33,8 @@ $(".exampleModal1").on('click', function(e){
                     case "Linkedin":
                         socialMedia += buildLink($(this).data(index), "fi-social-linkedin");
                         break;
+                    case "Googleplus":
+                        socialMedia += buildLink($(this).data(index), "fi-social-google-plus");
                 }
             }
         }
