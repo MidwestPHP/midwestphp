@@ -1,6 +1,29 @@
----
 - level: Platinum
-  sponsors: []
+  sponsors:
+  - company: When I work
+    logo: ''
+    logo-horizontal: ''
+    description: |
+      When I Work is one of the most forward-thinking technology-based companies in the Twin Cities, serving
+      customers globally. Based in Minneapolis, the company has averaged 100%+ growth in revenue and customers
+      over the past several years and prides itself on its fun and results-driven culture.<br/><br/>
+
+      When I Work is the ally of the 100s of millions hourly workers worldwide (and 45+ million in the U.S.)
+      on the job, off the job, and between jobs. It is the easiest way to schedule, track time and communicate
+      with hourly employees. More than 50,000 workplaces worldwide rely on When I Work to make sure they have
+      the right people, at the right place, at the right time.<br/><br/>
+
+      When I Work improves employee-manager relationships while removing the common inefficiencies of managing
+      hourly teams—making teams more efficient, more accountable and better prepared. In five minutes business
+      owners and managers can start using When I Work’s simple, mobile-first solution, no IT required. To make
+      work life better, visit <a href="http://wheniwork.com" target="_blank">WhenIWork.com</a>.
+    website: http://wheniwork.com/
+    socialmedia:
+      facebook: https://www.facebook.com/wheniwork
+      twitter: https://twitter.com/wheniwork
+      googleplus: https://plus.google.com/+Wheniwork-Employee-Scheduling
+      linkedin: https://www.linkedin.com/company/wheniwork
+      instagram: http://instagram.com/wheniwork
 - level: Gold
   sponsors:
   - company: Irish Titan
