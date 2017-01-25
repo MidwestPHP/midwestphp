@@ -1,8 +1,8 @@
 - level: Platinum
   sponsors:
   - company: When I work
-    logo: ''
-    logo-horizontal: ''
+    logo: assets/img/sponsors/when-i-work.png
+    logo-horizontal: assets/img/sponsors/when-i-work.png
     description: |
       When I Work is one of the most forward-thinking technology-based companies in the Twin Cities, serving
       customers globally. Based in Minneapolis, the company has averaged 100%+ growth in revenue and customers
