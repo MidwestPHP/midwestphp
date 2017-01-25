@@ -104,8 +104,8 @@
 - level: Community
   sponsors:
   - company: Visible Technology Solutions
-    logo: ''
-    logo-horizontal: ''
+    logo: assets/img/sponsors/visible-technology-solutions.png
+    logo-horizontal: assets/img/sponsors/visible-technology-solutions.png
     description: Visible Technology Solutions offers custom software development for
       Cloud, Mobile, Web and On-Premises Solutions. We specialize in working with
       entrepreneurs and start-ups to help bring their idea to realization. Our quality
