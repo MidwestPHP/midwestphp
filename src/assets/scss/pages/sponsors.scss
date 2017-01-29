@@ -64,7 +64,6 @@
     padding: 15px 0;
 
     .row {
-      //margin: 0 0 20px;
       .column, .columns {
         padding-left: 0.9375rem;
         padding-right: 0.9375rem;
@@ -75,6 +74,7 @@
           padding-top: 100%;
         }
         .img-container {
+          margin-right: 10px;
           padding: 10px;
           position: absolute;
           top: 0;

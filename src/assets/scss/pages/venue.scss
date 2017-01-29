@@ -203,5 +203,11 @@
         margin-bottom: 0;
       }
     }
+
+    @include breakpoint(small only) {
+      .orbit-caption {
+        padding: 5px 0 0 11px;
+      }
+    }
   }
 }
