@@ -13,8 +13,34 @@
     text-transform: uppercase;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1rem;
     color: #CACED4;
     letter-spacing: 0;
+  }
+}
+
+.menu {
+  margin-top: 20px;
+  > li > a {
+    padding: 0.7rem 0;
+    margin: 0 1rem;
+    color: $white;
+    &.button {
+      padding: 0.7rem 1rem;
+    }
+    &.active {
+      border-bottom: 2px solid #26A9E0;
+    }
+    &.button.hollow {
+      color: $white;
+    }
+  }
+}
+
+@include breakpoint(1100px "down") {
+  .menu {
+    > li > a {
+      margin: 0 .75rem;
+    }
   }
 }

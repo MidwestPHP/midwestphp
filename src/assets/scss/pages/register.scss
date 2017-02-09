@@ -21,21 +21,6 @@
     width: 100%;
   }
 
-  .menu {
-    margin-top: 20px;
-    > li > a {
-      padding: 0.7rem 0;
-      margin: 0 1rem;
-      color: $white;
-      &.button {
-        padding: 0.7rem 1rem;
-      }
-      &.active {
-        border-bottom: 2px solid #26A9E0;
-      }
-    }
-  }
-
   h1, h2, h3 {
     color: #1B3149;
     letter-spacing: -1px;

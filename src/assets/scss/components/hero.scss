@@ -62,6 +62,18 @@
   }
 }
 
+@include breakpoint(1100px "down") {
+  .hero {
+    .top-bar {
+     .menu {
+      > li > a {
+        margin: 0 .75rem;
+      }
+    }
+    }
+  }
+}
+
 @include breakpoint(medium down) {
   .hero {
     margin: 0;
