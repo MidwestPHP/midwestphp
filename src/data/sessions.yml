@@ -82,7 +82,7 @@
     This talk will help you understand how to use JavaScript effectively in your existing web pages and PHP 
     applications. Let's explore different ways to write and structure your JavaScript code and introduce the 
     model-view-view model pattern as a complement to the model view controller pattern often used in PHP to create more 
-    reusable, understandable, and testable code.,
+    reusable, understandable, and testable code.
   speaker: Derek Binkley
   "photo_path": oYQf0GGrBbrT4ky4Ufjp1wkV4V7DqtAOURS5OJfL.jpeg
 - title: TypeScript in Action
