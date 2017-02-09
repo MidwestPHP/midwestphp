@@ -170,7 +170,7 @@
     Are you ashamed to admit you're a PHP developer? Have you been using the same old, boring PHP framework for years?
     Tired of your PHP applications turning into enormous beasts? Maybe you've heard about Laravel but haven't made the
     effort to dive into it? In this presentation, we'll walk through what makes Laravel an elegant, fun, and exciting
-    framework to make PHP applications that you'll be proud of.,
+    framework to make PHP applications that you'll be proud of.
   speaker: Ben Edmunds
   "photo_path": BPZMDHDUOMU8iTV8D3X89QUTibckQAhGG4Jvcm6R.jpeg
 - title: WordPress as a 12 Factor app
@@ -245,7 +245,7 @@
   speaker: David McKay
   "photo_path": 5MXnrOgGcso0D1ILYuZbKo7horzXXDVp5LCnvf1m.jpeg
 #Database
-- title: Graph Databases Will Change Your Freakin Life,
+- title: Graph Databases Will Change Your Freakin Life
   level: entry
   category: database
   type: regular
@@ -254,7 +254,7 @@
     option. Graph databases have a simpler, more powerful model for handling complex related data. In this talk we'll
     work with Neo4j to explore the advantages of graph DBs. Attendees will learn the graph model, how graph DBs let
     you do things that are practically impossible with SQL, and the best options for integrating one into your
-    application -- new or existing.,
+    application -- new or existing.
   speaker: Edward Finkler
   "photo_path": F0dwRVlTneLbxlgiN5WtIhBf2Yva4KhxNTYkkZ8f.jpeg
 - title: "Grown-up MongoDB: Schema Design"
@@ -268,7 +268,7 @@
     for a relational database.
 
     Besides schema design techniques, I will also cover how to pick indexes, different types of indexes, and way to
-    find out why queries are potentially not as fast as they could be.,
+    find out why queries are potentially not as fast as they could be.
   speaker: Derick Rethans
   "photo_path": Cs7QjCXydzKtH9Ce8LUXBqwMmuQUh9TM31YEIVxf.jpeg
 - title: Storing Non-Scalar Data
@@ -300,7 +300,7 @@
     website, no matter how creative you are(n't). In this talk, we'll explore ten of them together, using research and
     proven solutions to see how the impact as a whole for both clients and users is greater than the sum of its parts.
     Make your websites more attractive, easier to use and better designed without feeling like you're wasting your time
-    or effort.,
+    or effort.
   speaker: Hilary Stohs-Krause
   "photo_path": FIq5XzjyvV5sHTwoDg8q8OwtDysKyqMwNydgsDnL.jpeg
 - title: "MVC to ADR: Refining How We Think About Web Applications"
@@ -312,7 +312,7 @@
     has been articulated as a potentially better way to organize web applications. In this talk we will explore the
     background of the MVC pattern, the challenges it faces when used for web applications, and the solutions that ADR
     proposes to address those challenges. We will also explore a small application written in the ADR pattern using the
-    [Equip micro-framework](http://equip.tools).,
+    [Equip micro-framework](http://equip.tools).
   speaker: Woody Gilk
   "photo_path": T8BCFSjL4e0DXHG6UjM9V2Kmypk9vIlbNPXHxmso.jpeg
 - title: OOP Is More Than Cars and Dogs
@@ -324,7 +324,7 @@
     are taught that nouns turn into objects, verbs into methods, and Dog is a subclass of Animal. OOP is more than
     just turning things into classes and objects and showing that both Boats and Cars have motors, and that Dogs and
     Cats both speak(). Let's look at OOP in real world settings and go beyond cars and dogs, and see how to use Object
-    Oriented Programming properly in PHP. Traits, Composition, Inheritance, none of it is off limits!,
+    Oriented Programming properly in PHP. Traits, Composition, Inheritance, none of it is off limits!
   speaker: Chris Tankersley
   "photo_path": Chris.Tankersley543f3f282bce9.jpg
 - title: Pulling up Your Legacy App by its Bootstraps!
@@ -332,7 +332,13 @@
   category: development
   type: regular
   description: |
-    Your mission, should you choose to accept it, is to support an application built on an older framework. Refactoring isn't an easy option. The code is untested and nowhere near best practices or standards. In this session, we'll talk about strategies for incorporating modern PHP coding practices to add features and functionality and retiring the older code in pieces. We'll review specific examples and code from a real project where we bootstrapped a legacy application that needed a lot of work to be helpful to its users and simpler for developers to maintain . We'll talk about strategies to leave the existing code in place until the new code is ready to replace it in whole or in pieces.
+    Your mission, should you choose to accept it, is to support an application built on an older framework. Refactoring 
+    isn't an easy option. The code is untested and nowhere near best practices or standards. In this session, we'll 
+    talk about strategies for incorporating modern PHP coding practices to add features and functionality and retiring 
+    the older code in pieces. We'll review specific examples and code from a real project where we bootstrapped a 
+    legacy application that needed a lot of work to be helpful to its users and simpler for developers to maintain. 
+    We'll talk about strategies to leave the existing code in place until the new code is ready to replace it in whole 
+    or in pieces.
   speaker: Emily Stamey
   "photo_path": 0kI3CvHW1z7gX3omB1jjToJla0aWRRooryxpqseg.jpeg
 - title: Bringing Old Legacy Apps To PHP 7 and Beyond
@@ -355,7 +361,11 @@
   category: development
   type: regular
   description: |
-    Being flexible to changes in business process makes our jobs easier, and it helps our applications adapt to those changes with minimal code changes.  One of the biggest adaptions in our applications has been the addition of Events to make a note of an Event in the system.  With these Events, we can affect change immediately, or even later.  This is most helpful in our reporting interfaces.  We can build, change, and throw away our reports very easily.  This is much easier than our older reports being generated by large SQL queries.
+    Being flexible to changes in business process makes our jobs easier, and it helps our applications adapt to those 
+    changes with minimal code changes.  One of the biggest adaptions in our applications has been the addition of 
+    Events to make a note of an Event in the system.  With these Events, we can affect change immediately, or even 
+    later.  This is most helpful in our reporting interfaces.  We can build, change, and throw away our reports very 
+    easily.  This is much easier than our older reports being generated by large SQL queries.
 
     Attendees will learn:
     - idealogical differences between status flags and events
@@ -376,7 +386,7 @@
     In this talk I tell my story of how a plain-old user-land PHP nerd who, "doesn't know C," found himself drawn to
     PHP internals like a bug to a light. I was meet with a lovely helpful community of individuals who mentored me
     the whole way to making PHP better. This talk will encourage and inspire you to join me on an epic journey to the
-    center of PHP.,
+    center of PHP.
   speaker: Sammy Powers
   "photo_path": oU2N5TW2sn1TB77Ysj27aVyYetSNHF0tirTUYahw.jpeg
 - title: Promises and Generators
@@ -396,7 +406,7 @@
 
     Generators have a unique language property though. They allow us to jump in the middle of any method outside that
     method. In the third part of the talk we'll show how we can use iterators to improve promise-heavy code and make
-    asynchronous code look and behave as normal code.,
+    asynchronous code look and behave as normal code.
   speaker: Evert Pot
   "photo_path": Mu1ckrquMO4C3VkrizbJhowAJLqCWx7PH2zlZYfg.jpeg
 - title: "Dev Divas: History's Heroines of Computing"
@@ -424,7 +434,7 @@
     what can actually be automated? If we don't have unit tests can we still benefit from deployment automation? Adam
     Culp will show how a PHP application pulled from git, complete with unit tests, Composer dependency management,
     and package creation, can be deployed flawlessly using Jenkins. Then see how "Dev" and "Ops" are supported by a
-    system if the application breaks through automated rollbacks.,
+    system if the application breaks through automated rollbacks.
   speaker: Adam Culp
   "photo_path": Adam.Culp544007c420825.jpg
 - title: Principles of Unit Testing
@@ -442,7 +452,7 @@
     and data builders.
 
     The key takeaway from this session will be a deep knowledge of unit testing: when to apply one double versus
-    another, when to use solitary vs sociable, and how to mitigate test smells.,
+    another, when to use solitary vs sociable, and how to mitigate test smells.
   speaker: Joseph Purcell
   "photo_path": XDxtQXiwTRfVW6Q6Uzb5Km8c0UCsUkiSay34jCD0.jpeg
 - title: Profiling your PHP application
@@ -458,7 +468,7 @@
 
     In this talk, we'll take a look at a few options that we have available to work out what our application is
     actually doing, help identify bottlenecks and fix them so that we can move on to the more important part of the
-    project: delivering features.,
+    project: delivering features.
   speaker: Michael Heap
   "photo_path": NTeBL8eY1q6tuRe1CHISlJQLllhQjpZwvdBUGH0O.jpeg
 - title: Software Management Lessons from the 1960s
