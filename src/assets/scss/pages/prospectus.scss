@@ -1,0 +1,86 @@
+.prospectus-page {
+  .background {
+    background: #D8D8D8;
+    margin-bottom: 100px;
+    .mask1 {
+      background-image: radial-gradient(50% 87%, #344E6E 4%, #1D3149 88%);
+      background-blend-mode: multiply;
+      .mask2 {
+        background-image: radial-gradient(50% 87%, #344E6E 4%, #1D3149 88%);
+        background-blend-mode: normal;
+      }
+    }
+  }
+  .top-bar {
+    background: transparent;
+    ul {
+      background: transparent;
+    }
+  }
+  .top-bar-left {
+    width: 100%;
+  }
+
+  h1{
+    color: #1B3149;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 1;
+    small {
+      color: #26A9E0;
+    }
+  }
+
+  h3 {
+    background: #1b3149;
+    color: #fff;
+    padding: 5px 0;
+  }
+
+  h5 {
+    color: #5F6871;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+  }
+
+  h6 {
+    margin-bottom: 0;
+    line-height: 1;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    color: #5F6871;
+  }
+  h4 {
+    text-transform: uppercase;
+    span.main {
+      font-size: 2rem;
+      font-family: "Roboto Condensed", Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      color: #1B3149;
+    }
+    span.level {
+      position: relative;
+      top: -.5rem;
+      margin-top: .6rem;
+      margin-left: .6rem;
+      color: #fff;
+      font-size: .75rem;
+      padding: .25rem;
+      white-space:nowrap;
+      &.entry {
+        background: #00B0D8;
+      }
+      &.mid {
+        background: #1B75BB;
+      }
+      &.advanced {
+        background: #1B3149;
+      }
+    }
+  }
+  ul > li {
+    color: #5f6871;
+  }
+}

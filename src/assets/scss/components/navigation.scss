@@ -21,7 +21,8 @@
 
 .menu {
   margin-top: 20px;
-  > li > a {
+  > li > a,
+  ul > li > a {
     padding: 0.7rem 0;
     margin: 0 1rem;
     color: $white;
@@ -35,6 +36,10 @@
       color: $white;
     }
   }
+}
+
+.menu.submenu {
+  margin-top: 0;
 }
 
 @include breakpoint(1100px "down") {
