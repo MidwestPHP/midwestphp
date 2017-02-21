@@ -1,0 +1,21 @@
+<svg width="50px" height="36px" viewBox="0 0 50 36" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <defs>
+        <path id="path-1"
+              d="M0.588235294,0.802805627 L25.122549,0.802805627 L25.122549,35.8051309 L0.588235294,35.8051309 L0.588235294,0.802805627 Z"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="logo-mark-test" sketch:type="MSLayerGroup">
+            <path d="M25.0980392,30.321351 C28.4068627,30.321351 31.2009804,32.5939084 31.9117647,35.7804292 L49.5833333,35.7804292 L25.0980392,0.778103915 L0.612745098,35.8051309 L18.3088235,35.8051309 C19.0196078,32.5939084 21.7892157,30.321351 25.0980392,30.321351 L25.0980392,30.321351 Z"
+                  id="Shape" fill="#34B8E3" sketch:type="MSShapeGroup"></path>
+            <g id="Clipped" transform="translate(24.509804, 0.000000)">
+                <mask id="mask-2" sketch:name="a" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="a"></g>
+                <path d="M0.588235294,30.321351 C3.89705882,30.321351 6.69117647,32.5939084 7.40196078,35.7804292 L25.0735294,35.7804292 L0.588235294,0.778103915 L-23.8970588,35.8051309 L-6.20098039,35.8051309 C-5.49019608,32.5939084 -2.72058824,30.321351 0.588235294,30.321351 L0.588235294,30.321351 Z"
+                      id="Shape" fill="#1C98C1" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
