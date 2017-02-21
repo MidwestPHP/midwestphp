@@ -40,6 +40,40 @@
       instagram: https://www.instagram.com/irish.titan
       facebook: https://www.facebook.com/irishtitanonline
       linkedin: https://www.linkedin.com/company/irish-titan
+  - company: August Ash
+    logo: assets/img/sponsors/august-ash-horizontal.svg
+    logo-horizontal: assets/img/sponsors/august-ash-horizontal.svg
+    description: |
+      August Ash is a Twin Cities-based web design, development, and marketing agency specializing in intuitive,
+      custom-built sites. Our specialties include e-commerce development, CMS solutions, search engine optimization
+      (SEO), pay-per-click (PPC) advertising, and more. We serve organizations in the Minneapolis-St. Paul area, as
+      well as clients nationwide.
+    website: https://www.augustash.com/
+    socialmedia:
+      twitter: https://twitter.com/AugustAsh
+      googleplus: https://plus.google.com/114774641068597953347/posts
+      facebook: https://www.facebook.com/augustash
+      linkedin: https://www.linkedin.com/company/august-ash-inc-
+      dribbble: https://dribbble.com/augustash
+  - company: Open Sourcing Mental Illness
+    logo: assets/img/sponsors/osmi.png
+    logo-horizontal: assets/img/sponsors/osmi.png
+    description: |
+      Open Sourcing Mental Illness is a non-profit, 501c3 corporation dedicated to raising awareness,
+      educating, and providing resources to support mental wellness in the tech and open source communities.
+      <br/><br/>
+      OSMI began in 2013 as a speaking campaign by Ed Finkler. Ed started speaking at <a href="https://osmihelp.org/talks"  target="_blank">tech conferences</a> about
+      his personal experiences as a web developer and open source advocate with a mental health disorder.
+      The response was overwhelming, and Ed has continued to speak, gather data, and organize efforts to
+      change experiences of those with mental health disorders in the tech workplace. This includes <b>speaking at
+      conferences and companies</b>, <a href="https://osmihelp.org/research" target="_blank">conducting research</a>,
+      and <a href="https://osmihelp.org/resources" target="_blank">creating documentation</a> to assist companies in making
+      supportive environments for those impacted by mental health disorders. He is assisted in these efforts by
+      selfless board members and volunteers who bring their time and expertise to bear on this important issue.
+    website: https://osmihelp.org/
+    socialmedia:
+      twitter: https://twitter.com/OSMIhelp
+      facebook: https://www.facebook.com/osmihelp
 - level: Silver
   sponsors:
   - company: Digital Bridge Solutions
@@ -68,6 +102,19 @@
       linkedin: https://www.linkedin.com/company/total-expert
       instagram: http://instagram.com/totalexpertinc
       youtube: https://www.youtube.com/user/TotalExpert
+  - company: TRACK Hospitality Software
+    logo: assets/img/sponsors/track-logo.png
+    logo-horizontal: assets/img/sponsors/track-logo-horizontal.png
+    description: TRACK&trade; Hospitality Software is the leading cloud SaaS solution for hospitality properties. As a
+      ResortsandLodges best in class solution,the independent property can use TRACK Pulse to enhance their current PMS
+      using a integrated API. Simple to complex properties can now streamline business processes, make data driven
+      solutions and increase bookings using TRACK Pulse, a best in class Lead Management, Call Center, Marketing, Agent
+      Management and CRM solution.
+    website: https://trackhs.com/
+    socialmedia:
+      twitter: https://twitter.com/gotrackhs
+      facebook: https://www.facebook.com/tracksoftware/
+      linkedin: https://www.linkedin.com/company/track-hs
 - level: Bronze
   sponsors:
   - company: GitLab
