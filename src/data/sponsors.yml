@@ -163,6 +163,24 @@
     socialmedia:
       twitter: https://twitter.com/gitlab
       facebook: https://www.facebook.com/gitlab/
+  - company: Horizontal Integration
+    logo: assets/img/sponsors/horizontal-integration.png
+    logo-horizontal: assets/img/sponsors/horizontal-integration.png
+    description: |
+      Founded in 2003, Horizontal Integration (HI) is a certified Minority Business Enterprise (MBE) with two key
+      service lines: Digital Agency and Staffing Agency. Our Digital Agency team offers unmatched depth and breadth of
+      experience with the most complex, enterprise-level Sitecore CMS implementation and enhancement programs. Our
+      Staffing Agency offers temporary and permanent IT and Creative talent needs, with over 500 active billing
+      consultants.
+
+      Horizontal Integration is headquartered in St. Louis Park, MN, with additional offices in Denver, Chicago and
+      Vadodara, India. The company is consistently recognized for being a top workplace in the Twin Cities and one of
+      the fastest growing private companies in the United States.
+    website: http://www.horizontalintegration.com/
+    socialmedia:
+      facebook: https://www.facebook.com/HorizontalIntegration
+      linkedin: https://www.linkedin.com/company/horizontal-integration
+      twitter: https://twitter.com/hi_gigs
 - level: Lanyard
   sponsors:
   - company: Inbox Dollars
