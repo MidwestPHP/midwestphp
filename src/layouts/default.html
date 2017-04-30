@@ -20,16 +20,18 @@
             <!-- Menu -->
             <ul class="mobile-ofc vertical menu">
                 <li><a href="{{root}}index.html" class="hide-for-large">Home</a></li>
-                <li><a href="{{root}}speakers.html" {{#ifpage 'speakers'}}class="active"{{/ifpage}}>Speakers</a></li>
-                <li><a href="{{root}}schedule.html" {{#ifpage 'schedule'}}class="active"{{/ifpage}}>Schedule</a></li>
-                <li><a href="{{root}}sessions.html" {{#ifpage 'sessions'}}class="active"{{/ifpage}}>Sessions</a></li>
+                <!--<li><a href="{{root}}speakers.html" {{#ifpage 'speakers'}}class="active"{{/ifpage}}>Speakers</a></li>-->
+                <!--<li><a href="{{root}}schedule.html" {{#ifpage 'schedule'}}class="active"{{/ifpage}}>Schedule</a></li>-->
+                <!--<li><a href="{{root}}sessions.html" {{#ifpage 'sessions'}}class="active"{{/ifpage}}>Sessions</a></li>-->
                 <li><a href="{{root}}venue.html" {{#ifpage 'venue'}}class="active"{{/ifpage}}>Venue</a></li>
                 <li><a href="{{root}}sponsors.html" {{#ifpage 'sponsors'}}class="active"{{/ifpage}}>Sponsors</a>
-                    <ul class="submenu menu vertical" data-submenu>
-                        <li><a href="{{root}}prospectus.html" {{#ifpage 'prospectus'}}class="active"{{/ifpage}}>Prospectus</a></li>
-                    </ul></li>
+                    <!--<ul class="submenu menu vertical" data-submenu>-->
+                        <!--<li><a href="{{root}}prospectus.html" {{#ifpage-->
+                            <!--'prospectus'}}class="active"{{/ifpage}}>Prospectus</a></li>-->
+                    <!--</ul>-->
+                </li>
                 <li><a href="{{root}}register.html" {{#ifpage 'register'}}class="active"{{/ifpage}}>Register</a></li>
-                <li><a href="{{root}}safety.html" {{#ifpage 'safety'}}class="active"{{/ifpage}}>safety</a></li>
+                <li><a href="{{root}}safety.html" {{#ifpage 'safety'}}class="active"{{/ifpage}}>Safety</a></li>
             </ul>
 
         </div>
@@ -46,22 +48,32 @@
 </div>
 <script async src="{{root}}assets/js/app.js"></script>
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-   ga('create', 'UA-85805436-1', 'auto');
-   ga('send', 'pageview');
+    ga('create', 'UA-85805436-1', 'auto');
+    ga('send', 'pageview');
 </script>
 <!-- Twitter universal website tag code -->
 <script>
-!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-// Insert Twitter Pixel ID and Standard Event data below
-twq('init','nw5ko');
-twq('track','PageView');
+    !function (e, t, n, s, u, a) {
+        e.twq || (s = e.twq = function () {
+            s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+        }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+            a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+    }(window, document, 'script');
+    // Insert Twitter Pixel ID and Standard Event data below
+    twq('init', 'nw5ko');
+    twq('track', 'PageView');
 </script>
 <!-- End Twitter universal website tag code -->
 </body>
